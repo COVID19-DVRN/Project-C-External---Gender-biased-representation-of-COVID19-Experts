@@ -6,6 +6,8 @@ from nltk.tag import StanfordNERTagger
 from nltk.tokenize import word_tokenize
 import editdistance
 # %%
+output_code = "00_01_01"
+# %%
 ## the setting up of the stanfrod ner tagger code is borrowed from 
 ## https://pythonprogramming.net/named-entity-recognition-stanford-ner-tagger/
 st = StanfordNERTagger('../untracked/stanford-ner/classifiers/english.all.3class.distsim.crf.ser.gz',
@@ -434,3 +436,6 @@ for story_id,sentence_lists in df.to_dict()["Expert_Mention_Sentence_List"].item
 """
 1509619169 [['Tedros Adhanom Ghebreyesus, director-general of the World Health Organization, said he will reconvene on Thursday with global infectious disease experts to determine whether the outbreak constitutes a public health emergency of international concern.']]
 """
+# %%
+with open("../outputs/data/%s_tagged_names_from_expert_mention_articles.json" %output_code, "w") as f:
+    f.write(json.dumps(mediacloud_story_id_to_names))
