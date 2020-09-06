@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<style>
+div.tooltip {   
+    position: absolute;         
+    text-align: center;         
+    width: 60px;                    
+    height: 28px;                   
+    padding: 2px;               
+    font: 12px sans-serif;      
+    background: lightsteelblue; 
+    border: 0px;        
+    border-radius: 8px;         
+    pointer-events: none;           
+}
+</style>
+<html>
+
+<head>
+    <title>Co-mention network</title>
+</head>
+
+<body>
+<!-- //https://gist.github.com/Rokotyan/0556f8facbaf344507cdc45dc3622177  -->
+    <button id='saveButton'>Export my D3 visualization to PNG</button>
+    <svg width="2000" height="2000"></svg>
+</body>
+
+</html>
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script type="text/javascript" src="d3-ForceEdgeBundling.js"></script>
+<!-- The following two libraries are for saving images-->
+<script src="https://cdn.rawgit.com/eligrey/canvas-toBlob.js/f1a01896135ab378aa5c0118eadd81da55e698d8/canvas-toBlob.js"></script>
+<script src="https://cdn.rawgit.com/eligrey/FileSaver.js/e9d941381475b5df8b7d7691013401e171014e89/FileSaver.min.js"></script>
+<script type="text/javascript">
+// Define the div for the tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+
+var width = 1200;
+var height = 1200;
+var svg = d3.select("svg");
+crayons = d3.scaleLinear()
+  .domain([2, 120, 240, 360, 480, 600, 720, 840, 927])
+  .range(["#2c7bb6","#00a6ca","#00ccbc","#90eb9d","#ffff8c","#f9d057","#f29e2e","#e76818","#d7191c"]);
+org_color_based_on_award_type = d3.scaleOrdinal()
+                                .domain(['it and non-it','it only','non-it only','no advance award'])
+                                //.range(["blue", "purple", "orange", "gray"]);
+                                //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
+                                //in this version we want to highlight the 
+                                .range(["#7209b7", "#4361ee", "#1a535c", "red"]);
+
+
+org_color_based_on_carnegie_research_intensity = d3.scaleOrdinal()
+                                .domain(["Doctoral Very High Research","Doctoral High Research","Doctoral","Carnegie Institution", "Non-Carnegie Instiution"])
+                                //.range(["blue", "purple", "orange", "gray"]);
+                                .range(["#662e9b", "#f86624", "blue", "#f9c80e" ,"#6c757d"]);
+
+// var logScale = d3.scaleLog()
+//   .domain([1, 10000000])
+//   .range([0, 3]);
+
+function award_money_to_nodesize(award_money){
+    if (award_money <= 10000){
+        return d3.scaleLinear().domain([0,10000]).range([0,1])(award_money);
+    }
+    else if (10000 < award_money && award_money <= 100000){
+        return d3.scaleLinear().domain([10000,100000]).range([1,3])(award_money);
+    }
+    else if (100000 < award_money && award_money <= 1000000){
+        return d3.scaleLinear().domain([100000,1000000]).range([3,8])(award_money);
+    }
+    else if (award_money > 1000000){
+        return d3.scaleLinear().domain([1000000,10000000]).range([8,20])(award_money);
+    };
+}
+
+// function log_transform(num) {
+//   num = parseFloat(num)
+//   if (num >=0){
+//      return Math.log10(num+1);   // The function returns the log fo the number + 1
+//   };
+//   return null;
+// };
+
+
+function get_node_size(val, minimum_nodesize=2.5){
+    return award_money_to_nodesize(val) + minimum_nodesize;
+}
+
+d3.json('./01_01_01_comention_giant_connected_component.json', data => {
+    size = Math.min(width, height)
+    var r = d3.scaleLinear().domain(d3.extent(d3.values(data.nodes).map(d => d.r))).range([0, size / 2]);
+
+
+    node_data = {};
+    d3.entries(data.nodes).forEach(d => {
+        node_data[d.key] = {
+            'x': r(d.value.r) * Math.cos(d.value.theta),
+            'y': r(d.value.r) * Math.sin(d.value.theta),
+            'name':d.value.name,
+            //'org_type_based_on_awards':d.value.org_type_based_on_awards,
+            //'total_advance_award_amount':d.value.total_advance_award_amount,
+            //"carnegie_doctoral_type":d.value.carnegie_doctoral_type
+        }
+    });
+    edge_data = data.edges;
+
+    var fbundling = d3
+        .ForceEdgeBundling()
+        .step_size(.2)
+        .compatibility_threshold(.70)
+        .nodes(node_data)
+        .edges(edge_data);
+    var results = fbundling();
+    console.log(results)
+    var d3line = d3
+        .line()
+        .x(function(d) {
+            return d['x'];
+        })
+        .y(function(d) {
+            return d['y'];
+        })
+        .curve(d3.curveLinear);
+    results.forEach(function(edge_subpoint_data, i) {
+        svg
+            .append("path")
+            .attr("d", d3line(edge_subpoint_data, i))
+            .style("stroke", "#222")
+            .style("fill", "none")
+            .style("stroke-width", 0.45)
+            .style("stroke-opacity", .39)
+            .attr('transform', `translate(${size/2},${size/2})`)
+    });
+
+    
+
+    svg.selectAll(".node")
+        .data(d3.values(node_data))
+        .enter()
+        .append("circle")
+        .attr("r", function(d){return 5})
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y)
+        //.style("fill", function(d){return crayons(d.org_name)})
+        //.style("fill", function(d){return org_color_based_on_award_type(d.org_type_based_on_awards)})
+        //.style("fill", function(d){return org_color_based_on_carnegie_research_intensity(d.carnegie_doctoral_type)})
+        .style("opacity", 0.6)
+        .attr('transform', `translate(${size/2},${size/2})`)
+        .on("mouseover", function(d) {      
+            div.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            div.html(d.name)  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            div.transition()        
+                .duration(500)      
+                .style("opacity", 0);   
+        });
+})
+
+// Set-up the export button
+d3.select('#saveButton').on('click', function(){
+    var svgString = getSVGString(svg.node());
+    svgString2Image( svgString, 2*width, 2*height, 'png', save ); // passes Blob and filesize String to the callback
+
+    function save( dataBlob, filesize ){
+        saveAs( dataBlob, 'D3 vis exported to PNG.png' ); // FileSaver.js function
+    }
+});
+
+// Below are the functions that handle actual exporting:
+// getSVGString ( svgNode ) and svgString2Image( svgString, width, height, format, callback )
+function getSVGString( svgNode ) {
+    svgNode.setAttribute('xlink', 'http://www.w3.org/1999/xlink');
+    var cssStyleText = getCSSStyles( svgNode );
+    appendCSS( cssStyleText, svgNode );
+
+    var serializer = new XMLSerializer();
+    var svgString = serializer.serializeToString(svgNode);
+    svgString = svgString.replace(/(\w+)?:?xlink=/g, 'xmlns:xlink='); // Fix root xlink without namespace
+    svgString = svgString.replace(/NS\d+:href/g, 'xlink:href'); // Safari NS namespace fix
+
+    return svgString;
+
+    function getCSSStyles( parentElement ) {
+        var selectorTextArr = [];
+
+        // Add Parent element Id and Classes to the list
+        selectorTextArr.push( '#'+parentElement.id );
+        for (var c = 0; c < parentElement.classList.length; c++)
+                if ( !contains('.'+parentElement.classList[c], selectorTextArr) )
+                    selectorTextArr.push( '.'+parentElement.classList[c] );
+
+        // Add Children element Ids and Classes to the list
+        var nodes = parentElement.getElementsByTagName("*");
+        for (var i = 0; i < nodes.length; i++) {
+            var id = nodes[i].id;
+            if ( !contains('#'+id, selectorTextArr) )
+                selectorTextArr.push( '#'+id );
+
+            var classes = nodes[i].classList;
+            for (var c = 0; c < classes.length; c++)
+                if ( !contains('.'+classes[c], selectorTextArr) )
+                    selectorTextArr.push( '.'+classes[c] );
+        }
+
+        // Extract CSS Rules
+        var extractedCSSText = "";
+        for (var i = 0; i < document.styleSheets.length; i++) {
+            var s = document.styleSheets[i];
+            
+            try {
+                if(!s.cssRules) continue;
+            } catch( e ) {
+                    if(e.name !== 'SecurityError') throw e; // for Firefox
+                    continue;
+                }
+
+            var cssRules = s.cssRules;
+            for (var r = 0; r < cssRules.length; r++) {
+                if ( contains( cssRules[r].selectorText, selectorTextArr ) )
+                    extractedCSSText += cssRules[r].cssText;
+            }
+        }
+        
+
+        return extractedCSSText;
+
+        function contains(str,arr) {
+            return arr.indexOf( str ) === -1 ? false : true;
+        }
+
+    }
+
+    function appendCSS( cssText, element ) {
+        var styleElement = document.createElement("style");
+        styleElement.setAttribute("type","text/css"); 
+        styleElement.innerHTML = cssText;
+        var refNode = element.hasChildNodes() ? element.children[0] : null;
+        element.insertBefore( styleElement, refNode );
+    }
+}
+
+
+function svgString2Image( svgString, width, height, format, callback ) {
+    var format = format ? format : 'png';
+
+    var imgsrc = 'data:image/svg+xml;base64,'+ btoa( unescape( encodeURIComponent( svgString ) ) ); // Convert SVG string to data URL
+
+    var canvas = document.createElement("canvas");
+    var context = canvas.getContext("2d");
+
+    canvas.width = width;
+    canvas.height = height;
+
+    var image = new Image();
+    image.onload = function() {
+        context.clearRect ( 0, 0, width, height );
+        context.drawImage(image, 0, 0, width, height);
+
+        canvas.toBlob( function(blob) {
+            var filesize = Math.round( blob.length/1024 ) + ' KB';
+            if ( callback ) callback( blob, filesize );
+        });
+
+        
+    };
+
+    image.src = imgsrc;
+}
+</script>
