@@ -5,7 +5,7 @@ var express = require('express'),
 var basicAuth = require("express-basic-auth");
 app.use(basicAuth({
     users: { 'dvrn': 'dvrn' },
-    challenge: false
+    challenge: true
 }));
 app.use(express.static(__dirname + '/'));
 app.get('/', function(req, res) {
