@@ -17,6 +17,7 @@ edgelist = defaultdict(int)
 ## We actually need to create it as a weighted hypergraph becuase we have
 ## a collection of interacting actors, not necessarily dyads
 
+story_ids_used_in_network = []
 for story_id, list_of_expert_list in story_id_to_entities.items():
     for expert_list in list_of_expert_list:
         if len(expert_list) >= 2:
