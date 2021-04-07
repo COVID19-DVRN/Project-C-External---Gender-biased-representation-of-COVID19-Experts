@@ -29,4 +29,4 @@ for story_id, list_of_expert_list in story_id_to_entities.items():
             for comb in combinations(expert_list,2):
                 pass
 
-#pd.merge(df,df_new,how="inner").to_csv("mishuk.csv", index=False)
+pd.merge(df,df_new,how="inner").to_csv("../outputs/data/%s_news_stories_used_in_network.csv" %(output_code), index=False)

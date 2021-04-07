@@ -1,0 +1,733 @@
+We have total 410 number of rows which we weould discard because they are detected as not available (na)
+                raw_name possible_candidate
+                  abbott                 na
+             abbott labs                 na
+                 abraham                 na
+                    adam                 na
+            adam collins                 na
+            adam douglas                 na
+              adam green                 na
+                   adams                 na
+                 addison                 na
+                  adrian                 na
+      advertisement mark                 na
+    aeroflow breastpumps                 na
+        african american                 na
+              ahlul bayt                 na
+                     ala                 na
+           alan campbell                 na
+             alan herman                 na
+                    alex                 na
+               alexander                 na
+         alexander field                 na
+          alexey avdonin                 na
+                 alfa sa                 na
+              alfonso xi                 na
+       alfonso xi el cid                 na
+                  alfred                 na
+                     ali                 na
+                  alyssa                 na
+                   amler                 na
+                     amy                 na
+       anastasia miksyuk                 na
+                anderson                 na
+            andrew clark                 na
+           andrew goethe                 na
+   andrew marr programme                 na
+               ann arbor                 na
+                  aralen                 na
+               armstrong                 na
+      aurora expeditions                 na
+                  aurore                 na
+                  austin                 na
+                   axios                 na
+          aya healthcare                 na
+          belo horizonte                 na
+             beth emhoff                 na
+            billy graham                 na
+                    birx                 na
+              bloomfield                 na
+              bob marley                 na
+                  bolton                 na
+                   bouey                 na
+                  bowman                 na
+                 briskin                 na
+                 bromley                 na
+      brooklyn methodist                 na
+                 buffett                 na
+               burroughs                 na
+                  cairns                 na
+              capistrano                 na
+                catriona                 na
+                 cepheid                 na
+             chapel hill                 na
+                 charles                 na
+         charles edwards                 na
+          charles schwab                 na
+                charlier                 na
+                 chelsea                 na
+             chris craft                 na
+                  christ                 na
+      christopher greene                 na
+                clifford                 na
+                 clinton                 na
+                 codogno                 na
+                   cohen                 na
+                   coles                 na
+                   colts                 na
+                crawford                 na
+                 cynthia                 na
+                   dafoe                 na
+          daniel connors                 na
+              daniel kim                 na
+             daniel lucy                 na
+                  darwin                 na
+        david clara amit                 na
+               david kim                 na
+                    depp                 na
+                   devon                 na
+                     don                 na
+                 donnell                 na
+                  downey                 na
+                    drew                 na
+          easter swander                 na
+           edward jenner                 na
+         edward richards                 na
+       eleanor roosevelt                 na
+      elizabeth mitchell                 na
+           ellis cheever                 na
+                 emanuel                 na
+            emilio ribas                 na
+            ernie e boyd                 na
+                 everett                 na
+              everlywell                 na
+                   farda                 na
+                  fatima                 na
+             fauci trump                 na
+                 faustus                 na
+                ferguson                 na
+                    fife                 na
+                  fisher                 na
+                     fox                 na
+               fox chase                 na
+         fran mihaljevic                 na
+ francis crick institute                 na
+         fred hutchinson                 na
+                freeborn                 na
+                 gabriel                 na
+       gabrielle farrell                 na
+                  gabrin                 na
+            gary bergman                 na
+           george garcia                 na
+               george hw                 na
+            george mason                 na
+       george washington                 na
+          georgetown law                 na
+            gergely roth                 na
+                  gibson                 na
+                giovanni                 na
+               glen iris                 na
+               goldsmith                 na
+                  gordon                 na
+              grace cary                 na
+                  graham                 na
+           greg mortimer                 na
+                 guancha                 na
+                   gupta                 na
+               hackathon                 na
+                 hackney                 na
+                    halo                 na
+                 harding                 na
+                  harris                 na
+                   harry                 na
+            harry potter                 na
+                  harvey                 na
+                hastings                 na
+              henry ford                 na
+                 higgins                 na
+                   hogan                 na
+                  hoover                 na
+                 hopkins                 na
+                 hopland                 na
+             hosier lane                 na
+                   howie                 na
+                  hunter                 na
+                 jackson                 na
+              jaime diaz                 na
+              james cook                 na
+             james moore                 na
+              janet ward                 na
+             jason adler                 na
+            jayant singh                 na
+                jiang su                 na
+           jih fei cheng                 na
+                     jim                 na
+               jo webber                 na
+                    john                 na
+           john a hannah                 na
+              john crane                 na
+            john hopkins                 na
+           john hospital                 na
+              john mixon                 na
+  john mooregetty images                 na
+                john wan                 na
+                 johnson                 na
+                  jolene                 na
+                   jones                 na
+            julie barnes                 na
+       kaiser permanente                 na
+                 kaletra                 na
+                    kang                 na
+                   karen                 na
+              kate moore                 na
+        katherine tilsed                 na
+         kathryn seawant                 na
+          kathryn weston                 na
+                    kaya                 na
+                    keck                 na
+                   kelly                 na
+                    kent                 na
+              kevin lynn                 na
+                 kevzara                 na
+                    khan                 na
+           khari sanford                 na
+                     kim                 na
+                    king                 na
+                   kinsa                 na
+             kiryas joel                 na
+                    kurz                 na
+                   kylie                 na
+              laith jubr                 na
+                   lamas                 na
+                   langa                 na
+            larry nassar                 na
+                    larz                 na
+            lauren matta                 na
+  lawrence journal world                 na
+                   lazio                 na
+                     lee                 na
+           lee chang min                 na
+              lenox hill                 na
+                 leonard                 na
+      leonardo fernandez                 na
+                  lerner                 na
+                   leung                 na
+                   levin                 na
+                 levitan                 na
+                      li                 na
+         li wenliang zhu                 na
+                lifehope                 na
+                     lin                 na
+       linkou chang gung                 na
+                    lisa                 na
+                     liu                 na
+                  lori d                 na
+                    lowe                 na
+                   lyons                 na
+           lopez obrador                 na
+            madina nagar                 na
+                maillard                 na
+                  manuel                 na
+              mardi gras                 na
+       margaret thatcher                 na
+                  margot                 na
+                    marr                 na
+                marshall                 na
+                  martin                 na
+                  mattia                 na
+               mayorquin                 na
+                 mcbride                 na
+               mccormack                 na
+                 mcelnay                 na
+                  medina                 na
+                   mehta                 na
+                   metra                 na
+   michael collins fauci                 na
+                  michel                 na
+         middleton carre                 na
+            mike kennedy                 na
+                  miller                 na
+           milton keynes                 na
+                 monique                 na
+              montgomery                 na
+                    moro                 na
+                  morris                 na
+            mount vernon                 na
+               mr harvey                 na
+            mr president                 na
+                 mrs ali                 na
+                  ms shi                 na
+            mukund nagar                 na
+                  muller                 na
+                  murray                 na
+               muze hair                 na
+                   nadia                 na
+                 navarro                 na
+                   neely                 na
+                new york                 na
+                nicholas                 na
+       nicholas wu trump                 na
+                nick low                 na
+                   o day                 na
+                 o grady                 na
+                   obama                 na
+            oscar valles                 na
+             oz illinois                 na
+           p greg gulick                 na
+          pablo gonzalez                 na
+           papa giovanni                 na
+            park ho hwan                 na
+                paterson                 na
+          patricia flood                 na
+                 patrick                 na
+              paul davis                 na
+               paul lynn                 na
+             paul ramsey                 na
+             paul rhodes                 na
+            paul stewart                 na
+                   pence                 na
+                 perrone                 na
+                   peter                 na
+             peter smith                 na
+             peter white                 na
+          phileleftheros                 na
+           philip bardes                 na
+        prophet muhammad                 na
+       quest diagnostics                 na
+            rachel smith                 na
+               rademaker                 na
+                    rady                 na
+                    reed                 na
+      replay more videos                 na
+                 richard                 na
+                   rieux                 na
+                   riley                 na
+           robert wagner                 na
+          rodriguez diaz                 na
+           ronald reagan                 na
+                  rowena                 na
+        royal s copeland                 na
+                      rp                 na
+           russell brown                 na
+                    ryan                 na
+            ryde hornsby                 na
+             s walnut st                 na
+           sabrina sykes                 na
+                   sacco                 na
+                   safar                 na
+                    said                 na
+              saint mark                 na
+           sally wilhelm                 na
+               sam hayes                 na
+                 sanders                 na
+          sanofi pasteur                 na
+           sarah johnson                 na
+               sarilumab                 na
+                schulman                 na
+          scott anderson                 na
+               sean cook                 na
+           sells wheeler                 na
+                    sens                 na
+                  siegel                 na
+                   singh                 na
+                    soir                 na
+                sorrento                 na
+                 st paul                 na
+             stankiewicz                 na
+    stanley cup playoffs                 na
+           stephen smith                 na
+            steve nelson                 na
+                  steven                 na
+           steven nelson                 na
+            stuart reyes                 na
+              sue elliot                 na
+                sullivan                 na
+                    swan                 na
+                 swanton                 na
+                 tabacco                 na
+             terre haute                 na
+    the diamond princess                 na
+    the koret playground                 na
+      theodore roosevelt                 na
+                  thomas                 na
+            thomas house                 na
+                thompson                 na
+            tim williams                 na
+          timothy taylor                 na
+              tom barnes                 na
+               tom myers                 na
+              tommy john                 na
+                tomohiro                 na
+               top trump                 na
+                  top us                 na
+                  travis                 na
+                 trudeau                 na
+                   trump                 na
+            tyler durden                 na
+               umar khan                 na
+                  upshur                 na
+                    vici                 na
+                victoria                 na
+         victoria toilet                 na
+      viroclinics xplore                 na
+                 vortran                 na
+                 voynich                 na
+                waikerie                 na
+                    wali                 na
+                   walsh                 na
+             walter reed                 na
+               wang ping                 na
+                wankhede                 na
+                  warren                 na
+                  watson                 na
+                   wayne                 na
+         weber shandwick                 na
+              wenyisheng                 na
+                   white                 na
+               will jack                 na
+              will trump                 na
+            will welfare                 na
+                 william                 na
+ william nelson cromwell                 na
+           william osler                 na
+         william waldman                 na
+                williams                 na
+                 willson                 na
+                   winch                 na
+             winterstein                 na
+          woodrow wilson                 na
+           yahoo finance                 na
+                    yang                 na
+             yorba linda                 na
+                   young                 na
+               young pak                 na
+                      yu                 na
+                  yu dan                 na
+                    yuan                 na
+                   yulia                 na
+             yvonne king                 na
+                   zaidi                 na
+                   zhong                 na
+                zhou tao                 na
+                     zhu                 na
+We have total 318 number of rows which would potentially merge with some other candidates
+                      raw_name           possible_candidate
+                           abe                   shinzo abe
+                  adam levitin               adam j levitin
+                       adhanom   tedros adhanom ghebreyesus
+           adhanom ghebreyesus   tedros adhanom ghebreyesus
+                            ai                       ai fen
+                alan deardorff             alan v deardorff
+                   albert chan                 albert chang
+                alex brandonap                 alex brandon
+               alexander scott       nicole alexander scott
+                    ali moktad                   ali mokdad
+                    allin khan            rosena allin khan
+              ambrose talisuna        ambrose otau talisuna
+                    amy action                    amy acton
+           anastasia vasilyeva          anastasia vasilieva
+                andrew coggins            andrew coggins jr
+                  andrew cuomo               andrew m cuomo
+                 andrew pekosz        andrew stanley pekosz
+              andrew roberston             andrew robertson
+                   andy pekosz        andrew stanley pekosz
+                angela cornell             angela b cornell
+                   anne rimoin                anne w rimoin
+                anthnony fauci                anthony fauci
+                       anthony                anthony fauci
+                  anthony fauc                anthony fauci
+                 anthony fuaci                anthony fauci
+          arnold vargas gabrin                arnold vargas
+                    art caplan                arthur caplan
+               arthur reingold            arthur l reingold
+                          azar                    alex azar
+                          barr                 william barr
+                    ben singer              benjamin singer
+                 benjamin chan             benjamin chapman
+              bharat pankhania            bharat pankhankia
+                         biden                   jill biden
+                          bill              bill castellano
+                     bill barr                 william barr
+                     bloomberg          michael r bloomberg
+                   bob watcher                  bob wachter
+                  brett giroir               brett p giroir
+                  brobson lutz            f brobson lutz jr
+                         brown   candy gunther brown johnny
+                          buhr               russell g buhr
+                       bukhari             zulfikar bukhari
+                        cai yi                       yi cai
+                    calvin sun                 calvin d sun
+                        cannon          ellie cannon cannon
+                       carlson              abigail carlson
+                         Carre          nadine finigan carr
+                        carson                   ben carson
+                       cassidy             jennifer cassidy
+                     castaneda            ricardo castaneda
+               catriona saynor           catriona greenwood
+                        cetron                martin cetron
+                         chant                  kerry chant
+               charles stewart          charles stewart iii
+               charlie swanton              charles swanton
+                  choi jaewook                choi jae wook
+                  chris braden         christopher r braden
+                  chris murray           christopher murray
+                    chriscuomo                  chris cuomo
+             christine johnson    christine kreuder johnson
+           christine k johnson    christine kreuder johnson
+            christopher braden         christopher r braden
+           christopher branden         christopher r braden
+                 clare hopkins               claire hopkins
+ colin camererquentin fottrell                colin camerer
+                   craig smith                craig r smith
+                         cuomo               andrew m cuomo
+                     dan varga                 daniel varga
+                  daniel books                daniel brooks
+              daniel schnieder             daniel schneider
+                   dau schmidt        kenneth g dau schmidt
+                    david agus                 david magnus
+                  david fisman               david n fisman
+                    david nace                 david a nace
+                   david reich                david l reich
+                   david smith                david m smith
+                  david thomas        nicholas david thomas
+                david williams             david r williams
+                      davidson               jenny davidson
+                         davis       marybeth davis baggett
+                     de blasio               bill de blasio
+                   debbie birx                 deborah brix
+                       deborah       deborah prothrow stith
+                  deborah brix               deborah l birx
+          debra vasalech lyons         debra vaselech lyons
+          debra vaselech lyons         debra vasalech lyons
+                       del rio               carlos del rio
+               diddiet houssin               didier houssin
+                    don milton                donald milton
+                donald j trump                 donald trump
+            donald trump trump                 donald trump
+                   drew pinsky            david drew pinsky
+                  ebony hilton        ebony hilton buchholz
+                        edward             edward schneider
+                        el cid            alfonso xi el cid
+                    el hawrani             amged el hawrani
+                     el khidir             hishal el khidir
+                      el tayar                adil el tayar
+                  ellen foxman               ellen f foxman
+           ellie cannon cannon                 ellie cannon
+                    eric rubin                 eric j rubin
+                    erik wilke                   eric wilke
+               exekiel emanuel              ezekiel emanuel
+              fauci bobblehead                anthony fauci
+                    feigl ding              eric feigl ding
+               francis balloux             francois balloux
+                   frank riedo                francis riedo
+                       frieden             thomas r frieden
+                     gal peleg                    gai peleg
+          george d yancopoulos           george yancopoulos
+                george findley               george findlay
+            george yancopoulos         george d yancopoulos
+              georges benjamin           georges c benjamin
+                   ghebreyesus   tedros adhanom ghebreyesus
+                 giridhar babu             giridhara r babu
+                          good                 suvajee good
+                      goodrich             james t goodrich
+                  gordon chang               gordon h chang
+                     gov cuomo               andrew m cuomo
+                          gray               gregory c gray
+                   greg poland               gregory poland
+                   greg rigano               gregory rigano
+                  gregory gray               gregory c gray
+                          guan                      yi guan
+                       guan yi                      yi guan
+                          hahn               stephen m hahn
+                           han                   meilan han
+                harris faulker              harris faulkner
+                          head                 michael head
+                  henry miller               henry i miller
+                 hilde vichten                hilde vochten
+              hiroshi oshitani             hitoshi oshitani
+               iain livingston             iain livingstone
+                    ian lipkin                 w ian lipkin
+                     jaboowins               jameis winston
+                james goodrich             james t goodrich
+             janette nesheiwat           jeanette nesheiwat
+                   jared evans                 jarred evans
+             jason kindrachuck             jason kindrachuk
+                    jay butler                 jay c butler
+                    jay powell                jerome powell
+                 jayme coffman                jamye coffman
+                jeanette young              jeannette young
+                   jeff coyler                  jeff colyer
+                   jeff duchin               jeffrey duchin
+             jeffrey henderson          jeffrey p henderson
+                 jeffrey smith              jeffrey v smith
+                  jeremy faust          jeremy samuel faust
+                  jerome adams               jerome m adams
+                     jim angel                  james angel
+                   jin dongyan                 jin dong yan
+                  john epstein             jonathan epstein
+                 john matthews                 john mathews
+                  john schwarz               john e schwarz
+                    john trump                 john g trump
+                    john xxiii              pope john xxiii
+                   jon epstein             jonathan epstein
+         jonathan ernstreuters               jonathan ernst
+              jose luis alomia     jose luis alomia zegarra
+                  josh douglas               joshua douglas
+                   josh petrie                joshua petrie
+                joshua epstein             joshua m epstein
+                   josiah rich                josiah d rich
+            julian druce vidrl                 julian druce
+               katy stephenson           kathryn stephenson
+                 kean feng lim                kean-seng lim
+                  keanseng lim                kean-seng lim
+                    keith hull                   keith hall
+                koiichi nakano                koichi nakano
+                lindsey graham             lindsey o graham
+                    liza fazio                   lisa fazio
+                            lo                  jennifer lo
+                lopez regalado        daniel lopez regalado
+                   maciej boni                maciej f boni
+                 maia majumder             maimuna majumder
+          mailonline ami jones                    ami jones
+                   marc siegel                marc k siegel
+                   mark escott                mark e escott
+                    mark esper                 mark t esper
+                 mark lipsitch                marc lipsitch
+                 mark mulligan              mark j mulligan
+                  marti cetron                martin cetron
+                  marty cetron                martin cetron
+            marty fenstersheib          martin fenstersheib
+             marty fentersheib           marty fenstersheib
+                  marty makary                martin makary
+             marylouise mclaws           mary louise mclaws
+               mayor de blasio               bill de blasio
+                mcgill johnson        alexis mcgill johnson
+                        mclaws           mary louise mclaws
+                     messioner             nancy messonnier
+              michael ackerman           michael j ackerman
+               michael barnett            michael l barnett
+             michael buchmeier          michael j buchmeier
+             michael osterholm          michael t osterholm
+              michael phillips           michael s phillips
+                  michael ryan               michael j ryan
+               michael schmidt            michael g schmidt
+        michigan marc lipsitch                marc lipsitch
+                          mike               mike tildesley
+                 mikebloomberg          michael r bloomberg
+                       mnuchin             steven t mnuchin
+                       morante              joaquin morante
+                   mrs hopland              jeannie hopland
+                   ms sturgeon              nicola sturgeon
+                         nancy             nancy messonnier
+              nancy messionier             nancy messonnier
+             nancy messionnier             nancy messonnier
+               nancy messonier             nancy messonnier
+                        newsom                 gavin newsom
+               nicholas thomas        nicholas david thomas
+                          nick              nick coatsworth
+                   nick chater              nicholas chater
+     nydia velazquez velazquez              nydia velazquez
+                       o leary                 sean o leary
+                 ocasio cortez     alexandria ocasio cortez
+                olga meridiano                 olga mediano
+                   owusu ansah           sylvia owusu ansah
+                            oz                    mehmet oz
+                       pastore                      piontti
+                          paul            shane paul mcghie
+               paul friedrichs          gen paul friedrichs
+               penny bornstein             penny borenstein
+                          pete               pete buttigieg
+               petra zimmerman             petra zimmermann
+                          phil                  phil murphy
+                   phil murphy                philip murphy
+            philcbs ava louise                   ava louise
+                  philip klein               philippe klein
+              philip tierno jr              philip m tierno
+     philippines imelda marcos                imelda marcos
+             phillip landrigan             philip landrigan
+             pierluigi lopalco           pier luigi lopalco
+                        pietro              pietro reichlin
+                 prof ferguson              neil m ferguson
+                   prof whitty                 chris whitty
+                  qinyang chen                 qingyan chen
+                          raab                 dominic raab
+               raina macintrye              raina macintyre
+                raina mcintyre              raina macintyre
+                 rebecca givan         rebecca kolins givan
+                 rice mcdonald          glenn rice mcdonald
+                   rich besser               richard besser
+               rick martinello           richard martinello
+                        rigano               gregory rigano
+                          rita          maria rita gismondo
+                  robert amler               robert w amler
+                  robert cohen               robert l cohen
+             robert kim farley          robert j kim farley
+                 robert salata              robert a salata
+                 robert siegel          robert david siegel
+                     robertson          robertson davenport
+                     rodney ho         rodney howard browne
+                     rodriguez  fernando rodriguez artalejo
+                   ron waldman               ronald waldman
+                 ross mcdonald               ross macdonald
+                   russel buhr               russell g buhr
+                     saad omer                  saad b omer
+                        samuel          jeremy samuel faust
+                     sara cody                   sarah cody
+                saskia popescu             saskia v popescu
+                        saynor              catriona saynor
+                     schaffner            william schaffner
+                          sean           sean asiquq topkok
+                   sean conley                sean p conley
+                semansky fauci             patrick semansky
+                    sherry h y                  sherry chou
+                         shupe                  bryan shupe
+                    sobolewski              marissa e terry
+                  sonia angell               sonia y angell
+                stathis giotis            efstathios giotis
+                         steph                  steph curry
+                   steph curry                stephen curry
+                  stephan hahn                 stephen hahn
+                  stephen hahn               stephen m hahn
+                 stephen morse              stephen s morse
+                  steve miller                steven miller
+                 steve mnuchin             steven t mnuchin
+                  steve taylor                steven taylor
+                      sturgeon              nicola sturgeon
+                    tara smith                 tara c smith
+                         tayar                adil el tayar
+               teddy roosevelt           theodore roosevelt
+                        tedros   tedros adhanom ghebreyesus
+                tedros adhanom   tedros adhanom ghebreyesus
+     tedros adhanom ghebreyesu   tedros adhanom ghebreyesus
+     tedros ahanom ghebreyesus   tedros adhanom ghebreyesus
+            tedros ghebreyesus   tedros adhanom ghebreyesus
+                   thomas file             thomas m file jr
+                thomas frieden             thomas r frieden
+               thomas inglesby                 tom inglesby
+                        tierno             philip tierno jr
+                      tina tan                christina tan
+                   tom frieden             thomas r frieden
+                   tony barton                 tony bartone
+                vaselech lyons         debra vaselech lyons
+             vicent racaniello           vincent racaniello
+               vicki hertzberg       vicki stover hertzberg
+            walter russel mead          walter russell mead
+                       walters              william walters
+              warwick mckibbon             warwick mckibbin
+                          webb               leigh ann webb
+                 wendy mariner              wendy k mariner
+                        whitty                 chris whitty
+                  wilder smith        annelies wilder smith
+              willam schaffner            william schaffner
+                william pinsky             william w pinsky
+                william waters              william walters
+                          wood                 bernard wood
+             wuha donald trump                 donald trump
+                       xi chen                      chen xi
+                          xiao                   xiao qiang
+                     xiao xiao                   xiao qiang
+                            xu                  xu zhangrun
+                      yan chen                 qingyan chen
+            yazdan yazdanpaneh           yazdan yazdanpanah
+                  zeke emanuel              ezekiel emanuel
+We do not have any non SELF non na name that is same as the raw name
