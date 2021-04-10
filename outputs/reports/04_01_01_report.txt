@@ -1,4 +1,4 @@
-We have total 417 number of rows which we weould discard because they are detected as not available (na) in possible candidate column.
+We have total 426 number of rows which we weould discard because they are detected as not available (na) in possible candidate column.
                 raw_name possible_candidate
                   abbott                 na
              abbott labs                 na
@@ -42,7 +42,13 @@ We have total 417 number of rows which we weould discard because they are detect
                   austin                 na
                    axios                 na
           aya healthcare                 na
+                  bakker                 na
+            baliga nagar                 na
+        barbara o connor                 na
+                batchlor                 na
+          belal muhammad                 na
           belo horizonte                 na
+             ben chavula                 na
              beth emhoff                 na
             billy graham                 na
                     birx                 na
@@ -87,6 +93,7 @@ We have total 417 number of rows which we weould discard because they are detect
              daniel lucy                 na
                   darwin                 na
         david clara amit                 na
+             david hoyer                 na
                david kim                 na
                     depp                 na
                    devon                 na
@@ -176,6 +183,7 @@ We have total 417 number of rows which we weould discard because they are detect
               john mixon                 na
   john mooregetty images                 na
                 john wan                 na
+           johns hopkins                 na
                  johnson                 na
                   jolene                 na
                    jones                 na
@@ -414,6 +422,7 @@ We have total 417 number of rows which we weould discard because they are detect
                    yulia                 na
              yvonne king                 na
                    zaidi                 na
+              zhan jiang                 na
                    zhong                 na
                 zhou tao                 na
                      zhu                 na
@@ -722,26 +731,4 @@ We have total 301 number of rows which would potentially merge with some other c
                   zeke emanuel              ezekiel emanuel
 We do not have any non SELF non na name that is same as the raw name
 We do not have any non SELF non na name that is not contained in the set of raw names
-We have 21 number of rows with null value in some columns that is not contained in possble candidate to be self
- orig_index                raw_name possible_candidate sex_at_birth pronoun_denoting_gender  race_ethnicity public_health_researcher practitioner/clinician/physician politician/govt service/policymaker industry_expert celebrity journalist
-         27        abraham l newman               SELF         Male                      He  White/European                       No                               No                                  No              No        No        NaN
-        387           anne w rimoin               SELF       Female                     NaN  White/European                      Yes                               No                                  No              No        No         No
-        502                  bakker               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-        504            baliga nagar               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-        513        barbara o connor               SELF          NaN                 No info             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-        526                batchlor               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-        533          belal muhammad               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-        536             ben chavula               SELF         Male                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-       1183             david hoyer               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-       2525           johns hopkins               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-       2847             kent collin               SELF         Male                      He             NaN                       No                              Yes                                  No              No        No         No
-       2861           kevin hopland               SELF         Male                      He  White/European                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-       2865            kevin ouyang               SELF         Male                      He      East Asian                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-       2939            kwon huck ju               SELF         Male                      He      East Asian                       No                               No                                  No              No       NaN         No
-       2941              kyle edgar               SELF         Male                      He  White/European                      NaN                              NaN                                 NaN             NaN       NaN        NaN
-       2980         latoya cantrell               SELF       Female                     She     Other/Mixed                      NaN                               No                                 Yes              No        No         No
-       3463          mayank sardana               SELF         Male                     NaN     South Asian                      Yes                              Yes                                  No              No        No         No
-       4085          philippe klein               SELF         Male                      He  White/European                      NaN                              Yes                                  No              No        No         No
-       4143  rachel thorn heathcock               SELF       Female                      He         Unknown                      NaN                              NaN                                 Yes              No        No         No
-       4536               saif badr               SELF         Male                      He  Middle Eastern                      NaN                              NaN                                 Yes              No        No         No
-       5445              zhan jiang               SELF          NaN                     NaN             NaN                      NaN                              NaN                                 NaN             NaN       NaN        NaN
+We do not have any null value in any of the columns in the rows with possible candidate to be SELF
