@@ -37,24 +37,27 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")               
     .style("opacity", 0);
 
-var width = 1200;
-var height = 1200;
+var width = 1000;
+var height = 1000;
 var svg = d3.select("svg");
 crayons = d3.scaleLinear()
   .domain([2, 120, 240, 360, 480, 600, 720, 840, 927])
   .range(["#2c7bb6","#00a6ca","#00ccbc","#90eb9d","#ffff8c","#f9d057","#f29e2e","#e76818","#d7191c"]);
-org_color_based_on_award_type = d3.scaleOrdinal()
-                                .domain(['it and non-it','it only','non-it only','no advance award'])
+entity_color_based_on_sex_at_birth = d3.scaleOrdinal()
+                                .domain(['Male','Female','Unidentified'])
                                 //.range(["blue", "purple", "orange", "gray"]);
                                 //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
                                 //in this version we want to highlight the 
-                                .range(["#7209b7", "#4361ee", "#1a535c", "red"]);
+                                .range(["#1A85FF", "#D41159", "black"]);
+                                // Blue, Redish purplish, black
 
-
-org_color_based_on_carnegie_research_intensity = d3.scaleOrdinal()
-                                .domain(["Doctoral Very High Research","Doctoral High Research","Doctoral","Carnegie Institution", "Non-Carnegie Instiution"])
+entity_color_based_on_race_ethnicity = d3.scaleOrdinal()
+                                .domain(["Unknown", "Other/Mixed", "Aboriginal/Native American", "Middle Eastern", "Black/African", "Latinx", "South Asian", "East Asian", "White/European"])
                                 //.range(["blue", "purple", "orange", "gray"]);
-                                .range(["#662e9b", "#f86624", "blue", "#f9c80e" ,"#6c757d"]);
+                                //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
+                                //in this version we want to highlight the 
+                                .range(["#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7"]);
+                                // Black, Hagu, Light Blue, Green, Yellow, Dark Blue, orange, Purple
 
 // var logScale = d3.scaleLog()
 //   .domain([1, 10000000])
@@ -88,7 +91,7 @@ function get_node_size(val, minimum_nodesize=2.5){
     return award_money_to_nodesize(val) + minimum_nodesize;
 }
 
-d3.json('./01_01_01_comention_giant_connected_component.json', data => {
+d3.json('./05_01_01_comention_giant_connected_component.json', data => {
     size = Math.min(width, height)
     var r = d3.scaleLinear().domain(d3.extent(d3.values(data.nodes).map(d => d.r))).range([0, size / 2]);
 
@@ -98,7 +101,9 @@ d3.json('./01_01_01_comention_giant_connected_component.json', data => {
         node_data[d.key] = {
             'x': r(d.value.r) * Math.cos(d.value.theta),
             'y': r(d.value.r) * Math.sin(d.value.theta),
-            'name':d.value.name,
+            'disambiguated_entity':d.value.disambiguated_entity,
+            'sex_at_birth':d.value.sex_at_birth,
+            "race_ethnicity":d.value["race_ethnicity"]
             //'org_type_based_on_awards':d.value.org_type_based_on_awards,
             //'total_advance_award_amount':d.value.total_advance_award_amount,
             //"carnegie_doctoral_type":d.value.carnegie_doctoral_type
@@ -143,7 +148,8 @@ d3.json('./01_01_01_comention_giant_connected_component.json', data => {
         .attr("r", function(d){return 5})
         .attr('cx', d => d.x)
         .attr('cy', d => d.y)
-        //.style("fill", function(d){return crayons(d.org_name)})
+        //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex_at_birth)})
+        .style("fill", function(d){return entity_color_based_on_race_ethnicity(d.race_ethnicity)})
         //.style("fill", function(d){return org_color_based_on_award_type(d.org_type_based_on_awards)})
         //.style("fill", function(d){return org_color_based_on_carnegie_research_intensity(d.carnegie_doctoral_type)})
         .style("opacity", 0.6)
@@ -152,7 +158,7 @@ d3.json('./01_01_01_comention_giant_connected_component.json', data => {
             div.transition()        
                 .duration(200)      
                 .style("opacity", .9);      
-            div.html(d.name)  
+            div.html(d.disambiguated_entity)  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  

@@ -78,6 +78,8 @@ for _, row in df_orig[df_orig["possible_candidate"]!="na"].iterrows():
 		#print(disambiguation_doc)
 
 	df_disambiguation_file = df_disambiguation_file.append(disambiguation_doc, ignore_index=True)
-	
-df_disambiguation_file.to_csv(f"../outputs/data/{output_code}_disambiguated_names.csv",index=False)
+
+df_na = df_orig[df_orig["possible_candidate"].str.lower()=="na"]
+df_na.to_csv(f"../outputs/data/{output_code}_names_not_available.csv",index=False)
+df_disambiguation_file.to_csv(f"../outputs/data/{output_code}_names_disambiguated.csv",index=False)
 df_race_gender_expertise_file.to_csv(f"../outputs/data/{output_code}_entity_race_gender_expertise.csv",index=False)
