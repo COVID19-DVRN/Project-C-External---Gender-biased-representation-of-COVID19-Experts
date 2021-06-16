@@ -39,7 +39,7 @@ disambiguated_entities = df_ambiguous_names_to_disambiguated_entity["disambiguat
 last_names_to_disambiguated_entities = defaultdict(set)
 for entity in disambiguated_entities:
 	#print(entity.split()[-1])
-	last_names_to_disambiguated_entities[entity.split()[-1]].add(entity)
+	last_names_to_disambiguated_entities[entity.split()[-1]].add((entity,dict_ambiguous_names_to_disambiguated_entity_id[entity]))
 
 # %%
 df_ambigous_name_with_no_entity = pd.read_csv("../outputs/data/04_02_01_names_not_available.csv")
@@ -76,6 +76,7 @@ def preprocess_names(s):
 ## entities found in that story in a single set. Then I will count, in
 ## how many stories did the person appear
 story_id_to_unique_entities = defaultdict(set)
+unique_entities_to_story_id = defaultdict(set)
 previously_not_found_entity_to_possible_entities = dict()
 entities_not_found = set()
 for story_id, entities in story_id_to_entities.items():
@@ -86,8 +87,7 @@ for story_id, entities in story_id_to_entities.items():
 				if preprocessed_entity not in dict_ambiguous_names_with_no_candidate:
 					## Now checking if the last name of current entity can be found in the
 					## list of last names we have
-					if preprocessed_entity:
-					## Making sure if the preprocessed entity is non-empty	
+					if preprocessed_entity: ## Making sure if the preprocessed entity is non-empty	
 						last_name_current_entity = preprocessed_entity.split()[-1]
 						if last_name_current_entity in last_names_to_disambiguated_entities:
 							previously_not_found_entity_to_possible_entities[preprocessed_entity] \
@@ -95,16 +95,35 @@ for story_id, entities in story_id_to_entities.items():
 						else:
 							entities_not_found.add(preprocessed_entity)
 			else:
-				story_id_to_unique_entities[story_id].add(preprocessed_entity)
+				disambiguated_entity_name = dict_ambiguous_names_to_disambiguated_entity_name[preprocessed_entity]
+				disambiguated_entity_id = dict_ambiguous_names_to_disambiguated_entity_id[preprocessed_entity]
+				story_id_to_unique_entities[story_id].add((disambiguated_entity_name))
+				unique_entities_to_story_id[disambiguated_entity_name].add(story_id)
 report_lines.append("Creating a new list of disambiguated names those were left behind")
 for previously_not_found_entity, set_of_possible_candidates in previously_not_found_entity_to_possible_entities.items():
 	if len(set_of_possible_candidates) == 1:
-		disambiguated_candidate = set_of_possible_candidates.pop()
+		disambiguated_candidate = set_of_possible_candidates.pop()[0]
 		disambiguated_candidate_name = dict_ambiguous_names_to_disambiguated_entity_name[disambiguated_candidate]
 		disambiguated_candidate_id = dict_ambiguous_names_to_disambiguated_entity_id[disambiguated_candidate]
 		report_lines.append(",".join(map(str,["",previously_not_found_entity,disambiguated_candidate_name,disambiguated_candidate_id])))
 
+## Names that are discarded
+report_lines.append("\nFollowing are the names that are discarded at this round, some of them are real person but they were not in the hackathon rond that is why they are discarded")
+report_lines.extend(sorted(list(entities_not_found)+list(set(previously_not_found_entity_to_possible_entities.keys()))))
 
-## First I will explore the names that are 
+## Now we are putting a CSV with all the disambiguated names and the
+## count of how many news they appeared in
+report_lines.append(f"\nTotal number of entities are {len(unique_entities_to_story_id)} and we have total {len(story_id_to_entities)} many news")
+
+## Now find the entities who do not have a mention in a news
+df_entity_with_race_gender_expertise = pd.read_csv("../outputs/data/04_02_01_entity_race_gender_expertise.csv")
+all_entity_set = df_entity_with_race_gender_expertise["disambiguated_entity"].values
+entities_disambiguated_but_not_found_in_any_news = [ent for ent in all_entity_set if ent not in unique_entities_to_story_id]
+report_lines.append(f"\nAmong them the following {len(entities_disambiguated_but_not_found_in_any_news)} entities have not for some reason appeared in any news.")
+report_lines.extend(sorted(entities_disambiguated_but_not_found_in_any_news))
+
+## In this report we keep the names that are not included in the whole analysis
+## as they were not included in the hackathon or they are not real people
+## We are also reporting how many people and how many news we have
 with open(f"../outputs/reports/{output_code}_report.txt", "w") as f:
 	f.writelines("\n".join(report_lines))
