@@ -125,14 +125,14 @@ report_lines.extend(sorted(entities_disambiguated_but_not_found_in_any_news))
 ## Now we will create a dataframe where for each entity we will keep
 ## the entity name, entity id and the number of unique news they appeared
 ## in
-df_entity_news_count = pd.DataFrame(columns = ["entity_id",
+df_entity_news_count = pd.DataFrame(columns = ["disambiguated_entity_id",
 	"entity_name",
 	"number_of_unique_news_appeared_in",
 	])
 for entity_name, story_set in unique_entities_to_story_id.items():
 	entity_id = dict_ambiguous_names_to_disambiguated_entity_id[entity_name]
 	current_news_count = {}
-	current_news_count["entity_id"] = entity_id
+	current_news_count["disambiguated_entity_id"] = entity_id
 	current_news_count["entity_name"] = entity_name
 	current_news_count["number_of_unique_news_appeared_in"] = len(story_set)
 	df_entity_news_count = df_entity_news_count.append(current_news_count, ignore_index=True)

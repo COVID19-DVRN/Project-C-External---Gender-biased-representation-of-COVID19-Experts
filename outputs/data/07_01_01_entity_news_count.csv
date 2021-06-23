@@ -1,4 +1,4 @@
-entity_id,entity_name,number_of_unique_news_appeared_in
+disambiguated_entity_id,entity_name,number_of_unique_news_appeared_in
 582997773,anthony fauci,1455
 3965079860,deborah l birx,467
 2099344537,donald trump,427

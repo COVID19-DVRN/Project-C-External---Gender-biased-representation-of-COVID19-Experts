@@ -1,0 +1,2 @@
+We initially had 4718 rows.
+But after removing all the rows where sex is unidentified or the race is unknown, we are left with 4640 rows.
