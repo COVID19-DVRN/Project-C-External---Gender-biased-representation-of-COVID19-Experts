@@ -68,6 +68,30 @@ report_lines.append(f"We initially had {len(df_merged)} rows.")
 df_merged = df_merged[~((df_merged["sex"]=="Unidentified")|(df_merged["race"]=="Unknown"))]
 report_lines.append(f"But after removing all the rows where sex is unidentified or the race is unknown, we are left with {len(df_merged)} rows.")
 
+## Now let me create a new variable called URM (Yes/No)
+## Underrepresentated minority vs non-minority
+## white + East Asian are not URM
+## Rest are URM
+URM_races = ["Black/African", "Latinx", "South Asian", "Middle Eastern", "Aboriginal/Native American", "Other/Mixed"]
+non_URM_races = ["White/European", "East Asian"]
+df_merged["urm"] = df_merged["race"].apply(lambda x: "Yes" if x in URM_races else "No")
+
+
+df_merged = df_merged[['entity_id',
+						'entity_name',
+						'sex',
+						'pronoun',
+						'race',
+						'urm',
+						'public_health_researcher',
+						'practitioner',
+						'non_public_health_researcher',
+						'policymaker',
+						'industry_expert',
+						'celebrity',
+						'journalist',
+						'news_count',]]
+
 df_merged.to_csv(f"../outputs/data/{output_code}_entity_race_gender_expertise_news_count.csv", index=False)
 
 with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
@@ -77,13 +101,12 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 # library(MASS)
 # model2 <- lm(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
 # model_nb <- glm.nb(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
-# as.factor kore categorical
+# data <- data[!(data$entity_name == "anthony fauci"),]
+# as.factor kore categorical, I already tried that do not have any difference
 # incidence rate ratio
 # ekta reference froup er tulonay arekta group e nao, se ekta news e participate
 ## Log of expected count, jodi positive male theke female ke subtract kortesi
 
-## Underrepresentated minority vs non-minority
-## white + East Asian (East asian not URM)
 ## Try URM vs non-URM
 
 ## Robustness check anthony fauci drop
