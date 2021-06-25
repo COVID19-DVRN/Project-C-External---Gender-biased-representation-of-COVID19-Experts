@@ -92,6 +92,27 @@ def gender_urm_intersection(sex,urm):
 		return "unknown"
 df_merged["gender_urm"] = df_merged.apply(lambda row: gender_urm_intersection(row.sex,row.urm), axis=1)
 
+## Now create a single expertise for each of the entity
+## First the one for relative expertise in terms of public health:
+def singlemost_important_expert_label_from_relative_expertise(row):
+	if row["public_health_researcher"] == "Yes":
+		return "public_health_researcher"
+	elif row["practitioner"] == "Yes":
+		return "practitioner"
+	elif row["non_public_health_researcher"] == "Yes":
+		return "non_public_health_researcher"
+	elif row["policymaker"] == "Yes":
+		return "policymaker"
+	elif row["industry_expert"] == "Yes":
+		return "industry_expert"
+	elif row["journalist"] == "Yes":
+		return "journalist"
+	elif row["celebrity"] == "Yes":
+		return "celebrity"
+	else: return "NA"
+
+df_merged["expertise_label_by_relative_expertise"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_expertise(row), axis=1)
+
 df_merged = df_merged[['entity_id',
 						'entity_name',
 						'sex',
@@ -106,6 +127,7 @@ df_merged = df_merged[['entity_id',
 						'industry_expert',
 						'celebrity',
 						'journalist',
+						"expertise_label_by_relative_expertise",
 						'news_count',]]
 
 df_merged.to_csv(f"../outputs/data/{output_code}_entity_race_gender_expertise_news_count.csv", index=False)

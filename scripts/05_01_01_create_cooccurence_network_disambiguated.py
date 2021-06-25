@@ -37,6 +37,7 @@ metadata_list = [
                 'industry_expert',
                 'celebrity',
                 'journalist',
+                "expertise_label_by_relative_expertise",
                 'news_count',]
 
 dicts_entity_id_to_metadata = df_entity_to_annotated_race_gender_expertise.set_index(metadata_index).to_dict()
@@ -228,6 +229,11 @@ for metadata in metadata_list:
     dict_entity_id_to_metadata = dicts_entity_id_to_metadata[metadata]
     nx.set_node_attributes(G, dict_entity_id_to_metadata, metadata)
 
+## Now exporting this network
+output_dir="../outputs/network"
+output_basename="comention_network_with_metadata"
+output_full_fname=f"{output_dir}/{output_code}_{output_basename}.edgelist"
+nx.readwrite.edgelist.write_edgelist(G,output_full_fname)
 
 S = max(nx.connected_components(G), key=len)
 
