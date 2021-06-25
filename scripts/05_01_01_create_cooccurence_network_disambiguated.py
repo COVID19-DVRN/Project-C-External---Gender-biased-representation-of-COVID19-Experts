@@ -29,6 +29,7 @@ metadata_list = [
                 'pronoun',
                 'race',
                 'urm',
+                "gender_urm",
                 'public_health_researcher',
                 'practitioner',
                 'non_public_health_researcher',

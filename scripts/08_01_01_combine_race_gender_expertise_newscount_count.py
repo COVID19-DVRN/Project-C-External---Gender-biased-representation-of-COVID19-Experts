@@ -76,6 +76,21 @@ URM_races = ["Black/African", "Latinx", "South Asian", "Middle Eastern", "Aborig
 non_URM_races = ["White/European", "East Asian"]
 df_merged["urm"] = df_merged["race"].apply(lambda x: "Yes" if x in URM_races else "No")
 
+## Now creating an intersection between gender and urm
+def gender_urm_intersection(sex,urm):
+	if urm == "Yes":
+		if sex == "Female":
+			return "urm_female"
+		elif sex == "Male":
+			return "urm_male"
+	elif urm == "No":
+		if sex == "Female":
+			return "non_urm_female"
+		elif sex == "Male":
+			return "non_urm_male"
+	else:
+		return "unknown"
+df_merged["gender_urm"] = df_merged.apply(lambda row: gender_urm_intersection(row.sex,row.urm), axis=1)
 
 df_merged = df_merged[['entity_id',
 						'entity_name',
@@ -83,6 +98,7 @@ df_merged = df_merged[['entity_id',
 						'pronoun',
 						'race',
 						'urm',
+						"gender_urm",
 						'public_health_researcher',
 						'practitioner',
 						'non_public_health_researcher',
@@ -132,3 +148,5 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 ## Celebrity
 
 ## Even though we wanted to see mutiple
+
+## Change opacity of the urm_gender plot
