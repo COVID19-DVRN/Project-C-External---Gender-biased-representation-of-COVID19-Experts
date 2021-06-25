@@ -42,6 +42,7 @@ metadata_list = [
                 'celebrity',
                 'journalist',
                 "expertise_label_by_relative_expertise",
+                "expertise_label_by_relative_reach",
                 'news_count',]
 dicts_entity_id_to_metadata = df_entity_to_annotated_race_gender_expertise.set_index(metadata_index).to_dict()
 
@@ -61,7 +62,9 @@ for metadata in metadata_list:
 ## Do we see more interaction between public health expert
 ## and policymakers? Do we see any other intersting interactions
 
-attributes = ["expertise_label_by_relative_expertise","gender_urm"]
+attributes = ["expertise_label_by_relative_expertise",
+			"gender_urm",
+			"expertise_label_by_relative_reach"]
 
 for attribute in attributes:
 	#attribute = "expertise_label_by_relative_expertise"
@@ -82,6 +85,16 @@ for attribute in attributes:
 			"journalist":5,
 			"celebrity":6,
 			},
+		"expertise_label_by_relative_reach":
+			{
+				"policymaker":0,
+				"public_health_researcher":1,
+				"practitioner":2,
+				"industry_expert":3,
+				"non_public_health_researcher":4,
+				"celebrity":5,
+				"journalist":6,
+			},
 		"gender_urm":
 			{
 				"non_urm_male":0,
@@ -100,6 +113,16 @@ for attribute in attributes:
 						"Industry\nExpert",
 						"Journalist",
 						"Celebrity"],
+					"expertise_label_by_relative_reach":
+						[
+							"Policymaker",
+							"Public\nHealth Researcher",
+							"Practitioner",
+							"Industry\nExpert",
+							"Non Public\nHealth Researcher",
+							"Celebrity",
+							"Journalist",
+						],
 					"gender_urm":
 						[
 							"non URM, Man",
@@ -111,6 +134,7 @@ for attribute in attributes:
 
 	NA_by_attribute = {
 		"expertise_label_by_relative_expertise":"NA",
+		"expertise_label_by_relative_reach":"NA",
 		"gender_urm":None
 	}
 

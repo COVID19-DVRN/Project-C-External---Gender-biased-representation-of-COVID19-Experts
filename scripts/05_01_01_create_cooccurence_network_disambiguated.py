@@ -38,6 +38,7 @@ metadata_list = [
                 'celebrity',
                 'journalist',
                 "expertise_label_by_relative_expertise",
+                "expertise_label_by_relative_reach",
                 'news_count',]
 
 dicts_entity_id_to_metadata = df_entity_to_annotated_race_gender_expertise.set_index(metadata_index).to_dict()

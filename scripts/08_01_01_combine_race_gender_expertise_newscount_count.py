@@ -113,6 +113,27 @@ def singlemost_important_expert_label_from_relative_expertise(row):
 
 df_merged["expertise_label_by_relative_expertise"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_expertise(row), axis=1)
 
+## Then the one for relative reach of expertise in terms of public health messages:
+def singlemost_important_expert_label_from_relative_reach(row):
+	if row["policymaker"] == "Yes":
+		return "policymaker"
+	elif row["public_health_researcher"] == "Yes":
+		return "public_health_researcher"
+	elif row["practitioner"] == "Yes":
+		return "practitioner"
+	elif row["industry_expert"] == "Yes":
+		return "industry_expert"
+	elif row["non_public_health_researcher"] == "Yes":
+		return "non_public_health_researcher"
+	elif row["celebrity"] == "Yes":
+		return "celebrity"
+	elif row["journalist"] == "Yes":
+		return "journalist"
+	else: return "NA"
+
+df_merged["expertise_label_by_relative_reach"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_reach(row), axis=1)
+
+
 df_merged = df_merged[['entity_id',
 						'entity_name',
 						'sex',
@@ -128,6 +149,7 @@ df_merged = df_merged[['entity_id',
 						'celebrity',
 						'journalist',
 						"expertise_label_by_relative_expertise",
+						"expertise_label_by_relative_reach",
 						'news_count',]]
 
 df_merged.to_csv(f"../outputs/data/{output_code}_entity_race_gender_expertise_news_count.csv", index=False)
