@@ -15,32 +15,41 @@ output_code = "05_01_01"
 with open("../outputs/data/00_01_01_tagged_names_from_expert_mention_articles.json", "r") as f:
     story_id_to_entities = json.load(f)
 
-# %%
-df_entity_disambiguated = pd.read_csv("../outputs/data/04_02_01_names_disambiguated.csv")
-dict_expert_name_to_entity_id = df_entity_disambiguated.set_index("raw_name").to_dict()["disambiguated_entity_id"]
-
 ## Find the NA list
 df_entity_not_available = pd.read_csv("../outputs/data/04_02_01_names_not_available.csv")
 entities_not_available = df_entity_not_available["raw_name"].values
 
 ## Adding the metadata of each entity
-df_entity_to_annotated_race_gender_expertise = pd.read_csv(f"../outputs/data/04_02_01_entity_race_gender_expertise.csv")
+df_entity_to_annotated_race_gender_expertise = pd.read_csv(f"../outputs/data/08_01_01_entity_race_gender_expertise_news_count.csv")
 
-metadata_index = 'disambiguated_entity_id'
+metadata_index = 'entity_id'
 metadata_list = [
-    'disambiguated_entity',
-    'sex_at_birth',
-    'pronoun_denoting_gender',
-    'race_ethnicity',
-    'public_health_researcher',
-    'practitioner/clinician/physician',
-    'non_public_health_researcher',
-    'politician/govt service/policymaker',
-    'industry_expert',
-    'celebrity',
-    'journalist',]
+                'entity_name',
+                'sex',
+                'pronoun',
+                'race',
+                'urm',
+                'public_health_researcher',
+                'practitioner',
+                'non_public_health_researcher',
+                'policymaker',
+                'industry_expert',
+                'celebrity',
+                'journalist',
+                'news_count',]
 
 dicts_entity_id_to_metadata = df_entity_to_annotated_race_gender_expertise.set_index(metadata_index).to_dict()
+
+# %%
+df_entity_disambiguated = pd.read_csv("../outputs/data/04_02_01_names_disambiguated.csv")
+dict_expert_name_to_entity_id = df_entity_disambiguated.set_index("raw_name").to_dict()["disambiguated_entity_id"]
+
+# %%
+## We are making another check that the entities that are removed from the news count, for 
+## being unknown race or unknown gender, we will remove them from the dict of expert_name to entity
+## We need to make sure that all the entity_id that are actaully valid are represented in the
+## final edgelist we create
+dict_expert_name_to_entity_id = {k:v for k,v in dict_expert_name_to_entity_id.items() if v in df_entity_to_annotated_race_gender_expertise["entity_id"].values}
 
 hand_updated_entity_name_to_corresponding_disambiguated_name = {
  '':None,

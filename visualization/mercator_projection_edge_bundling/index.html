@@ -56,25 +56,34 @@ entity_color_based_on_race_ethnicity = d3.scaleOrdinal()
                                 //.range(["blue", "purple", "orange", "gray"]);
                                 //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
                                 //in this version we want to highlight the 
-                                .range(["#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7"]);
+                                .range(["#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7"]);//Wong color blind scheme
                                 // Black, Hagu, Light Blue, Green, Yellow, Dark Blue, orange, Purple
+
+entity_color_based_on_urm = d3.scaleOrdinal()
+                                .domain(["Yes","No"])
+                                //.range(["blue", "purple", "orange", "gray"]);
+                                //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
+                                //in this version we want to highlight the 
+                                .range(["#D55E00", "#0072B2"]);
+                                //Orange, Dark Blue
+
 
 // var logScale = d3.scaleLog()
 //   .domain([1, 10000000])
 //   .range([0, 3]);
 
-function award_money_to_nodesize(award_money){
-    if (award_money <= 10000){
-        return d3.scaleLinear().domain([0,10000]).range([0,1])(award_money);
+function newscount_to_nodesize(news_count){
+    if (news_count <= 5){
+        return d3.scaleLinear().domain([0,5]).range([0,1])(news_count);
     }
-    else if (10000 < award_money && award_money <= 100000){
-        return d3.scaleLinear().domain([10000,100000]).range([1,3])(award_money);
+    else if (5 < news_count && news_count <= 50){
+        return d3.scaleLinear().domain([10,100]).range([1,3])(news_count);
     }
-    else if (100000 < award_money && award_money <= 1000000){
-        return d3.scaleLinear().domain([100000,1000000]).range([3,8])(award_money);
+    else if (50 < news_count && news_count <= 500){
+        return d3.scaleLinear().domain([100,500]).range([3,8])(news_count);
     }
-    else if (award_money > 1000000){
-        return d3.scaleLinear().domain([1000000,10000000]).range([8,20])(award_money);
+    else if (news_count > 500){
+        return d3.scaleLinear().domain([500,2000]).range([8,20])(news_count);
     };
 }
 
@@ -88,7 +97,7 @@ function award_money_to_nodesize(award_money){
 
 
 function get_node_size(val, minimum_nodesize=2.5){
-    return award_money_to_nodesize(val) + minimum_nodesize;
+    return newscount_to_nodesize(val) + minimum_nodesize;
 }
 
 d3.json('./05_01_01_comention_giant_connected_component.json', data => {
@@ -101,9 +110,11 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
         node_data[d.key] = {
             'x': r(d.value.r) * Math.cos(d.value.theta),
             'y': r(d.value.r) * Math.sin(d.value.theta),
-            'disambiguated_entity':d.value.disambiguated_entity,
-            'sex_at_birth':d.value.sex_at_birth,
-            "race_ethnicity":d.value["race_ethnicity"]
+            'entity_name':d.value.entity_name,
+            'sex':d.value.sex,
+            "race":d.value["race"],
+            "news_count":d.value["news_count"],
+            "urm":d.value["urm"]
             //'org_type_based_on_awards':d.value.org_type_based_on_awards,
             //'total_advance_award_amount':d.value.total_advance_award_amount,
             //"carnegie_doctoral_type":d.value.carnegie_doctoral_type
@@ -145,20 +156,19 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
         .data(d3.values(node_data))
         .enter()
         .append("circle")
-        .attr("r", function(d){return 5})
+        .attr("r", function(d){return get_node_size(d.news_count)})
         .attr('cx', d => d.x)
         .attr('cy', d => d.y)
-        //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex_at_birth)})
-        .style("fill", function(d){return entity_color_based_on_race_ethnicity(d.race_ethnicity)})
-        //.style("fill", function(d){return org_color_based_on_award_type(d.org_type_based_on_awards)})
-        //.style("fill", function(d){return org_color_based_on_carnegie_research_intensity(d.carnegie_doctoral_type)})
+        //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex)})
+        //.style("fill", function(d){return entity_color_based_on_race_ethnicity(d.race)})
+        .style("fill", function(d){return entity_color_based_on_urm(d.urm)})
         .style("opacity", 0.6)
         .attr('transform', `translate(${size/2},${size/2})`)
         .on("mouseover", function(d) {      
             div.transition()        
                 .duration(200)      
                 .style("opacity", .9);      
-            div.html(d.disambiguated_entity)  
+            div.html(d.entity_name)  
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
