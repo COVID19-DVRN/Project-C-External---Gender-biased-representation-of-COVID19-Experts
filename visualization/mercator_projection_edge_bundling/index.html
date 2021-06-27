@@ -92,7 +92,7 @@ function newscount_to_nodesize(news_count){
     else if (news_count > 500){
         return d3.scaleLinear().domain([500,2000]).range([8,20])(news_count);
     };
-}
+};
 
 // function log_transform(num) {
 //   num = parseFloat(num)
@@ -105,9 +105,10 @@ function newscount_to_nodesize(news_count){
 
 function get_node_size(val, minimum_nodesize=2.5){
     return newscount_to_nodesize(val) + minimum_nodesize;
-}
+};
 
 d3.json('./05_01_01_comention_giant_connected_component.json', data => {
+    console.log(data);
     size = Math.min(width, height)
     var r = d3.scaleLinear().domain(d3.extent(d3.values(data.nodes).map(d => d.r))).range([0, size / 2]);
 
@@ -165,6 +166,7 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
         .enter()
         .append("circle")
         .attr("r", function(d){return get_node_size(d.news_count)})
+        //.attr("r", function(d){return 2.5})
         .attr('cx', d => d.x)
         .attr('cy', d => d.y)
         //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex)})

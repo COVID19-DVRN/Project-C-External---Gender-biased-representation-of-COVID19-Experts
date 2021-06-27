@@ -2,7 +2,7 @@
 ===========================================================================================
 Mercador: accurate embeddings of graphs in the S1 space
 version: 0.9
-started on: 2021/06/25 18:42 UTC
+started on: 2021/06/27 23:51 UTC
 edgelist filename: ../outputs/mercator/input/05_01_01_comention_giant_connected_component.edge
 seed: 42
 
@@ -17,64 +17,67 @@ Computing local clustering......................................................
 Ordering vertices.....................................................................done.
 
 Properties of the graph
-    Nb vertices:                    621
-    Nb edges:                       1283
-    Average degree:                 4.132
+    Nb vertices:                    619
+    Nb edges:                       1278
+    Average degree:                 4.129
     Minimum degree:                 1
     Maximum degree:                 170
-    Nb of degree class:             27
-    Average clustering:             0.6776
+    Nb of degree class:             28
+    Average clustering:             0.677
 
 Inferring parameters...
            beta      avg. clustering 
-         2.5366               0.5924 
-         3.8049               0.6679 
+         2.5973               0.5814 
+         3.8959               0.6646 
+         5.8439               0.7109 
+         4.8699               0.7043 
+         4.3829               0.6824 
                        ...............................................................done.
 
 Inferred ensemble (random positions)
-    Average degree:                 4.1320
+    Average degree:                 4.1292
     Minimum degree:                 1
     Maximum degree:                 170
-    Average clustering:             0.6679
+    Average clustering:             0.6824
     Parameters
-      - beta:                       3.8049
-      - mu:                         0.1077
-      - radius_S1 (R):              98.8352
+      - beta:                       4.3829
+      - mu:                         0.1110
+      - radius_S1 (R):              98.5169
 
 Finding initial positions/ordering...
     Building the weights matrix... Matrix built.
 
     Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
 
-    Sum of the angular positions (before adjustment): 12.3362
+    Sum of the angular positions (before adjustment): 12.5269
                                      .................................................done.
 
 Refining the positions...
-    ...of vertices     [1,31]......done in 0.5295 seconds (24/31 changed position)
-    ...of vertices    [32,62]......done in 0.5186 seconds (19/31 changed position)
-    ...of vertices    [63,93]......done in 0.5173 seconds ( 8/31 changed position)
-    ...of vertices   [94,124]......done in 0.5171 seconds (18/31 changed position)
-    ...of vertices  [125,155]......done in 0.4791 seconds (10/31 changed position)
-    ...of vertices  [156,186]......done in 0.4787 seconds ( 9/31 changed position)
-    ...of vertices  [187,217]......done in 0.5155 seconds (14/31 changed position)
-    ...of vertices  [218,248]......done in 0.5141 seconds (16/31 changed position)
-    ...of vertices  [249,279]......done in 0.5122 seconds (12/31 changed position)
-    ...of vertices  [280,310]......done in 0.5133 seconds (16/31 changed position)
-    ...of vertices  [311,341]......done in 0.5123 seconds (11/31 changed position)
-    ...of vertices  [342,372]......done in 0.4741 seconds ( 6/31 changed position)
-    ...of vertices  [373,403]......done in 0.4844 seconds ( 7/31 changed position)
-    ...of vertices  [404,434]......done in 0.4754 seconds (12/31 changed position)
-    ...of vertices  [435,465]......done in 0.4641 seconds (14/31 changed position)
-    ...of vertices  [466,496]......done in 0.4621 seconds (10/31 changed position)
-    ...of vertices  [497,527]......done in 0.4956 seconds ( 8/31 changed position)
-    ...of vertices  [528,558]......done in 0.5158 seconds (13/31 changed position)
-    ...of vertices  [559,589]......done in 0.5175 seconds (11/31 changed position)
-    ...of vertices  [590,620]......done in 0.5537 seconds ( 8/31 changed position)
-    ...of vertices  [621,621]......done in 0.0184 seconds ( 0/ 1 changed position)
+    ...of vertices     [1,30]......done in 0.5047 seconds (20/30 changed position)
+    ...of vertices    [31,60]......done in 0.4952 seconds (17/30 changed position)
+    ...of vertices    [61,90]......done in 0.4980 seconds ( 9/30 changed position)
+    ...of vertices   [91,120]......done in 0.4937 seconds (15/30 changed position)
+    ...of vertices  [121,150]......done in 0.4975 seconds (15/30 changed position)
+    ...of vertices  [151,180]......done in 0.4944 seconds ( 4/30 changed position)
+    ...of vertices  [181,210]......done in 0.4848 seconds ( 9/30 changed position)
+    ...of vertices  [211,240]......done in 0.4675 seconds (15/30 changed position)
+    ...of vertices  [241,270]......done in 0.4845 seconds (12/30 changed position)
+    ...of vertices  [271,300]......done in 0.4688 seconds (16/30 changed position)
+    ...of vertices  [301,330]......done in 0.4647 seconds (14/30 changed position)
+    ...of vertices  [331,360]......done in 0.4824 seconds (12/30 changed position)
+    ...of vertices  [361,390]......done in 0.4367 seconds ( 2/30 changed position)
+    ...of vertices  [391,420]......done in 0.4410 seconds (16/30 changed position)
+    ...of vertices  [421,450]......done in 0.4451 seconds (11/30 changed position)
+    ...of vertices  [451,480]......done in 0.4412 seconds (10/30 changed position)
+    ...of vertices  [481,510]......done in 0.4471 seconds ( 8/30 changed position)
+    ...of vertices  [511,540]......done in 0.4472 seconds ( 9/30 changed position)
+    ...of vertices  [541,570]......done in 0.4427 seconds ( 9/30 changed position)
+    ...of vertices  [571,600]......done in 0.4731 seconds (11/30 changed position)
+    ...of vertices  [601,619]......done in 0.2842 seconds ( 5/19 changed position)
                          .............................................................done.
 
 Updating values of kappa based on inferred positions...
-    Convergence reached after 56 iterations.
+    Convergence reached after 365 iterations.
                                                        ...............................done.
 
     => Inferred coordinates saved to ../outputs/mercator/output/05_01_01_comention_giant_connected_component.inf_coord
@@ -110,11 +113,11 @@ Internal parameters and options
     VERBOSE_MODE                           false
     VERSION                                0.9
 
-Ended on: 2021/06/25 18:43 UTC
-Elapsed CPU time (embedding):               13.2628 seconds
-    initialization:                          0.0119 seconds
-    parameters inference:                    2.8288 seconds
-    initial positions:                       0.0314 seconds
-    refining positions:                     10.0700 seconds
-    adjusting kappas:                        0.3207 seconds
+Ended on: 2021/06/27 23:52 UTC
+Elapsed CPU time (embedding):               17.3152 seconds
+    initialization:                          0.0103 seconds
+    parameters inference:                    5.9116 seconds
+    initial positions:                       0.0288 seconds
+    refining positions:                      9.6958 seconds
+    adjusting kappas:                        1.6686 seconds
 ===========================================================================================
