@@ -169,8 +169,8 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
         .attr('cy', d => d.y)
         //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex)})
         //.style("fill", function(d){return entity_color_based_on_race_ethnicity(d.race)})
-        //.style("fill", function(d){return entity_color_based_on_urm(d.urm)})
-        .style("fill", function(d){return entity_color_based_on_gender_urm(d.gender_urm)})
+        .style("fill", function(d){return entity_color_based_on_urm(d.urm)})
+        //.style("fill", function(d){return entity_color_based_on_gender_urm(d.gender_urm)})
         .style("opacity", 0.6)
         .attr('transform', `translate(${size/2},${size/2})`)
         .on("mouseover", function(d) {      

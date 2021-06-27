@@ -1,0 +1,126 @@
+> data = read.csv("/Users/haque.s/development/Project-C-External---Gender-biased-representation-of-COVID19-Experts/outputs/data/08_01_01_entity_race_gender_expertise_news_count.csv")
+> library(MASS)
+> model_nb <- glm.nb(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+> summary(model_nb)
+
+Call:
+glm.nb(formula = news_count ~ sex + race + public_health_researcher + 
+    practitioner + policymaker + industry_expert + celebrity + 
+    journalist, data = data, init.theta = 0.978385471, link = log)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.8282  -0.8396  -0.4271  -0.1314  16.0897  
+
+Coefficients:
+                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                 -0.14219    0.54029  -0.263 0.792420    
+sexMale                      0.18495    0.03803   4.863 1.15e-06 ***
+raceBlack/African            0.30290    0.54578   0.555 0.578902    
+raceEast Asian               0.31213    0.54258   0.575 0.565116    
+raceLatinx                   0.26977    0.54787   0.492 0.622444    
+raceMiddle Eastern           0.07072    0.54984   0.129 0.897653    
+raceOther/Mixed              0.37320    0.60066   0.621 0.534393    
+raceSouth Asian              0.27911    0.54309   0.514 0.607305    
+raceWhite/European           0.53843    0.53938   0.998 0.318164    
+public_health_researcherYes  0.65807    0.04034  16.315  < 2e-16 ***
+practitionerYes              0.15022    0.03990   3.765 0.000167 ***
+policymakerYes               0.91788    0.03747  24.497  < 2e-16 ***
+industry_expertYes          -0.20913    0.04731  -4.420 9.87e-06 ***
+celebrityYes                 0.68334    0.10214   6.690 2.23e-11 ***
+journalistYes                0.09485    0.07062   1.343 0.179255    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9784) family taken to be 1)
+
+    Null deviance: 5557.1  on 4639  degrees of freedom
+Residual deviance: 4233.3  on 4625  degrees of freedom
+AIC: 21012
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9784 
+          Std. Err.:  0.0223 
+
+ 2 x log-likelihood:  -20980.3270 
+> model_nb <- glm.nb(news_count ~ sex + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+> summary(model_nb)
+
+Call:
+glm.nb(formula = news_count ~ sex + urm + public_health_researcher + 
+    practitioner + policymaker + industry_expert + celebrity + 
+    journalist, data = data, init.theta = 0.9747177177, link = log)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.8252  -0.8301  -0.4311  -0.1778  16.1677  
+
+Coefficients:
+                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                  0.37058    0.04461   8.307  < 2e-16 ***
+sexMale                      0.17840    0.03800   4.695 2.67e-06 ***
+urmYes                      -0.26286    0.04651  -5.651 1.59e-08 ***
+public_health_researcherYes  0.67032    0.04035  16.614  < 2e-16 ***
+practitionerYes              0.14584    0.03988   3.657 0.000255 ***
+policymakerYes               0.92885    0.03738  24.846  < 2e-16 ***
+industry_expertYes          -0.20045    0.04726  -4.242 2.22e-05 ***
+celebrityYes                 0.69643    0.10180   6.841 7.85e-12 ***
+journalistYes                0.10273    0.07063   1.454 0.145832    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(0.9747) family taken to be 1)
+
+    Null deviance: 5540.3  on 4639  degrees of freedom
+Residual deviance: 4235.4  on 4631  degrees of freedom
+AIC: 21015
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  0.9747 
+          Std. Err.:  0.0222 
+
+ 2 x log-likelihood:  -20995.1700 
+> data <- data[!(data$entity_name == "anthony fauci"),]
+> model_nb <- glm.nb(news_count ~ sex + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+> summary(model_nb)
+
+Call:
+glm.nb(formula = news_count ~ sex + urm + public_health_researcher + 
+    practitioner + policymaker + industry_expert + celebrity + 
+    journalist, data = data, init.theta = 1.050459357, link = log)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-1.7725  -0.8285  -0.4114  -0.1786  12.4783  
+
+Coefficients:
+                            Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                  0.46370    0.04324  10.724  < 2e-16 ***
+sexMale                      0.11368    0.03693   3.079 0.002079 ** 
+urmYes                      -0.21406    0.04520  -4.736 2.18e-06 ***
+public_health_researcherYes  0.60696    0.03931  15.441  < 2e-16 ***
+practitionerYes              0.08587    0.03887   2.209 0.027160 *  
+policymakerYes               0.79795    0.03649  21.866  < 2e-16 ***
+industry_expertYes          -0.15318    0.04588  -3.338 0.000843 ***
+celebrityYes                 0.70484    0.09833   7.168 7.59e-13 ***
+journalistYes                0.06092    0.06879   0.886 0.375800    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for Negative Binomial(1.0505) family taken to be 1)
+
+    Null deviance: 5118.4  on 4638  degrees of freedom
+Residual deviance: 4184.5  on 4630  degrees of freedom
+AIC: 20697
+
+Number of Fisher Scoring iterations: 1
+
+
+              Theta:  1.0505 
+          Std. Err.:  0.0247 
+
+ 2 x log-likelihood:  -20677.3270 

@@ -194,3 +194,14 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 ## Even though we wanted to see mutiple
 
 ## Change opacity of the urm_gender plot
+
+## Health science researcher
+## Coefficent plot
+
+## Caveat that we are missing religious leaders
+
+## tomasz wojtasik queer
+
+## All lawyer put into industry expert
+
+## For viz the commit "Add gender_urm intersection variable" is working
