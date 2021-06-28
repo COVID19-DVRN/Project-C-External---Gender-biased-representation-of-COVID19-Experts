@@ -72,8 +72,18 @@ entity_color_based_on_gender_urm = d3.scaleOrdinal()
                                 //.range(["blue", "purple", "orange", "gray"]);
                                 //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
                                 //in this version we want to highlight the 
-                                .range(["#696969","#E69F00","#56B4E9","#CC79A7"]);
+                                .range(["#696969","#009E73","#56B4E9","#CC79A7"]);
+                                //gray, Green, Light blue, Hagu
+
+entity_color_based_on_expertise = d3.scaleOrdinal()
+                                .domain(["public_health_researcher","practitioner","non_public_health_researcher","policymaker","industry_expert","journalist","celebrity","not_available"])
+                                //.range(["blue", "purple", "orange", "gray"]);
+                                //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
+                                //in this version we want to highlight the 
+                                .range(["#56B4E9", "#E69F00", "#696969", "#CC79A7","#696969","#696969","#696969","#696969"]);
                                 //gray, Hagu, Light blue, Purple
+
+
 
 // var logScale = d3.scaleLog()
 //   .domain([1, 10000000])
@@ -123,7 +133,8 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
             "race":d.value["race"],
             "news_count":d.value["news_count"],
             "urm":d.value["urm"],
-            "gender_urm":d.value["gender_urm"]
+            "gender_urm":d.value["gender_urm"],
+            "expertise_label_by_relative_expertise":d.value["expertise_label_by_relative_expertise"]
             //'org_type_based_on_awards':d.value.org_type_based_on_awards,
             //'total_advance_award_amount':d.value.total_advance_award_amount,
             //"carnegie_doctoral_type":d.value.carnegie_doctoral_type
@@ -171,8 +182,9 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
         .attr('cy', d => d.y)
         //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex)})
         //.style("fill", function(d){return entity_color_based_on_race_ethnicity(d.race)})
-        .style("fill", function(d){return entity_color_based_on_urm(d.urm)})
-        //.style("fill", function(d){return entity_color_based_on_gender_urm(d.gender_urm)})
+        //.style("fill", function(d){return entity_color_based_on_urm(d.urm)})
+        .style("fill", function(d){return entity_color_based_on_gender_urm(d.gender_urm)})
+        //.style("fill", function(d){return entity_color_based_on_expertise(d.expertise_label_by_relative_expertise)})
         .style("opacity", 0.6)
         .attr('transform', `translate(${size/2},${size/2})`)
         .on("mouseover", function(d) {      

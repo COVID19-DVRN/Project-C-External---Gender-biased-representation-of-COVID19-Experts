@@ -109,7 +109,7 @@ def singlemost_important_expert_label_from_relative_expertise(row):
 		return "journalist"
 	elif row["celebrity"] == "Yes":
 		return "celebrity"
-	else: return "NA"
+	else: return "not_available"
 
 df_merged["expertise_label_by_relative_expertise"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_expertise(row), axis=1)
 
@@ -129,7 +129,7 @@ def singlemost_important_expert_label_from_relative_reach(row):
 		return "celebrity"
 	elif row["journalist"] == "Yes":
 		return "journalist"
-	else: return "NA"
+	else: return "not_available"
 
 df_merged["expertise_label_by_relative_reach"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_reach(row), axis=1)
 
@@ -166,10 +166,6 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 # incidence rate ratio
 # ekta reference froup er tulonay arekta group e nao, se ekta news e participate
 ## Log of expected count, jodi positive male theke female ke subtract kortesi
-
-## Try URM vs non-URM
-
-## Robustness check anthony fauci drop
 
 ## Self loop, other nodes
 ## Create a hierarchy and highest in the hierarchy

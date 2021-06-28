@@ -2,7 +2,7 @@
 ===========================================================================================
 Mercador: accurate embeddings of graphs in the S1 space
 version: 0.9
-started on: 2021/06/27 23:51 UTC
+started on: 2021/06/28 2:24 UTC
 edgelist filename: ../outputs/mercator/input/05_01_01_comention_giant_connected_component.edge
 seed: 42
 
@@ -53,27 +53,27 @@ Finding initial positions/ordering...
                                      .................................................done.
 
 Refining the positions...
-    ...of vertices     [1,30]......done in 0.5047 seconds (20/30 changed position)
-    ...of vertices    [31,60]......done in 0.4952 seconds (17/30 changed position)
-    ...of vertices    [61,90]......done in 0.4980 seconds ( 9/30 changed position)
-    ...of vertices   [91,120]......done in 0.4937 seconds (15/30 changed position)
-    ...of vertices  [121,150]......done in 0.4975 seconds (15/30 changed position)
-    ...of vertices  [151,180]......done in 0.4944 seconds ( 4/30 changed position)
-    ...of vertices  [181,210]......done in 0.4848 seconds ( 9/30 changed position)
-    ...of vertices  [211,240]......done in 0.4675 seconds (15/30 changed position)
-    ...of vertices  [241,270]......done in 0.4845 seconds (12/30 changed position)
-    ...of vertices  [271,300]......done in 0.4688 seconds (16/30 changed position)
-    ...of vertices  [301,330]......done in 0.4647 seconds (14/30 changed position)
-    ...of vertices  [331,360]......done in 0.4824 seconds (12/30 changed position)
-    ...of vertices  [361,390]......done in 0.4367 seconds ( 2/30 changed position)
-    ...of vertices  [391,420]......done in 0.4410 seconds (16/30 changed position)
-    ...of vertices  [421,450]......done in 0.4451 seconds (11/30 changed position)
-    ...of vertices  [451,480]......done in 0.4412 seconds (10/30 changed position)
-    ...of vertices  [481,510]......done in 0.4471 seconds ( 8/30 changed position)
-    ...of vertices  [511,540]......done in 0.4472 seconds ( 9/30 changed position)
-    ...of vertices  [541,570]......done in 0.4427 seconds ( 9/30 changed position)
-    ...of vertices  [571,600]......done in 0.4731 seconds (11/30 changed position)
-    ...of vertices  [601,619]......done in 0.2842 seconds ( 5/19 changed position)
+    ...of vertices     [1,30]......done in 0.5086 seconds (20/30 changed position)
+    ...of vertices    [31,60]......done in 0.5015 seconds (17/30 changed position)
+    ...of vertices    [61,90]......done in 0.5005 seconds ( 9/30 changed position)
+    ...of vertices   [91,120]......done in 0.4972 seconds (15/30 changed position)
+    ...of vertices  [121,150]......done in 0.4980 seconds (15/30 changed position)
+    ...of vertices  [151,180]......done in 0.4967 seconds ( 4/30 changed position)
+    ...of vertices  [181,210]......done in 0.4929 seconds ( 9/30 changed position)
+    ...of vertices  [211,240]......done in 0.4953 seconds (15/30 changed position)
+    ...of vertices  [241,270]......done in 0.4923 seconds (12/30 changed position)
+    ...of vertices  [271,300]......done in 0.4938 seconds (16/30 changed position)
+    ...of vertices  [301,330]......done in 0.4948 seconds (14/30 changed position)
+    ...of vertices  [331,360]......done in 0.4963 seconds (12/30 changed position)
+    ...of vertices  [361,390]......done in 0.4968 seconds ( 2/30 changed position)
+    ...of vertices  [391,420]......done in 0.4951 seconds (16/30 changed position)
+    ...of vertices  [421,450]......done in 0.4954 seconds (11/30 changed position)
+    ...of vertices  [451,480]......done in 0.4923 seconds (10/30 changed position)
+    ...of vertices  [481,510]......done in 0.4953 seconds ( 8/30 changed position)
+    ...of vertices  [511,540]......done in 0.4945 seconds ( 9/30 changed position)
+    ...of vertices  [541,570]......done in 0.4942 seconds ( 9/30 changed position)
+    ...of vertices  [571,600]......done in 0.4926 seconds (11/30 changed position)
+    ...of vertices  [601,619]......done in 0.3125 seconds ( 5/19 changed position)
                          .............................................................done.
 
 Updating values of kappa based on inferred positions...
@@ -113,11 +113,11 @@ Internal parameters and options
     VERBOSE_MODE                           false
     VERSION                                0.9
 
-Ended on: 2021/06/27 23:52 UTC
-Elapsed CPU time (embedding):               17.3152 seconds
-    initialization:                          0.0103 seconds
-    parameters inference:                    5.9116 seconds
-    initial positions:                       0.0288 seconds
-    refining positions:                      9.6958 seconds
-    adjusting kappas:                        1.6686 seconds
+Ended on: 2021/06/28 2:24 UTC
+Elapsed CPU time (embedding):               18.4071 seconds
+    initialization:                          0.0116 seconds
+    parameters inference:                    6.3337 seconds
+    initial positions:                       0.0299 seconds
+    refining positions:                     10.2380 seconds
+    adjusting kappas:                        1.7940 seconds
 ===========================================================================================

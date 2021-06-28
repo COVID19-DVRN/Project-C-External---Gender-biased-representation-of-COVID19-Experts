@@ -180,3 +180,4 @@ for attribute in attributes:
 	savefig_dir = f"../figures/{output_code}_assortativity_attributes_{attribute}_comention_network.png"
 	plt.savefig(savefig_dir)
 	#plt.show()
+attribute = "race"
