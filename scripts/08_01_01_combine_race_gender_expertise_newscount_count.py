@@ -201,3 +201,5 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 ## All lawyer put into industry expert
 
 ## For viz the commit "Add gender_urm intersection variable" is working
+
+## Call URM Underrepresentated races
