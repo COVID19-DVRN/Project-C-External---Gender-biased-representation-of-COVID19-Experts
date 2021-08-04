@@ -133,8 +133,8 @@ for attribute in attributes:
 					}
 
 	NA_by_attribute = {
-		"expertise_label_by_relative_expertise":"NA",
-		"expertise_label_by_relative_reach":"NA",
+		"expertise_label_by_relative_expertise":"not_available",
+		"expertise_label_by_relative_reach":"not_available",
 		"gender_urm":None
 	}
 
@@ -154,6 +154,8 @@ for attribute in attributes:
 		#print(edge)
 		if edge[0] in nodeset and edge[1] in nodeset:
 			attribute_assortativity_numbers_matrix[mapping[attribute][dict_node_to_attribute[edge[0]]]][mapping[attribute][dict_node_to_attribute[edge[1]]]] += 1
+			## This network is undirected, so we need to count the edge on the other way round too
+			attribute_assortativity_numbers_matrix[mapping[attribute][dict_node_to_attribute[edge[1]]]][mapping[attribute][dict_node_to_attribute[edge[0]]]] += 1
 
 	r = nx.attribute_assortativity_coefficient(G,attribute,nodes=nodeset)
 	##visualize matrix
@@ -178,6 +180,6 @@ for attribute in attributes:
 	    ax.text(j+0.5, i+0.5, '{:0.0f}'.format(z), ha='center', va='center',
 	    	bbox=dict(boxstyle='round', facecolor='white', edgecolor='0.3'))
 	savefig_dir = f"../figures/{output_code}_assortativity_attributes_{attribute}_comention_network.png"
-	plt.savefig(savefig_dir)
+	plt.savefig(savefig_dir, dpi=150)
 	#plt.show()
-attribute = "race"
+#attribute = "race"
