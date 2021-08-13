@@ -65,8 +65,8 @@ report_lines.append(f"We initially had {len(df_merged)} rows.")
 
 ## Now lets remove all the rows where the sex at birth is unknown or
 ## the race is unknown and the pronoun is No info
-df_merged = df_merged[~((df_merged["sex"]=="Unidentified")|(df_merged["race"]=="Unknown")|df_merged["pronoun"]=="No info")]
-report_lines.append(f"But after removing all the rows where sex is unidentified or the race is unknown, we are left with {len(df_merged)} rows.")
+df_merged = df_merged[~((df_merged["sex"]=="Unidentified")|(df_merged["race"]=="Unknown")|(df_merged["pronoun"]=="No info"))]
+report_lines.append(f"But after removing all the rows where sex is unidentified or the race is unknown or the pronoun is No info, we are left with {len(df_merged)} rows.")
 
 ## Now let me create a new variable called URM (Yes/No)
 ## Underrepresentated minority vs non-minority
@@ -91,6 +91,26 @@ def gender_urm_intersection(sex,urm):
 	else:
 		return "unknown"
 df_merged["gender_urm"] = df_merged.apply(lambda row: gender_urm_intersection(row.sex,row.urm), axis=1)
+
+## Now creating an intersection between gender and urm
+def pronoun_urm_intersection(pronoun,urm):
+	if urm == "Yes":
+		if pronoun == "She":
+			return "urm_she"
+		elif pronoun == "He":
+			return "urm_he"
+		elif pronoun == "They":
+			return "urm_they"
+	elif urm == "No":
+		if pronoun == "She":
+			return "non_urm_she"
+		elif pronoun == "He":
+			return "non_urm_he"
+		elif pronoun == "They":
+			return "non_urm_they"
+	else:
+		return "unknown"
+df_merged["pronoun_urm"] = df_merged.apply(lambda row: pronoun_urm_intersection(row.pronoun,row.urm), axis=1)
 
 ## Now create a single expertise for each of the entity
 ## First the one for relative expertise in terms of public health:
@@ -160,6 +180,7 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 # data = read.csv("/Users/haque.s/development/Project-C-External---Gender-biased-representation-of-COVID19-Experts/outputs/data/08_01_01_entity_race_gender_expertise_news_count.csv")
 # library(MASS)
 # model2 <- lm(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+# model2 <- lm(news_count ~ pronoun + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
 # model_nb <- glm.nb(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
 # data <- data[!(data$entity_name == "anthony fauci"),]
 # as.factor kore categorical, I already tried that do not have any difference
