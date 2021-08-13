@@ -4402,7 +4402,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2074100635,tom wolf,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2626765907,tom yadegar,Male,He,Middle Eastern,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3348666735,tomaso montanari,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,Yes,non_public_health_researcher,non_public_health_researcher,1
-2141045213,tomasz wojtasik,Male,Other,White/European,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
+2141045213,tomasz wojtasik,Male,They,White/European,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 878748166,tommy moller,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1035066170,tomori,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3954271551,megan tompkins-stange,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
