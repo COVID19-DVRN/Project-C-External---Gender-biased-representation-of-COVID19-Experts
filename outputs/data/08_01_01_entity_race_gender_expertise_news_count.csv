@@ -104,20 +104,17 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1553028667,alex r cook,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3304391891,alex scott,Female,She,White/European,No,non_urm_female,No,No,No,No,No,Yes,Yes,journalist,celebrity,1
 3665906593,alex tabarrock,Male,He,Middle Eastern,Yes,urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
-3827310026,alex tsai,Male,No info,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 2979221966,alex ward,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 858451265,alex wigglesworth,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 1383177550,alexa mieses,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3111225005,alexander billioux,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
 3834164154,alexander edwards,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3846115740,alexander halavais,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-4206947644,alexander huang chieh cheng,Male,No info,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2145179784,alexander isakov,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2290220305,alexander kekule,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 4036011426,alexander l greninger,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3031503089,alexander lukashenko,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 1033257890,alexander morden,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-1171173565,alexandra cirone,Female,No info,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 311599243,alexandra phelan,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3322467879,alexandra sacks,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3354636126,alexandre bayen,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
@@ -164,7 +161,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1580458197,alpha fowler,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3495883016,alta charo,Female,She,Black/African,Yes,urm_female,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 3428013639,altaf saadi,Female,She,Middle Eastern,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-808640331,alvaro alban,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 15620163,alvin tillery jr,Male,He,Black/African,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 355324245,amadou alpha sall,Male,He,Black/African,Yes,urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1212638192,aman pulungan,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
@@ -177,7 +173,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3273342479,amged el hawrani,Male,He,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,5
 632496526,ami jones,Female,She,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,2
 3207913593,amir a afkhami,Male,He,Middle Eastern,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,10
-4022917409,amir ali,Male,No info,South Asian,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 426340471,amir attaran,Male,He,Middle Eastern,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1148960819,amir khan,Male,He,South Asian,Yes,urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 2195753118,amir yaron,Male,He,Middle Eastern,Yes,urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
@@ -192,18 +187,15 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3938078404,amy compton phillips,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,4
 709541004,amy dalton,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1916843710,amy goldstein,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
-412016749,amy herold,Female,No info,White/European,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 3631984825,amy klobuchar,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,4
 1312870367,amy lessen,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1105777512,amy mathers,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3470971275,amy mcgrath,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
-404931127,amy morrison,Female,No info,White/European,No,non_urm_female,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 3754566208,amy plasencia,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 4173034342,amy r sapkota,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2205144998,amy robach,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 141298919,amy stone,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 599703329,ana maria henao restrepo,Female,She,Latinx,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
-421525069,ana silvia gonzalez reiche,Female,No info,Latinx,Yes,urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2193883945,anahi ortiz,Female,She,Latinx,Yes,urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2148426192,anand menon,Male,He,South Asian,Yes,urm_male,No,No,Yes,Yes,No,No,Yes,non_public_health_researcher,policymaker,1
 1880581961,anand parekh,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
@@ -230,7 +222,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1172756086,andrew bates,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2325822110,andrew beam,Male,He,White/European,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 2436317933,andrew blythe,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-2910182743,andrew chan,Male,No info,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 850653559,andrew chesnut,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,Yes,non_public_health_researcher,non_public_health_researcher,2
 228997080,andrew coggins jr,Male,He,Black/African,Yes,urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,2
 4063232313,andrew crane,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,Yes,non_public_health_researcher,policymaker,1
@@ -238,7 +229,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1417354463,andrew farmery,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2605398759,andrew foxall,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,Yes,non_public_health_researcher,non_public_health_researcher,1
 3000360845,andrew freedman,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,3
-1828614490,andrew gibson,Male,No info,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 320366945,andrew hastie,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 3648736134,andrew hughes,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,Yes,non_public_health_researcher,industry_expert,1
 433519450,andrew jakubowicz,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,Yes,non_public_health_researcher,industry_expert,1
@@ -290,11 +280,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2723170865,angela rippon,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 4199930328,angela rogers,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 4279364930,angela stuesse,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,Yes,non_public_health_researcher,non_public_health_researcher,1
-1561748706,angela yeh,Female,No info,East Asian,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 11122582,angelo giupponi,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 3662547129,angelo virgona,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,7
 195922728,angie bone,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,3
-4025459453,angok gordon kuol,Male,No info,Black/African,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 2165789877,anish mahajan,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 2275161837,anissa davis,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,6
 1446838365,anita allen,Female,She,Black/African,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -352,7 +340,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3958271379,april hansen,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 2780753112,apryl steele,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3711312921,arabia mollette,Female,She,Latinx,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,14
-1063176549,arata yamamoto,Male,No info,East Asian,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 215903398,archon fung,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 924836023,areema nasreen,Female,She,South Asian,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3554597438,ari brown,Female,She,White/European,No,non_urm_female,No,Yes,Yes,No,No,No,No,practitioner,practitioner,4
@@ -634,7 +621,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2393164282,carlos melo,Male,He,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,3
 941948641,carlos ruiz,Male,He,Latinx,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1557839086,carmen kavali,Female,She,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-1940691640,carol chiung hui peng,Female,No info,East Asian,No,non_urm_female,No,Yes,Yes,No,No,No,No,practitioner,practitioner,1
 2136779324,carole lieberman,Female,She,White/European,No,non_urm_female,Yes,Yes,Yes,No,No,Yes,No,public_health_researcher,public_health_researcher,1
 2137966654,caroline bruckner,Female,She,White/European,No,non_urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 3835656359,caroline buckee,Female,She,White/European,No,non_urm_female,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,4
@@ -661,8 +647,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3984096320,catherine calderwood,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,22
 2675878314,catherine ceniza choy,Female,She,East Asian,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 798939080,catherine fisk,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,2
-531694958,catherine ho,Female,No info,East Asian,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
-3853481508,catherine li,Female,No info,East Asian,No,non_urm_female,No,No,No,No,No,No,No,not_available,not_available,1
 3593103208,catherine o neal,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2089034377,catherine sabiston,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4205401367,catherine troisi,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -686,7 +670,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3911021271,chad bianco,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 3538555073,chad chronister,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 3282168137,chad cleaver,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
-2188609111,chad dodd,Male,No info,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 266540947,chad pecknold,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1712926998,chad sanborn,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2499270497,chad stone,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
@@ -718,7 +701,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3262859442,charlie kirk,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 2164508946,charlton heston,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,Yes,No,policymaker,policymaker,1
 2984113778,chen chien jen,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
-2637737643,chen katz,Female,No info,Middle Eastern,Yes,urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1128142861,chen shih chung,Male,He,East Asian,No,non_urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,2
 836298232,chen xi,Male,He,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,7
 163303232,chen xuyan,Female,She,East Asian,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -731,10 +713,8 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2023012565,chikwe ihekweazu,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 3108154118,chip kahn,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
 4036728432,chip kelly,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
-2413060482,chiu cheng hsun,Male,No info,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 2176966651,chloe taylor,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 2089766964,cho sung il,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
-4031755175,choi eun hwa,Female,No info,East Asian,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 3444104940,choi jae wook,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
 1563109835,choi jung hun,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,4
 3257931858,chong ja ian,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
@@ -749,7 +729,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 187235653,chris hayes,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3779294188,chris higson,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 3513268074,chris kratochvil,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
-4159989230,chris luke,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 297754574,chris martenson,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 4131924122,chris salcedo,Male,He,Latinx,Yes,urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3792543532,chris sale,Male,He,White/European,No,non_urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,1
@@ -766,7 +745,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1228195726,christina ghaly,Female,She,White/European,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,5
 2508383991,christina greer,Female,She,Black/African,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3660500957,christina johns,Female,She,White/European,No,non_urm_female,No,Yes,No,No,Yes,No,Yes,practitioner,practitioner,1
-3828655244,christina tan,Female,No info,East Asian,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,5
 2339068575,christina vandepol,Female,She,White/European,No,non_urm_female,No,Yes,No,Yes,Yes,No,No,practitioner,policymaker,1
 132973211,christine jenkins,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 4176887981,christine kreuder johnson,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,7
@@ -834,11 +812,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1938009362,colette auerswald,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2098356025,colin camerer,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 1553323904,colin furness,Male,He,White/European,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
-3633384022,colin hutchinson,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1679484350,colleen kraft,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1796965758,colleen smith,Female,She,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,4
 2988148967,colm o morain,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-3442407117,comilla sasson,Female,No info,Latinx,Yes,urm_female,Yes,Yes,No,No,Yes,No,Yes,public_health_researcher,public_health_researcher,1
 578231863,connie savor price,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3872286133,conrad fischer,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 2861748309,constance macintosh,Female,She,White/European,No,non_urm_female,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
@@ -863,7 +839,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 465858545,craig spencer,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 3007472238,cristina monet zilkha,Female,She,White/European,No,non_urm_female,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 2753048281,crystal watson,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,4
-636197149,cui jie,Male,No info,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3383491412,cui tiankai,Male,He,East Asian,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,2
 838151588,curtis hill,Male,He,Black/African,Yes,urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 315401851,curtis houck,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
@@ -1200,18 +1175,15 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 469508363,edward j smith,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 4036100629,edward jasper,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3739038210,edward moreno,Male,He,Latinx,Yes,urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
-3007475817,edward morris,Male,No info,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1732134534,edward r utley,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1297757566,edward schneider,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 4195636767,edwin salvador,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
 2044368129,edzard ernst,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1200054970,efstathios giotis,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-3147474698,eike steinmann,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2983898821,eileen crimmins,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 80602184,eitan hersh,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 787004383,elaine chao,Female,She,East Asian,No,non_urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 3880668238,elaine eshbaugh,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
-1824959317,elaine ganley,Female,No info,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 1873695120,elaine kinsella,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 1100673914,elaine larson,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2002045162,elaine shuo feng,Female,She,East Asian,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,3
@@ -1245,7 +1217,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1199392159,elma ledoux,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1613697478,elon musk,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,3
 738337452,emad eskandar,Male,He,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-1848782428,emanuele cremaschi,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3867240283,emil verner,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1492880841,emily benfer,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 1714177423,emily erbelding,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
@@ -1262,8 +1233,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 693469559,enrico bucci,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4207270685,enrico giovannini,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 111753224,eric anderson,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
-1067115528,eric baradat,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
-1325355108,eric blank,Male,No info,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3490144489,eric cioe pena,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,11
 1274311935,eric d ortenzio,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 415609113,eric feigl ding,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,4
@@ -1297,7 +1266,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 519012533,erin gustafson,Female,She,White/European,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,5
 2339471473,erin hatton,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1886848789,erin m sorrell,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,5
-920867341,erin mccarthy,Female,No info,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,2
 1174900223,ernie guzman,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 503598015,esperanza cabral,Female,She,East Asian,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3175719545,este geraghty,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
@@ -1338,11 +1306,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 169751512,felicia cohn,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
 649992899,felicia lewis,Female,They,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 96381400,felicia wu,Female,She,East Asian,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,2
-3873752625,fengyong liu,Male,No info,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 682842011,fermin leguen,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1600440108,fernando rodriguez artalejo,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 1197276043,fernando simon,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
-1423141536,filippo anelli,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,2
 2820291739,finola oneill,Female,She,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3347836958,fiona bloomer,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1950388677,fiona godlee,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
@@ -1355,7 +1321,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3760662957,francesca torriani,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2165426198,francesco dentali,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 728916757,francesco giavazzi,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
-146799943,francesco le foche,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 68831760,francesco mojoli,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 686510689,francine blau,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2163675744,francis riedo,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,7
@@ -1403,7 +1368,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 821588727,gabriela andujar vazquez,Female,She,Latinx,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 1431253115,gabriele di luozzo,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3529889427,gabriele tomasoni,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-1559230945,gabriella borter,Female,No info,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,3
 1519606920,gaetan burgio,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3749736653,gagandeep kang,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 3718326283,gail golab,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,2
@@ -1411,7 +1375,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1414265633,gail saltz,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3361697494,gail simmons,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,Yes,industry_expert,industry_expert,1
 2862654643,ganesh suntharalingam,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-3115248179,gang wang,Male,No info,East Asian,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 684284844,gao fu,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 3681484589,garret fitzgerald,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1638222363,garth reynolds,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
@@ -1419,7 +1382,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4171914760,gary cohan,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2848566364,gary foster,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 1236777857,gary leroy,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
-855599240,gary price,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1773881840,gary procop,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2495605073,gary ross,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3941595818,gary shilling,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
@@ -1432,7 +1394,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1550120554,gavin boyle,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 2609827790,gavin newsom,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,15
 1959511558,gayil talshir,Female,She,Middle Eastern,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-2161331504,geert de clercq,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 4000624207,gemma chan,Female,She,East Asian,No,non_urm_female,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 3740823022,gen paul friedrichs,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
 3926180293,gena greher,Female,She,White/European,No,non_urm_female,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
@@ -1473,7 +1434,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3097433223,ghazala sharieff,Female,She,Middle Eastern,Yes,urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,3
 2267099483,giacomo grasselli,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2872534346,gianna bern,Female,She,White/European,No,non_urm_female,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
-4125177355,gianni bonelli,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2820866230,gianpiero petriglieri,Male,He,White/European,No,non_urm_male,No,Yes,Yes,No,No,No,No,practitioner,practitioner,1
 75431405,gianrico farrugia,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 2410343193,gilbert gee,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
@@ -1484,7 +1444,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1151276993,giorgio palu,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 3163206969,giovanni orsina,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 386945495,giovanni rezza,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,7
-778072767,giri shankar,Male,No info,South Asian,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,4
 3222377433,giridhara r babu,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,6
 3213100891,girish nadkarni,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1009220217,giuliani,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
@@ -1563,7 +1522,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3235310542,hans kluge,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,13
 188638839,hansa bhargava,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,Yes,public_health_researcher,public_health_researcher,1
 2156721728,hansel tookes,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-3190312274,harald w griesshammer,Male,No info,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 32617287,harlan krumholz,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
 1758781705,harley rouda,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 1230628713,harmandeep singh,Male,He,South Asian,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
@@ -1605,26 +1563,20 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2421404006,henry jenkins,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 4219735647,henry ji,Male,He,East Asian,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 3536204693,henry mcmaster,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
-937896511,henry mwebesa,Male,No info,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 690098761,henry navarro delgado,Male,He,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 212321433,henry walke,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 4101714236,henry wu,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,5
 2033973241,herb asher,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1022487432,herb kuhn,Male,He,White/European,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 810739498,herbert tico braun,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-3914829652,herzik,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-4261745389,hideomi nakahara,Male,No info,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1178519705,hilary jones,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,7
-2912641238,hilary lin,Female,No info,East Asian,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 4178182672,hilary marston,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3684554053,hilary rosen,Female,She,White/European,No,non_urm_female,No,No,No,Yes,Yes,No,Yes,policymaker,policymaker,1
-4040470955,hilde vochten,Female,No info,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 577965912,hillary clinton,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,4
 3093949385,hina shah,Female,She,South Asian,Yes,urm_female,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 1186203120,hiroshi nishiura,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,11
 3909629992,hiroshige seko,Male,He,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1477204282,hisakazu kato,Male,He,East Asian,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
-702952755,hishal el khidir,Male,No info,Middle Eastern,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,2
 3475745628,hitoshi oshitani,Male,He,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,16
 4175719862,ho fung hung,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 2208730822,ho ming sho,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -1637,11 +1589,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 763499665,homer venters,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,4
 1463705204,horacio arruda,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 2357564833,hossein hassanian,Male,They,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,5
-1555472593,howard cohen,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 908139180,howard forman,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
 3103424864,howard gillman,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 150191079,howard markel,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,21
-2984635161,howard njoo,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 558193337,howard weiss,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3387708636,howard yu,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,4
 2777457449,howard zucker,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,25
@@ -1649,7 +1599,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 636422468,howie mandel,Male,He,White/European,No,non_urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 1435163927,hsu li yang,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 382456379,hu xijin,Male,He,East Asian,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
-2468002258,huaiyu tian,Male,No info,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 186810939,huang jinhai,Male,He,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 1368670309,huang ping,Male,He,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 3973552706,hudak,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
@@ -1666,12 +1615,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4050603515,iain begg,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 1732780641,iain livingstone,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3467431871,ian comfort,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
-3679063005,ian gilbert,Male,No info,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 3440960444,ian hall,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-1671259191,ian hanchett,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3321574188,ian hosegood,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
 764907377,ian jones,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,17
-4136456674,ian mackay,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,17
 2247303046,ian tong,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 2571178777,ian williams,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3439789,ian wilson,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
@@ -1769,9 +1715,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2116766991,james leduc,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2040866036,james leo,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 1751182002,james logan,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
-3647651079,james m hughes,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4142286458,james mcavoy,Male,He,White/European,No,non_urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,2
-2055244360,james o loan,Male,No info,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3643686431,james phillips,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,6
 4183831989,james porter,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 645324964,james pruden,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -1782,11 +1726,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3850679937,james stoller,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1555210941,james t goodrich,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 3409420060,james todaro,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
-1727685718,james town,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 733316117,james turner,Male,He,Black/African,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,6
 1700363435,james wantuck,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 1472200657,james watt,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,8
-4172111663,james wood,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,6
 817349741,jamey keaten,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 2485610840,jamie e baker,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 2722896350,jamie lloyd smith,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -1804,7 +1746,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2052511919,jane greer,Female,She,White/European,No,non_urm_female,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 1762986402,jane orient,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 3764112100,jane povey,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
-1424489016,jane rooney,Female,No info,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,4
 2999947062,jane ruth aceng,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 630619524,jane tyson,Female,She,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 1496761810,jane waldfogel,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -1816,8 +1757,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1846741947,janet englund,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 1353522287,janet phillips,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 4079874260,janet woodcock,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
-1407047,janice manjuck,Female,No info,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-4209781832,janine ramsey,Female,No info,Latinx,Yes,urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 1247773365,janitha gowribalan,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 607628529,jaouad mahjour,Male,He,Middle Eastern,Yes,urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1813019725,jared a ellias,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
@@ -1826,12 +1765,10 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1824413672,jared kushner,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,5
 2529618149,jarno habicht,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 3145096588,jarred evans,Male,He,Black/African,Yes,urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,2
-1279170794,jarrid whitney,Male,No info,Aboriginal/Native American,Yes,urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1680643075,jason bordoff,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 2062014473,jason furman,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 696719955,jason kindrachuk,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,8
 4089375892,jason leitch,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
-3097644012,jason li,Male,No info,East Asian,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3800367155,jason m opal,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 4037531609,jason mclellan,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3274996767,jason moats,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
@@ -1840,12 +1777,10 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4107300676,jason reed,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 2814903070,jason schwartz,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2881889623,jason stanley,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-716934319,javad amini saman,Male,No info,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3921039891,javier del aguila,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2311025230,jawad al bidhani,Male,He,Middle Eastern,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 1864795521,jay bhattacharya,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1739595003,jay c butler,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,4
-2874897656,jay cook,Male,No info,White/European,No,non_urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,6
 4189086721,jay gordon,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,Yes,public_health_researcher,public_health_researcher,1
 677658978,jay inslee,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,10
 1190206005,jay maddock,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
@@ -1856,12 +1791,8 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2584874779,jayashankar swaminathan,Male,He,South Asian,Yes,urm_male,Yes,No,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
 628357657,jayme deerwester cdc,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,2
 3080512021,jayson lusk,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-197712835,jazmin vargas,Female,No info,Latinx,Yes,urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 671223667,jazmyn bradford,Female,She,Black/African,Yes,urm_female,No,No,No,No,No,No,No,not_available,not_available,1
 1059716043,jb pritzker,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
-460750778,jean chin,Female,No info,East Asian,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-2831776266,jean christophe lagier,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-351755200,jean cohen,Female,No info,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2708524691,jean francois delfraissy,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
 2851032033,jean paul mira,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 1420618172,jean paul rodrigue,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -1912,7 +1843,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3440940296,jeffrey sachs,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 2044961489,jeffrey samet,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2079944273,jeffrey shaman,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,16
-926830107,jeffrey shulman,Male,No info,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3333110839,jeffrey sonnenfeld,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3568845630,jeffrey toobin,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 2214431331,jeffrey townsend,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -1977,8 +1907,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1259773529,jeremy schefers,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3830044776,jeremy siegel,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,6
 823832610,jerne shapiro,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-1928476428,jerome favre,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
-3298931518,jerome leis,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 239897052,jerome m adams,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,85
 1018695175,jerome powell,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,6
 2293381861,jerry brown,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
@@ -1998,7 +1926,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2067812842,jessica madden,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2826615552,jessie gaeta,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 17467046,jesus silva herzog,Male,He,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,3
-2053486307,jiang xueqing,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,2
 930071819,jie feng,Female,She,East Asian,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 4003492199,jih feh cheng,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1168508505,jill baumgartner,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -2009,7 +1936,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2740158231,jim blacka,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1852283392,jim chung,Male,He,East Asian,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 2814086534,jim cramer,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,Yes,Yes,industry_expert,industry_expert,2
-1798234723,jim down,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 1424235975,jim dunn,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 70076743,jim luke,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,2
 1352429390,jim malatras,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,2
@@ -2020,10 +1946,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1716643979,jim wright,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 2051592131,jin dong yan,Male,He,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3033611197,jinfeng zhou,Male,He,East Asian,No,non_urm_male,Yes,No,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
-1143301324,jinlene chan,Female,No info,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
-3179753653,jinny jeong,Female,No info,East Asian,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 2489717339,jinzi wu,Male,He,East Asian,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
-3172699822,jiro yamaguchi,Male,No info,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3515507804,jk rowling,Female,She,White/European,No,non_urm_female,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 118578590,jo mcintosh,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,No,not_available,not_available,1
 2600351947,jo potuto,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
@@ -2078,7 +2001,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2188044447,john bradley,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3405811079,john brooks,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,7
 2987718311,john brownstein,Male,He,White/European,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,4
-276297406,john callahan,Male,No info,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2711217432,john campbell,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,Yes,No,public_health_researcher,public_health_researcher,1
 3130528946,john carlin,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 4254396580,john caskey,Male,He,White/European,No,non_urm_male,No,Yes,No,Yes,Yes,No,No,practitioner,policymaker,1
@@ -2157,7 +2079,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1294690213,joleen aguon,Female,She,Aboriginal/Native American,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3873103960,jolion mcgreevy,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 2125879526,jon bennett,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,3
-3542499615,jon chol jin,Male,No info,East Asian,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 2045301647,jon cohen,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,Yes,public_health_researcher,public_health_researcher,3
 2921421244,jon garon,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2683344912,jon karl,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,2
@@ -2171,12 +2092,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 499719367,jonathan abraham,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1960816576,jonathan abramowitz,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 614371915,jonathan ball,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,17
-475023817,jonathan bell,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3112407119,jonathan braun,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 2243925950,jonathan eisen,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2290990738,jonathan epstein,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
-692955253,jonathan ernst,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,6
-2028826041,jonathan evans,Male,No info,Latinx,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1773636903,jonathan fielding,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,10
 3061143471,jonathan finnoff,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1100511880,jonathan fulkerson,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
@@ -2184,7 +2102,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2834063,jonathan hafetz,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 4003734382,jonathan haidt,Male,He,White/European,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,2
 3858524798,jonathan karl,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
-2279581236,jonathan manwaring,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 565851413,jonathan moreno,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2998189128,jonathan quick,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
 1719055020,jonathan read,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,4
@@ -2203,15 +2120,11 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3372442066,jordan laser,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 1670871926,jordan peterson,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1000069620,jorge alcocer,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
-3357157175,jorge alvarado,Male,No info,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1755013505,jorge salinas,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3632652510,jorge wated,Male,He,Latinx,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2216734509,jose garcia lobera,Male,He,Latinx,Yes,urm_male,No,Yes,No,No,Yes,No,No,practitioner,practitioner,4
 4213021447,jose javier rodriguez,Male,He,Latinx,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 3425200187,jose jimenez,Male,He,Latinx,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,1
-2902729340,jose luis mora,Male,No info,Latinx,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-2154811726,jose maria cebrian,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
-1780252561,jose martinez salas,Male,No info,Latinx,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 1283221771,josef mengele,Male,He,White/European,No,non_urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 2062462351,josef penninger,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4073194102,josefa steinhauer,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -2259,22 +2172,16 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3725663259,joshua santarpia,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1669222503,joshua stephany,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1648029412,josiah d rich,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
-2897424924,josiah solis,Male,No info,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 4292950778,josue david cisneros,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-4111739267,jose a tapia,Male,No info,Latinx,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
-3133858859,jose cassio de moraes,Male,No info,Latinx,Yes,urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2217190378,jose felix oletta,Male,He,Latinx,Yes,urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 586017915,jose holguin veras,Male,He,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 825946368,jose luis alomia zegarra,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
-742217431,jose manuel vera,Male,No info,Latinx,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 4019457557,jose alvaro moises,Male,He,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1544340747,jovelle tamayo,Female,She,Latinx,Yes,urm_female,No,No,No,No,No,No,Yes,journalist,journalist,2
 3025525507,joyce beatty,Female,She,Black/African,Yes,urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 1714577770,joyce moriku kaducu,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 659058234,joyce vance,Female,She,White/European,No,non_urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
-3314317317,juan bustamante,Male,No info,Latinx,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 751641203,juan dumois,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-4264398163,juan jorge gonzalez armengol,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3630136062,judd deere,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,6
 3526616924,judd hollander,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2861849652,judith danovitch,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -2283,7 +2190,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2127985709,jules boykoff,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,Yes,No,non_public_health_researcher,non_public_health_researcher,3
 2341684569,julia azari,Female,She,Middle Eastern,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3339661934,julia belluz,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,Yes,public_health_researcher,public_health_researcher,1
-2052178630,julia braga,Female,No info,Latinx,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 1156061272,julia brownley,Female,She,White/European,No,non_urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 3153871299,julia marcus,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3149873663,julian druce,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,5
@@ -2295,11 +2201,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2370737036,julie greicius,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3999923343,julie leask,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3513798881,julie ledgerwood,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
-1490399645,julie strous,Female,No info,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3203927088,julie swann,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,2
 1172423586,julie vaishampayan,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
 566800399,juliet eilperin,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
-1014326912,julii brainard,Female,No info,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4203011963,julio castro,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3316535777,julio mayol,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 2260318416,june andrew,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,5
@@ -2424,7 +2328,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2515188608,ken macleod,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 4097729918,ken milani,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3602320724,kenan thompson,Male,He,Black/African,Yes,urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,1
-688197560,kendall kiser,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1681984206,kenji inaba,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,3
 212240376,kennedy ganti,Male,He,South Asian,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 2773878647,kenneth barish,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -2469,7 +2372,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2798017560,kim binsted,Female,She,White/European,No,non_urm_female,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 127759489,kim dong bae,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 307176230,kim farley,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
-1562401751,kim hjelmgaard deaths,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 1587199351,kim jong un,Male,He,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,3
 4142971163,kim king smith,Female,She,Black/African,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,2
 4023566147,kim reynolds,Female,She,White/European,No,non_urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,2
@@ -2494,7 +2396,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2847658447,kranthi achanta,Male,He,South Asian,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 1040530892,kriangsak atipornwanich,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,5
 2666002984,kris belland,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
-2708145376,krista reitberg,Female,No info,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,3
 1383980201,kristan staudenmayer,Female,She,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 2513654243,kristen kish,Female,She,Other/Mixed,Yes,urm_female,No,No,No,No,No,Yes,No,celebrity,celebrity,1
 4254001983,kristen malecki,Female,She,White/European,No,non_urm_female,Yes,No,Yes,No,No,No,No,public_health_researcher,public_health_researcher,2
@@ -2539,7 +2440,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3195623159,lance gooden,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2646890927,lance hill,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 2987003858,lanier holt,Male,He,Black/African,Yes,urm_male,No,No,Yes,No,No,No,Yes,non_public_health_researcher,non_public_health_researcher,1
-1863349322,lara keay ocado,Female,No info,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 578950823,lara trump,Female,She,White/European,No,non_urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 444605486,larry brilliant,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,7
 1915417057,larry burchett,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,3
@@ -2607,13 +2507,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 600940218,len lichtenfeld,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,2
 3185020906,leo poon,Male,He,East Asian,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,14
 905447821,leonard berkowitz,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-3432091436,leonard go,Male,No info,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3420475427,leonard schleifer,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
-2212762430,leonardo huertas,Male,No info,Latinx,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2014218788,leong hoe nam,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,6
-578341995,leopoldo agraz,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 3112591507,leroy westerling,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-3587152241,les westbrooks,Male,No info,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3458319947,leslie beitsch,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 48601743,leslie dach,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 996727291,leslie josephs,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
@@ -2627,7 +2523,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3619380431,leyi wang,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3766812811,li keqiang,Male,He,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2144484367,li lanjuan,Female,She,East Asian,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,17
-3576640354,li liang,Male,No info,East Asian,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 3119123423,li wenliang,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,37
 163643116,liam fox,Male,He,White/European,No,non_urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 2211425156,liam smeeth,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,3
@@ -2638,7 +2533,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3016945598,lila davachi,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4216488377,lilian abbo,Female,She,Latinx,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2522687266,lilian peake,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,4
-2664418551,lilian wu,Female,No info,East Asian,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 1577300385,lillian riojas,Female,She,Latinx,Yes,urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 1535350604,lina hidalgo,Female,She,Latinx,Yes,urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 650931831,linda aldoory,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
@@ -2672,10 +2566,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 305111164,lisa mellman,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3339405431,lisa r young,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1951019702,lisa santora,Female,She,White/European,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,2
-1496485499,lisette venegas,Female,No info,Latinx,Yes,urm_female,No,No,No,No,No,No,No,not_available,not_available,1
-681155015,liu chuang,Male,No info,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2659734369,liu liang,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-1518804061,liu xuerong,Male,No info,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 1549515963,liu zi,Male,He,East Asian,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,2
 855892309,liz allen,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2986907832,liz ann sonders,Female,She,White/European,No,non_urm_female,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
@@ -2685,7 +2576,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1375295406,lois ann welsh,Female,She,Black/African,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 4061044769,lois frankel,Female,She,White/European,No,non_urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2598333819,lois parshley,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
-4260498422,lokesh kumar sharma,Male,No info,South Asian,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2421415883,lomanowska,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2153574061,lona mody,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 181643711,lopez gatell,Male,She,Latinx,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
@@ -2698,7 +2588,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2308506518,lorenzo leggio,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 530062596,lorenzo paladino,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
 3060021238,lori peek,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-3258341335,lorraine mccune,Female,No info,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 882974146,louie gohmert,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,3
 1197630915,louis falo,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 691009882,louis gerolemou,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -2711,11 +2600,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1939657485,luciana borio,Female,She,Latinx,Yes,urm_female,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,5
 3335630059,luciano orsini,Male,He,Black/African,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 2922187594,lucy budd,Female,She,White/European,No,non_urm_female,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
-4481401,lucy greenfield,Female,No info,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,3
 2139289320,lucy jones,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,5
 4236672650,lucy wilson,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,4
 3568787738,luigi aurisicchio,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
-2387926503,luis diaz izquierdo,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,2
 3712569632,luis ostrosky,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
 1852078796,luiz henrique mandetta,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2372313417,luke montrose,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -2738,7 +2625,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4188038197,maha mahdavinia,Female,She,Middle Eastern,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4012849523,mahathir mohamad,Male,He,East Asian,No,non_urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 370007880,mahbuba khan,Female,She,South Asian,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-3013245228,mahmoud al rifai,Male,No info,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 454110755,mahmoud hashemi shahroudi,Male,He,Middle Eastern,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1749317087,mahshid abir,Male,She,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,2
 3322196755,maimuna majumder,Female,They,South Asian,Yes,urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,6
@@ -2789,12 +2675,10 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 459124430,margaret stock,Female,She,White/European,No,non_urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 2497578321,margaret zacharin,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 236339299,margo anderson,Female,She,White/European,No,non_urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,2
-3894663639,margot levin,Female,No info,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 516950921,margot roosevelt,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 1646697134,marguerite neill,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2740869308,maria bartiromo,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,4
 1359216493,maria bottazzi,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-697726547,maria cheng,Female,No info,East Asian,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 3931964725,maria da gloria teixeira,Female,She,Latinx,Yes,urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 1878086180,maria jose sierra,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1551260050,maria mictha coffey,Female,She,White/European,No,non_urm_female,No,No,No,No,No,Yes,No,celebrity,celebrity,1
@@ -2896,7 +2780,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3554762025,martin marshall,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,5
 3485973995,martin mckee,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3225068751,martin s hirsch,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
-3300178568,martin sturmer,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1395105750,martin wachs,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 1975029338,martin weller,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 438969812,martin zand,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
@@ -2914,7 +2797,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2777622567,mary louise mclaws,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,4
 1232292487,mary lovely,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,4
 2224926534,mary prunicki,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-4215435601,mary stephen,Female,No info,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 3415609075,mary stevenson,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 574227868,mary tinetti,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2065614487,mary walter,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
@@ -2922,24 +2804,20 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4015936134,marybeth davis baggett,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,14
 2611854291,marybeth sexton,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1420090002,marynia kolak,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,2
-543346582,masaaki sano,Male,No info,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2786567734,massimiliano panarari,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1167424125,massimo galli,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,18
 2627815178,massimo zambon,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 1155473579,mathew mcdougall,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1717501155,matija snuderl,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2918995526,matshidiso moeti,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,7
-2673473746,matsumoto tetsuya,Male,No info,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1163264087,matt blaze,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 2730508151,matt brim,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-677325069,matt dougherty,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 2058570260,matt frieman,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3261819971,matt gaetz,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 1371224506,matt hancock,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,12
 114263594,matt mccarthy,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,7
 2058389495,matt schlapp,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 2528153826,matt shatzkin,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
-1573226789,matt whitlock,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 1514403706,matt willis,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
 86223103,matteo salvini,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,2
 675245764,matthew abinante,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
@@ -2953,16 +2831,12 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 830709398,matthew binnicker,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3913395638,matthew cartter,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1437304282,matthew fox,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-2398390580,matthew freeman,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
-1311234174,matthew frieman,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,4
-2897078759,matthew j kluger,Male,No info,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4220003988,matthew jackson,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 1360800893,matthew k wynia,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1866254392,matthew kavanagh,Male,He,White/European,No,non_urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,3
 1218500993,matthew kennedy,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1127884490,matthew lerner,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2796503040,matthew schmidt,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,3
-3049091493,matthew schreiber,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,Yes,No,No,practitioner,practitioner,1
 1541732388,matthew seeger,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 2035744549,maureen ferran,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3570875587,mauricio rodriguez,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
@@ -2971,7 +2845,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 505716548,mauro guillen,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 1831455294,mauricio santoro,Male,He,Latinx,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 284249978,max skidmore,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
-3254688272,maya wang,Female,No info,East Asian,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3573092580,mayank sardana,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2571719637,maynard james keenan,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,Yes,No,industry_expert,industry_expert,1
 1363789952,meera shah,Female,She,South Asian,Yes,urm_female,No,Yes,No,No,Yes,No,No,practitioner,practitioner,1
@@ -2999,10 +2872,8 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1584848017,melissa paulen,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 1503863522,melita vujnovic,Female,She,White/European,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,2
 810754739,meng aw yong,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-2281993957,meng yuan,Male,No info,East Asian,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3005954172,meredith mcmorrow,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1322187785,mervyn singer,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-3095808313,mi feng,Male,No info,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,5
 4106122610,michael a cusumano,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3432695630,michael baden,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,Yes,No,public_health_researcher,policymaker,4
 2632891211,michael baker,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
@@ -3084,9 +2955,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1648167613,michelle lin,Female,She,East Asian,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1395511596,michelle mello,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2726207451,michelle obama,Female,She,Black/African,Yes,urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
-4183591106,michelle price,Female,No info,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 1301885174,michelle riba,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-863473815,michelle steik,Female,No info,White/European,No,non_urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,3
 678850837,mieke beth thomeer,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 3898576791,miguel betancourt,Male,He,Latinx,Yes,urm_male,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,2
 3800981094,miguel riquelme,Male,He,Latinx,Yes,urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
@@ -3118,7 +2987,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1859644288,ming lin,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,3
 2756266092,minh cuong duong,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 947307370,minxin pei,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
-2841422891,mircea dinu bordiniuc,Male,No info,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 4127106406,mireya rodas,Female,She,Latinx,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,3
 3269943870,miryam wahrman,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 613484503,misha friedman,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,2
@@ -3132,9 +3000,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2854674165,modly,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,1
 1712686819,mohammad javad zarif,Male,He,Middle Eastern,Yes,urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,3
 1543690940,mohammad madjid,Male,He,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-3850861413,mollie timmons,Female,No info,White/European,No,non_urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1161076405,molly conger,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
-1712367989,mona barzin,Female,No info,Middle Eastern,Yes,urm_female,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 1121678256,mona gahunia,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3990046942,monica bharel,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,3
 1969488116,monica schoch spana,Female,She,White/European,No,non_urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
@@ -3148,15 +3014,12 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4161920158,ms ong,Female,She,East Asian,No,non_urm_female,No,No,No,No,No,No,No,not_available,not_available,1
 1478580744,von der leyen,Female,She,White/European,No,non_urm_female,No,No,No,Yes,Yes,No,No,policymaker,policymaker,4
 377482692,muhammad hamid zaman,Male,He,Middle Eastern,Yes,urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
-2187098791,muhammad mohsin,Male,No info,Middle Eastern,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3857081643,muhereza mukuzi,Male,He,Black/African,Yes,urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 796833947,muhib shinwari,Male,He,South Asian,Yes,urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 173942356,muhiuddin haider,Male,He,South Asian,Yes,urm_male,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,4
 3245935089,mukesh haikerwal,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-4174856602,munehiko harada,Male,No info,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 4003886687,munnell,Female,She,White/European,No,non_urm_female,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,1
 1414453140,muntu davis,Male,He,Black/African,Yes,urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,3
-921619488,munzer al khalil,Male,No info,Middle Eastern,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 266361301,muqtedar khan,Male,He,South Asian,Yes,urm_male,No,No,Yes,Yes,No,No,No,non_public_health_researcher,policymaker,1
 2770490889,muriel bowser,Female,She,Black/African,Yes,urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,3
 2589920740,muriel medard,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -3164,10 +3027,8 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3389955087,myra gutin,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 2655582569,mysheika roberts,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1491244879,nabila munawar,Female,She,South Asian,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-2661074645,nada al mutawa,Female,No info,Middle Eastern,Yes,urm_female,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1453846228,nada sanders,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2112985037,nadia abuelezam,Female,She,Middle Eastern,Yes,urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-2838389368,nadia kounang,Female,No info,East Asian,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,1
 1417175102,nadine burke harris,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,policymaker,1
 3022092043,nadine finigan carr,Female,She,Black/African,Yes,urm_female,Yes,No,No,Yes,No,No,No,public_health_researcher,policymaker,1
 414031526,nadine kaslow,Female,She,White/European,No,non_urm_female,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
@@ -3235,7 +3096,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 367099925,nicholas bloom,Male,He,White/European,No,non_urm_male,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,policymaker,2
 1909946818,nicholas chater,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,4
 2304010429,nicholas christakis,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
-2509599945,nicholas david thomas,Male,No info,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,5
 2574713195,nicholas hill,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,4
 1404830395,nicholas holmes,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,No,public_health_researcher,public_health_researcher,1
 3250226749,nicholas hoult,Male,He,White/European,No,non_urm_male,No,No,No,No,No,Yes,No,celebrity,celebrity,1
@@ -3305,8 +3165,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 1427692638,nora volkow,Female,She,White/European,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 1857370772,norah o donnell,Female,She,White/European,No,non_urm_female,No,No,No,No,No,No,Yes,journalist,journalist,3
 432740546,norio ohmagari,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,6
-3888848571,noriyuki kawamura,Male,No info,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
-2809462855,norman fried,Male,No info,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1093311735,norman oliver,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 1225795194,norman swan,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,Yes,No,Yes,public_health_researcher,public_health_researcher,4
 4164277726,nortley meshe,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
@@ -3350,11 +3208,9 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2300001168,panagis galiatsatos,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 1140099789,paolo benanti,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3818527646,parissa haghirian,Female,She,Middle Eastern,Yes,urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
-1355455627,park sang in,Male,No info,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 4234284122,partha chatterjee,Male,He,South Asian,Yes,urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 3902447623,partha kar,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2385193327,pasquale gallerano,Male,He,White/European,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-2744591952,pat lord,Female,No info,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 889972545,pat mcafee,Male,He,White/European,No,non_urm_male,No,No,No,No,No,Yes,Yes,journalist,celebrity,1
 3936026328,patel dunn,Female,She,South Asian,Yes,urm_female,No,Yes,No,No,Yes,No,No,practitioner,practitioner,1
 1384688130,patrice harris,Female,She,Black/African,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,16
@@ -3395,7 +3251,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 794613132,paul nestadt,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3941916423,paul offit,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,14
 3497359230,paul pottinger,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,5
-445057633,paul sandle london,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 1769101578,paul sax,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2580476897,paul simon,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 2966575406,paul spiegel,Male,He,White/European,No,non_urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
@@ -3539,7 +3394,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 151686676,raghavendra mirmira,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 4205503216,rahm emanuel,Male,He,White/European,No,non_urm_male,No,No,No,Yes,Yes,No,No,policymaker,policymaker,2
 3416341936,rahul bharat,Male,He,South Asian,Yes,urm_male,No,Yes,No,No,Yes,No,No,practitioner,practitioner,1
-1760560013,rahul gupta,Male,No info,South Asian,Yes,urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1166570228,rahul sharma,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 2065648023,rahuldeb sarkar,Male,He,South Asian,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,5
 3254641121,raina macintyre,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,10
@@ -3551,7 +3405,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4023747002,rajesh parikh,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3480632583,rajib dasgupta,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 1862632876,rajita sinha,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-764483968,rajiv rajan,Male,No info,South Asian,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 2768489285,rakesh tammabattula,Male,He,South Asian,Yes,urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3014291653,ralph baine,Male,He,White/European,No,non_urm_male,No,Yes,No,No,Yes,No,No,practitioner,practitioner,2
 2514433786,ralph lauren,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,Yes,No,industry_expert,industry_expert,1
@@ -3626,7 +3479,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2257520999,rhea paul,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,7
 3454118267,ricardo azziz,Male,He,Middle Eastern,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2819530527,ricardo castaneda empathy,Male,He,Latinx,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-569681297,ricardo ramirez,Male,No info,Latinx,Yes,urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3573853518,riccardo valentini,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 3911526891,rich mccormick,Male,He,White/European,No,non_urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1
 4131890889,richa bhatia,Female,She,South Asian,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -3848,7 +3700,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3765419426,rupert beale,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,6
 2213165895,rupert murdoch,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 1647769076,rush limbaugh,Male,He,White/European,No,non_urm_male,No,No,No,No,No,Yes,Yes,journalist,celebrity,3
-1301511456,ruslandashinsky,Male,No info,White/European,No,non_urm_male,No,No,No,No,Yes,No,Yes,industry_expert,industry_expert,1
 1680479536,russell g buhr,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,7
 391558898,russell jeung,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
 902657535,russell moore,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -3944,7 +3795,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 4263417224,saskia v popescu,Female,She,White/European,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,23
 2727798852,saule omarova,Female,She,East Asian,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 775073682,saveez saffarian,Male,He,Middle Eastern,Yes,urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-3953786620,sayed attaullah sayedzai,Male,No info,Middle Eastern,Yes,urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,6
 2836792142,scott allen,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3771999660,scott braithwaite,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 92569846,scott burris,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -4051,7 +3901,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 3262705251,simon clarke,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,21
 2156227941,simon hewat,Male,He,White/European,No,non_urm_male,No,No,No,No,Yes,No,No,industry_expert,industry_expert,1
 3962785068,simon judkins,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
-299456805,simon perry,Male,No info,White/European,No,non_urm_male,No,No,No,No,No,No,Yes,journalist,journalist,1
 3860175030,simon stevens,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 15220380,simon walsh,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,2
 2712491937,simon wessely,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -4402,7 +4251,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 2074100635,tom wolf,Male,He,White/European,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 2626765907,tom yadegar,Male,He,Middle Eastern,Yes,urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
 3348666735,tomaso montanari,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,Yes,non_public_health_researcher,non_public_health_researcher,1
-2141045213,tomasz wojtasik,Male,They,White/European,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
+2141045213,tomasz wojtasik,Male,Other,White/European,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 878748166,tommy moller,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 1035066170,tomori,Male,He,Black/African,Yes,urm_male,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,1
 3954271551,megan tompkins-stange,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
@@ -4499,7 +4348,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 731810889,wang guangfa,Male,He,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 666298633,wang gungwu,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 520114027,wang xiaoshuang,Male,He,East Asian,No,non_urm_male,No,Yes,No,No,No,No,No,practitioner,practitioner,1
-3717702217,wang yu,Male,No info,East Asian,No,non_urm_male,No,No,No,Yes,No,No,No,policymaker,policymaker,1
 1829624883,warren hogan,Male,He,White/European,No,non_urm_male,No,No,Yes,No,Yes,No,No,non_public_health_researcher,industry_expert,1
 4091410699,warren zapol,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 3891254880,warwick mckibbin,Male,He,White/European,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,5
@@ -4589,8 +4437,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 527273915,yazdan yazdanpanah,Male,He,Middle Eastern,Yes,urm_male,Yes,No,No,No,Yes,No,No,public_health_researcher,public_health_researcher,4
 3284918155,yi cui,Male,He,East Asian,No,non_urm_male,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,1
 2138524527,yi guan,Male,He,White/European,No,non_urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,8
-1181771361,yifang zhu,Female,No info,East Asian,No,non_urm_female,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
-1147150056,yimmy chow,Male,No info,East Asian,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 1513051379,ying ying goh,Female,She,East Asian,No,non_urm_female,Yes,Yes,No,Yes,No,No,No,public_health_researcher,policymaker,2
 713941289,yogesh jain,Male,He,South Asian,Yes,urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,3
 765744764,yonatan grad,Male,He,White/European,No,non_urm_male,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,1
@@ -4608,7 +4454,6 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,public_health_researcher,p
 788627812,yuval neria,Male,He,Middle Eastern,Yes,urm_male,Yes,No,No,No,No,No,No,public_health_researcher,public_health_researcher,1
 2830443490,yvonne doyle,Female,She,White/European,No,non_urm_female,No,Yes,No,Yes,No,No,No,practitioner,policymaker,2
 3669324773,yvonne griffiths,Female,She,White/European,No,non_urm_female,No,No,Yes,No,No,No,No,non_public_health_researcher,non_public_health_researcher,2
-2605890830,yvonne maldonado,Female,No info,Latinx,Yes,urm_female,Yes,Yes,No,No,No,No,No,public_health_researcher,public_health_researcher,7
 1043025393,zabulon yoti,Male,He,Black/African,Yes,urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,2
 1735013464,zach branson,Male,He,White/European,No,non_urm_male,No,No,No,No,No,No,No,not_available,not_available,1
 4046167581,zafar mirza,Male,He,South Asian,Yes,urm_male,No,Yes,No,Yes,No,No,No,practitioner,policymaker,1

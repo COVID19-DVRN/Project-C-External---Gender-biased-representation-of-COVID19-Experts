@@ -64,8 +64,8 @@ report_lines = []
 report_lines.append(f"We initially had {len(df_merged)} rows.")
 
 ## Now lets remove all the rows where the sex at birth is unknown or
-## the race is unknown
-df_merged = df_merged[~((df_merged["sex"]=="Unidentified")|(df_merged["race"]=="Unknown"))]
+## the race is unknown and the pronoun is No info
+df_merged = df_merged[~((df_merged["sex"]=="Unidentified")|(df_merged["race"]=="Unknown")|df_merged["pronoun"]=="No info")]
 report_lines.append(f"But after removing all the rows where sex is unidentified or the race is unknown, we are left with {len(df_merged)} rows.")
 
 ## Now let me create a new variable called URM (Yes/No)
