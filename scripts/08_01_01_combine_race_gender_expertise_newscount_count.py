@@ -183,6 +183,10 @@ with open(f"../outputs/reports/{output_code}_report.txt","w") as f:
 # model2 <- lm(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
 # model2 <- lm(news_count ~ pronoun + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
 # model_nb <- glm.nb(news_count ~ sex + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+# model_nb <- glm.nb(news_count ~ pronoun + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+# model_nb <- glm.nb(news_count ~ pronoun + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = data)
+# model_nb <- glm.nb(news_count ~ pronoun + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist + urm * public_health_researcher + urm*practitioner+ urm*policymaker + urm*industry_expert + urm*celebrity + urm*journalist, data = data)
+# exp(cbind(IRR = coef(model_nb), confint(model_nb)))
 # data <- data[!(data$entity_name == "anthony fauci"),]
 # as.factor kore categorical, I already tried that do not have any difference
 # incidence rate ratio

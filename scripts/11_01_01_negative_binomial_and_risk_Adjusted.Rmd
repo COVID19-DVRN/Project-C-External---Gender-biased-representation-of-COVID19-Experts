@@ -1,0 +1,114 @@
+---
+title: "Risk adjusted negative binomia regression on news count"
+author: "Syed Arefinul Haque"
+date: "09/24/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, cache.lazy = FALSE)
+```
+
+# Add libraries and packages
+```{r}
+list_of_packages <- c("MASS","MatchIt","cobalt")
+new_packages <- list_of_packages[!(list_of_packages %in% installed.packages()[,"Package"])]
+if(length(new_packages)) installed.packages(new_packages)
+for (lib in list_of_packages) {
+  library(lib, character.only = TRUE)
+}
+```
+
+## Adding the data
+```{r}
+df = read.csv("/Users/haque.s/development/Project-C-External---Gender-biased-representation-of-COVID19-Experts/outputs/data/08_01_01_entity_race_gender_expertise_news_count.csv")
+for (col in c('pronoun','race','urm','public_health_researcher','practitioner','non_public_health_researcher','policymaker','industry_expert','celebrity','journalist')) {
+       df[[col]] <- factor(df[[col]])
+  }
+```
+
+## Model 1
+```{r}
+model_nb <- glm.nb(news_count ~ pronoun + race + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = df)
+summary(model_nb)
+```
+
+## Model 2
+```{r}
+model_nb <- glm.nb(news_count ~ pronoun + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = df)
+summary(model_nb)
+```
+## Model 3
+```{r}
+model_nb <- glm.nb(news_count ~ pronoun + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist + urm * public_health_researcher + urm*practitioner+ urm*policymaker + urm*industry_expert + urm*celebrity + urm*journalist, data = df)
+summary(model_nb)
+```
+
+## Matching
+```{r}
+#df$urm_binary <- ifelse(df$urm == "Yes",1,0)
+#df$public_health_researcher_binary <- ifelse(df$public_health_researcher == "Yes",1,0)
+#df$practitioner_binary <- ifelse(df$practitioner == "Yes",1,0)
+#df$policymaker_binary <- ifelse(df$policymaker == "Yes",1,0)
+#df$industry_expert_binary <- ifelse(df$industry_expert == "Yes",1,0)
+#df$celebrity_binary <- ifelse(df$celebrity == "Yes",1,0)
+#df$journalist_binary <- ifelse(df$journalist == "Yes",1,0)
+treatment.form = formula("urm ~ pronoun + public_health_researcher + non_public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist")
+#treatment.form = formula("urm_binary ~ pronoun + public_health_researcher_binary + practitioner_binary + policymaker_binary + industry_expert_binary + celebrity_binary + journalist_binary")
+#treatment.form = formula("urm_binary ~ public_health_researcher_binary + policymaker_binary")
+#mm = matchit(treatment.form, data=df, method="exact", distance="glm", ratio=1, link="logit", estimand="ATT", replace =FALSE)
+mm = matchit(treatment.form, data=df, method="exact")
+summary(mm)
+s <- summary(mm, subclass = TRUE)
+plot(s, var.order = "unmatched", abs = FALSE)
+matched_data <- match.data(mm)
+bal.plot(mm, var.name = "public_health_researcher", which = "both")
+```
+## Convert dataframe from categorical to numeric
+## https://stackoverflow.com/questions/47922184/convert-categorical-variables-to-numeric-in-r/47922653
+```{r}
+must_convert<-sapply(df,is.factor)       # logical vector telling if a variable needs to be displayed as numeric
+M2<-sapply(df[,must_convert],unclass)    # data.frame of all categorical variables now displayed as numeric
+out<-cbind(df[,!must_convert],M2) 
+
+```
+
+```{r}
+m.out0 <- matchit(treat ~ age + educ + race + married + 
+                   nodegree + re74 + re75, data = lalonde,
+                 method = "exact")
+summary(m.out0)
+s <- summary(m.out0, subclass = TRUE)
+plot(s, var.order = "unmatched", abs = FALSE)
+```
+
+
+## Writing the matched data to a csv file
+```{r}
+write.csv(matched_data,"../outputs/data/11_01_01_matched_data.csv")
+```
+
+## Now doing the Negative binomial on top of the matched data
+```{r}
+model_nb <- glm.nb(news_count ~ pronoun + urm + public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data = matched_data)
+summary(model_nb)
+
+str(df[df$news_count < quantile(df$news_count, 0.95), ])
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
