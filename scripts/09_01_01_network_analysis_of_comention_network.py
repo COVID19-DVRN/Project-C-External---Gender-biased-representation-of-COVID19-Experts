@@ -10,7 +10,7 @@ Output:
 
 import pandas as pd
 import json
-from collections import defaultdict
+from collections import defaultdict, Counter
 from unidecode import unidecode
 import unicodedata
 import networkx as nx
@@ -57,6 +57,86 @@ G = nx.readwrite.edgelist.read_edgelist(input_full_fname)
 for metadata in metadata_list:
     dict_entity_id_to_metadata = dicts_entity_id_to_metadata[metadata]
     nx.set_node_attributes(G, dict_entity_id_to_metadata, metadata)
+
+## Degree distribution
+## First plot the degree distribution
+def get_binned_distribution(values, number_of_bins = 20, log_binning = False, base = 10):
+	lower_bound = min(values)
+	upper_bound = max(values)
+	
+	if log_binning:
+		lower_bound = np.log10(lower_bound)/ np.log10(base) if lower_bound > 0 else -1
+		upper_bound = np.log10(upper_bound)/ np.log10(base)
+		bins = np.logspace(lower_bound, upper_bound, number_of_bins, base=base)
+	else:
+		bins = np.linspace(lower_bound, upper_bound, number_of_bins)
+	
+	## Calculating histogram
+	y, _ = np.histogram(values, bins = bins, density = True)
+	
+	## Now for each y we need to compute the value of x
+	x = bins[1:] - np.diff(bins) / 2.
+	
+	# sanity check for probability density
+	#print(sum(map(lambda a,b : a*b, [bins[i] - bins[i-1] for i in range(1,len(bins))],y)))
+	
+	return x,y
+
+def plot(x,y, log = True, xsize = 8, ysize = 3, xlabel="", ylabel=""):
+	plotted_figure = plt.figure(figsize = (xsize,ysize))
+	if log:
+		plt.loglog(x,y, '.')
+	else:
+		plt.plot(x,y, '.')
+	plt.xlabel(xlabel)
+	plt.ylabel(ylabel)
+	plt.show()
+	return plotted_figure
+
+x,y = get_binned_distribution(list(dict(G.degree()).values()), log_binning=True)
+_ = plot(x,y, xlabel=r"$k$", ylabel=r"$p_{k}$", log=False)
+
+
+## creating a function that takes arbitrary list of values and then creates
+## a histogram of those values
+def plot_histogram_of_values(values, value_label = "", savefig_dir="", title = "", logx = False, logy= False, figsize = (12,5), show_count_in_tick=True):
+	## Plotting the 
+	fig,ax = plt.subplots(figsize=figsize)
+	val, count = zip(*sorted(Counter(values).items()))
+	val_with_count = [str(x[0])+"\n(%d)"%x[1] for x in zip(val,count)]
+	ax.bar(range(len(val)),count,color='#0504aa', alpha=0.7)
+	xticks = range(len(val))
+	ax.set_xticks(xticks)
+	if show_count_in_tick:
+		ax.set_xticklabels(val_with_count)
+	else:
+		ax.set_xticklabels(val)
+	ax.set_ylabel("Count")
+	ax.set_xlabel(value_label)
+	ax.grid(axis="y", alpha = 0.5)
+	if logx:
+		ax.set_xscale('log')
+	if logy:
+		ax.set_yscale('log')
+	if title:
+		ax.set_title(title)
+	plt.tight_layout()
+	if savefig_dir:
+		plt.savefig(savefig_dir, dpi = 150)
+	plt.show()
+	#return ax
+
+## Plotting overall degree distribution
+value_label = "degree"
+savefig_dir = f"../figures/{output_code}_histogram_{value_label}.png"
+values = [val for (node, val) in G.degree()]
+title = "Degree distribution of the experts co-mention network (undirected and unweigted)"
+plot_histogram_of_values(values,value_label=value_label,savefig_dir=savefig_dir,title=title, logy = True)
+
+## Print the top 4 nodes by degree count
+dict_names=nx.get_node_attributes(G,"entity_name")
+print({dict_names[k]:v for k,v in G.degree() if v > 45})
+
 
 ## Now lets try to find the assortativity between expertise
 ## Do we see more interaction between public health expert
