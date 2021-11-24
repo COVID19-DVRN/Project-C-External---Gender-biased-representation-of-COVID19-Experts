@@ -53,6 +53,12 @@ input_basename="comention_network_with_metadata"
 input_full_fname=f"{input_dir}/05_01_01_{input_basename}.edgelist"
 G = nx.readwrite.edgelist.read_edgelist(input_full_fname)
 
+# %%
+## Exporting the individuals inside the network
+df_individuals_inside_network = pd.DataFrame(zip(list(G.nodes()),[dicts_entity_id_to_metadata["entity_name"][entity_id] for entity_id in G.nodes()]),columns=["entity_id","entity_name"], index=None)
+df_individuals_inside_network.to_csv(f"../outputs/data/{output_code}_individuals_in_comention_network.csv", index=False)
+
+
 ## Adding metadata
 for metadata in metadata_list:
     dict_entity_id_to_metadata = dicts_entity_id_to_metadata[metadata]

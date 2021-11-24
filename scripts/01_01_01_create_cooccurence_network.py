@@ -17,10 +17,14 @@ edgelist = defaultdict(int)
 ## We actually need to create it as a weighted hypergraph becuase we have
 ## a collection of interacting actors, not necessarily dyads
 
+## to create a distribution of number of people co-occured together
+num_people_in_one_sentence = []
+
 story_ids_used_in_network = []
 for story_id, list_of_expert_list in story_id_to_entities.items():
     for expert_list in list_of_expert_list:
         if len(expert_list) >= 2:
+            num_people_in_one_sentence
             for comb in combinations(expert_list,2):
             	edgelist[tuple(sorted(comb))] += 1
 
