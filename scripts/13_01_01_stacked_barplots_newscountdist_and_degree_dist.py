@@ -77,6 +77,7 @@ elif count_type == "news mention count":
 # %%
 ## Get the attributes for the degree to entity_ids
 attributes = ["merged_expertise"]
+attribute = ""
 dict_attribute_levels = {
     "urm":["No","Yes"],
     "pronoun":["He","She","They"],

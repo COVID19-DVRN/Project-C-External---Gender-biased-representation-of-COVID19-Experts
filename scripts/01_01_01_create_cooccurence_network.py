@@ -24,7 +24,7 @@ story_ids_used_in_network = []
 for story_id, list_of_expert_list in story_id_to_entities.items():
     for expert_list in list_of_expert_list:
         if len(expert_list) >= 2:
-            num_people_in_one_sentence
+            num_people_in_one_sentence.append(len(expert_list))
             for comb in combinations(expert_list,2):
             	edgelist[tuple(sorted(comb))] += 1
 

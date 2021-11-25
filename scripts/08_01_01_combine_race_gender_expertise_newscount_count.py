@@ -133,6 +133,17 @@ def singlemost_important_expert_label_from_relative_expertise(row):
 
 df_merged["expertise_label_by_relative_expertise"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_expertise(row), axis=1)
 
+## We want to combine the celebs, journalists, industry experts, and not available together into the value called other
+def merge_journo_celeb_ind_from_singlemost_important_expert_label_from_relative_expertise(string):
+    if string in ["journalist","industry_expert","celebrity","not_available"]:
+        return "other"
+    elif string in ["public_health_researcher","non_public_health_researcher"]:
+        return "researcher"
+    else:
+        return string
+
+df_merged["expertise_label_by_relative_expertise_merged_others"] = df_merged["expertise_label_by_relative_expertise"].apply(merge_journo_celeb_ind_from_singlemost_important_expert_label_from_relative_expertise)       
+
 ## Then the one for relative reach of expertise in terms of public health messages:
 def singlemost_important_expert_label_from_relative_reach(row):
 	if row["policymaker"] == "Yes":
@@ -153,6 +164,9 @@ def singlemost_important_expert_label_from_relative_reach(row):
 
 df_merged["expertise_label_by_relative_reach"] = df_merged.apply(lambda row: singlemost_important_expert_label_from_relative_reach(row), axis=1)
 
+df_merged["expertise_label_by_relative_reach_merged_others"] = df_merged["expertise_label_by_relative_reach"].apply(merge_journo_celeb_ind_from_singlemost_important_expert_label_from_relative_expertise)       
+
+
 
 df_merged = df_merged[['entity_id',
 						'entity_name',
@@ -170,7 +184,9 @@ df_merged = df_merged[['entity_id',
 						'celebrity',
 						'journalist',
 						"expertise_label_by_relative_expertise",
+						"expertise_label_by_relative_expertise_merged_others",
 						"expertise_label_by_relative_reach",
+						"expertise_label_by_relative_reach_merged_others",
 						'news_count',]]
 
 df_merged.to_csv(f"../outputs/data/{output_code}_entity_race_gender_expertise_news_count.csv", index=False)
