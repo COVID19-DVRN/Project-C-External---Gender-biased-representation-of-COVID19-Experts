@@ -153,8 +153,45 @@ title = "Degree distribution of the experts co-mention network (undirected and u
 plot_histogram_of_values(values,value_label=value_label,savefig_dir=savefig_dir,title=title, logy = True)
 
 ## Plotting the bi-populated degree distribution
-dict_attribute_to_levels = {"urm":["no","yes"],"pronoun":["he","she"]}
-for attribute in ["urm","pronoun"]
+dict_attribute_to_levels = {"urm":["No","Yes"],"pronoun":["He","She"]}
+dict_attributes_to_color = {"urm":{"No":"seagreen","Yes":"royalblue"},"pronoun":{"He":"royalblue","She":"seagreen"}}
+for attribute in ["urm","pronoun"]:
+	width=0.25
+	barsize = width-0.05
+	fig,ax = plt.subplots(figsize=(8,3))
+	rects_list=[] # this rects list is used for legend
+	all_degree_values = dict(G.degree()).values()
+	## Now we will sort all the possible degree and their index based on their ranking
+	degree_to_index = dict(zip(sorted(Counter(all_degree_values)),range(len(set(all_degree_values)))))
+	for i,level in enumerate(dict_attribute_to_levels[attribute]):
+		## using the enumerated i to shift the bar plot for each new attribute:
+		print(attribute,level)
+		node_subset_with_current_level = [k for k,v in nx.get_node_attributes(G,attribute).items() if v==level]
+		degrees_for_current_attribute = [v for k,v in dict(G.degree()).items() if k in node_subset_with_current_level]
+		val, count = zip(*sorted(Counter(degrees_for_current_attribute).items()))
+		print(list(zip(val,count)))
+		if 168 in degrees_for_current_attribute:
+			print(attribute,level)
+			print(Counter(degrees_for_current_attribute)[168])
+			print(Counter(degrees_for_current_attribute)[32])
+		val_with_count = [str(x[0])+" (%d)"%x[1] for x in zip(val,count)]
+		indices = np.array([degree_to_index[k] for k in val])
+		print("count",count)
+		print("indices",indices)
+		print("val",val)
+		rects = ax.bar(indices+i*width,count, barsize, color=dict_attributes_to_color[attribute][level])
+		rects_list.append(rects)
+	ax.set_xticks(range(len(degree_to_index)))
+	ax.set_xticklabels(sorted(degree_to_index),rotation=90, fontsize=10)
+	#ax.set_ylim(0,5)
+	ax.set_yscale('log')
+	ax.legend(map(lambda x:x[0],rects_list),dict_attribute_to_levels[attribute])
+	plt.tight_layout()
+	savefig_dir = f"../figures/{output_code}_degree_distribution_by_attribute_level_{attribute}.png"
+	ax.set_axisbelow(True)
+	plt.grid(axis="y",which="both",alpha=0.5)
+	plt.savefig(savefig_dir, dpi = 150)
+	plt.show()
 
 
 ## Print the top 4 nodes by degree count
