@@ -61,6 +61,16 @@ G = nx.readwrite.edgelist.read_edgelist(input_full_fname)
 df_individuals_inside_network = pd.DataFrame(zip(list(G.nodes()),[dicts_entity_id_to_metadata["entity_name"][entity_id] for entity_id in G.nodes()]),columns=["entity_id","entity_name"], index=None)
 df_individuals_inside_network.to_csv(f"../outputs/data/{output_code}_individuals_in_comention_network.csv", index=False)
 
+# %%
+dict_individual_in_comention_network_news_mention_count = {k:v for k,v in dicts_entity_id_to_metadata["news_count"].items() if k in G.nodes()}
+value_to_rank_news_count = dict(zip(sorted(set(dict_individual_in_comention_network_news_mention_count.values()),reverse=True),range(1,len(set(dict_individual_in_comention_network_news_mention_count.values()))+1)))
+value_to_rank_degree = dict(zip(sorted(set(dict(G.degree()).values()),reverse=True),range(1,len(set(dict(G.degree()).values()))+1)))
+ranks_degree = []
+ranks_news_count = []
+for individual, degree in G.degree():
+	ranks_degree.append(value_to_rank_degree[degree])
+	ranks_news_count.append(value_to_rank_news_count[dict_individual_in_comention_network_news_mention_count[individual]])
+
 
 ## Adding metadata
 for metadata in metadata_list:
@@ -141,6 +151,11 @@ savefig_dir = f"../figures/{output_code}_histogram_{value_label}.png"
 values = [val for (node, val) in G.degree()]
 title = "Degree distribution of the experts co-mention network (undirected and unweigted)"
 plot_histogram_of_values(values,value_label=value_label,savefig_dir=savefig_dir,title=title, logy = True)
+
+## Plotting the bi-populated degree distribution
+dict_attribute_to_levels = {"urm":["no","yes"],"pronoun":["he","she"]}
+for attribute in ["urm","pronoun"]
+
 
 ## Print the top 4 nodes by degree count
 dict_names=nx.get_node_attributes(G,"entity_name")
