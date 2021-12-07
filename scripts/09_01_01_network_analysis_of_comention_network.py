@@ -193,6 +193,86 @@ for attribute in ["urm","pronoun"]:
 	plt.savefig(savefig_dir, dpi = 150)
 	plt.show()
 
+## Calculating the power inequality
+## (degree(A)/n(A))/((degree(B)/n(B)))
+## I have put the majority group in the 0th position for both the
+## URM and pronount
+dict_attributes_to_tail_glass_ceiling_color={"urm":"seagreen","pronoun":"royalblue"}
+lines = []
+attributes=["urm","pronoun"]
+fig,ax=plt.subplots(figsize=(8,4))
+for attribute in attributes:
+#attribute="urm"
+	minority_level = dict_attribute_to_levels[attribute][1]
+	majority_level = dict_attribute_to_levels[attribute][0]
+	nodes_minority = [k for k,v in nx.get_node_attributes(G,attribute).items() if v==minority_level]
+	degrees_for_nodes_minority = [v for k,v in dict(G.degree()).items() if k in nodes_minority]
+	nodes_majority = [k for k,v in nx.get_node_attributes(G,attribute).items() if v==majority_level]
+	degrees_for_nodes_majority = [v for k,v in dict(G.degree()).items() if k in nodes_majority]
+
+	print(f"Power inequality value for attribute {attribute} is {np.average(degrees_for_nodes_minority)/np.average(degrees_for_nodes_majority)}")
+
+	## calculating moment glass ceiling
+	moment_glass_ceiling = (sum(map(lambda x:x**2,degrees_for_nodes_minority))/len(degrees_for_nodes_minority))/(sum(map(lambda x:x**2,degrees_for_nodes_majority))/len(degrees_for_nodes_majority))
+	print(f"Moment glass ceiling value for attribute {attribute} is {moment_glass_ceiling}")
+
+	degrees_for_tail_glass_ceiling = []
+	values_for_tail_glass_ceiling = []
+	for k in sorted(set(dict(G.degree()).values())):
+		#print(k)
+		## we will count how many nodes have greater or equal to k degree
+		num_minority_gte_k = len([deg for deg in degrees_for_nodes_minority if deg>=k])
+		num_majority_gte_k = len([deg for deg in degrees_for_nodes_majority if deg>=k])
+		#print(num_minority_gte_k/num_majority_gte_k)
+		degrees_for_tail_glass_ceiling.append(k)
+		values_for_tail_glass_ceiling.append(num_minority_gte_k/num_majority_gte_k)
+	line=ax.plot(degrees_for_tail_glass_ceiling,values_for_tail_glass_ceiling,color=dict_attributes_to_tail_glass_ceiling_color[attribute],label=attribute)
+	lines.append(line)
+ax.set_xlabel("k")
+ax.set_ylabel("Ratio between number of nodes beyond \ndegree k between minority and majority group")
+ax.legend()
+plt.tight_layout()
+plt.savefig(f"../figures/{output_code}_tail_glass_ceiling.png",dpi=150)
+plt.show()
+
+
+## Calculating the tail glass ceiling
+
+## Calculating the moment glass ceiling
+
+## Calculating the normalized homphily
+mapping = {
+		"pronoun":{
+			"He":0,
+			"She":1,
+			},
+		"urm":{
+			"No":0,
+			"Yes":1
+			}
+		}
+for attribute in attributes:
+	print(attribute)
+	minority_level = dict_attribute_to_levels[attribute][1]
+	nodes_minority = [k for k,v in nx.get_node_attributes(G,attribute).items() if v==minority_level]
+	degrees_for_nodes_minority = [v for k,v in dict(G.degree()).items() if k in nodes_minority]
+	total_minority_degree = sum(degrees_for_nodes_minority)
+	two_m = 2*G.number_of_edges()
+	dict_node_to_attribute = nx.get_node_attributes(G,attribute)
+	nodeset = dict_node_to_attribute.keys()
+	nodeset = [node for node,value in dict_node_to_attribute.items() if value in dict_attribute_to_levels[attribute]] ## keeping only the nodes for the bipopulated majority and minority
+	attribute_assortativity_numbers_matrix = np.zeros((len(dict_attribute_to_levels[attribute]),len(dict_attribute_to_levels[attribute])), dtype=int, order='C')
+	for edge in G.edges(data=True):
+		#print(edge)
+		if edge[0] in nodeset and edge[1] in nodeset:
+			attribute_assortativity_numbers_matrix[mapping[attribute][dict_node_to_attribute[edge[0]]]][mapping[attribute][dict_node_to_attribute[edge[1]]]] += 1
+			## This network is undirected, so we need to count the edge on the other way round too
+			attribute_assortativity_numbers_matrix[mapping[attribute][dict_node_to_attribute[edge[1]]]][mapping[attribute][dict_node_to_attribute[edge[0]]]] += 1
+	off_diagonal_sum = np.sum(attribute_assortativity_numbers_matrix) - np.trace(attribute_assortativity_numbers_matrix)
+	mixed_edges = off_diagonal_sum
+	print(f"Portion of mixed edges out of all {mixed_edges/two_m}")
+	print(f"Normalized homophily test number {2*(total_minority_degree/two_m)*(1-(total_minority_degree/two_m))}")
+
 
 ## Print the top 4 nodes by degree count
 dict_names=nx.get_node_attributes(G,"entity_name")

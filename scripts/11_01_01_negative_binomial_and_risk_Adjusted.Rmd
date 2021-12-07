@@ -22,9 +22,11 @@ for (lib in list_of_packages) {
 ## Adding the data
 ```{r}
 df = read.csv("/Users/haque.s/development/Project-C-External---Gender-biased-representation-of-COVID19-Experts/outputs/data/08_01_01_entity_race_gender_expertise_news_count.csv")
+df$outcome_2 <- ifelse(df$news_count > 1,1,0)
+df$outcome_3 <- ifelse(df$news_count > 2,1,0)
 for (col in c('pronoun','race','urm','public_health_researcher','practitioner','non_public_health_researcher','policymaker','industry_expert','celebrity','journalist')) {
        df[[col]] <- factor(df[[col]])
-  }
+}
 ```
 
 ## Model 1
@@ -96,10 +98,16 @@ summary(model_nb)
 str(df[df$news_count < quantile(df$news_count, 0.95), ])
 ```
 
+## Logistic regression
+```{r}
+logit_2 <- glm(formula= outcome_2 ~ pronoun + urm + public_health_researcher + non_public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data =df, family="binomial")
 
+summary(logit_2)
 
+logit_3 <- glm(formula= outcome_3 ~ pronoun + urm + public_health_researcher + non_public_health_researcher + practitioner + policymaker + industry_expert + celebrity + journalist, data =df, family="binomial")
 
-
+summary(logit_3)
+```
 
 
 
