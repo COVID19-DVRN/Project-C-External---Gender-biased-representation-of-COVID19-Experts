@@ -1586,7 +1586,7 @@ entity_id,entity_name,sex,pronoun,race,urm,gender_urm,pronoun_urm,public_health_
 2798298706,homayoon farzadegan,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
 763499665,homer venters,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,4
 1463705204,horacio arruda,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
-2357564833,hossein hassanian,Male,They,Middle Eastern,Yes,urm_male,urm_they,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+2357564833,hossein hassanian,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
 908139180,howard forman,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
 3103424864,howard gillman,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
 150191079,howard markel,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,21
