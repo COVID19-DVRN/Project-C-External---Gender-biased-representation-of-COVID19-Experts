@@ -1,0 +1,19 @@
+FILENAME, 14_02_01_intercoder_reliability_calculation.csv,,,,,,,,
+filesize, 3564 bytes,,,,,,,,
+n columns,18,,,,,,,,
+n variables,9,,,,,,,,
+n coders per var,2,,,,,,,,
+ ,,,,,,,,,
+ ,Percent Agreement,Scott's Pi,Cohen's Kappa,Krippendorff's Alpha,N Agreements,N Disagreements,N Cases,N Decisions,
+Variable 1 (cols 1 & 2),100,1,1,1,99,0,99,198,pronoun
+Variable 2 (cols 3 & 4),97.97979798,0.951141271,0.951147298,0.951388032,97,2,99,198,race
+Variable 3 (cols 5 & 6),89.8989899,0.797463175,0.797794118,0.798486088,89,10,99,198,public health researcher
+Variable 4 (cols 7 & 8),89.8989899,0.784219704,0.785062961,0.785309503,89,10,99,198,practitioner clinician physician
+Variable 5 (cols 9 & 10),93.93939394,0.818681319,0.819123021,0.81959707,93,6,99,198,non public health researcher
+Variable 6 (cols 11 & 12),92.92929293,0.823776224,0.823977648,0.824666243,92,7,99,198,politician govt service policymaker
+Variable 7 (cols 13 & 14),90.90909091,0.723162964,0.723549488,0.724561131,90,9,99,198,industry expert
+Variable 8 (cols 15 & 16),98.98989899,0.851907255,0.852017937,0.852655198,98,1,99,198,celebrity
+Variable 9 (cols 17 & 18),97.97979798,0.846273292,0.846511628,0.847049689,97,2,99,198,journalist
+ ,,,,,,,,,
+* * *,,,,,,,,,
+ ,,,,,,,,,
