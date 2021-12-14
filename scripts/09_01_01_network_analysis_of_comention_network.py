@@ -16,6 +16,8 @@ import unicodedata
 import networkx as nx
 import matplotlib.pyplot as plt
 import numpy as np
+from sklearn.linear_model import LinearRegression
+import powerlaw
 pd.options.display.width = 0
 
 # %%
@@ -76,6 +78,31 @@ for individual, degree in G.degree():
 for metadata in metadata_list:
     dict_entity_id_to_metadata = dicts_entity_id_to_metadata[metadata]
     nx.set_node_attributes(G, dict_entity_id_to_metadata, metadata)
+
+## Creating the exponent of the power law degree distribution
+data = list(dict(G.degree()).values())
+fit = powerlaw.Fit(data,discrete=True, xmax=None)
+print(f"Alpha {fit.power_law.alpha}")
+print(f"Sigma {fit.power_law.sigma}")
+
+fig,ax= plt.subplots(figsize=(4,3))
+#FigCCDFmax = powerlaw.plot_ccdf(data, linewidth=3)
+fit = powerlaw.Fit(data, discrete=True, xmax=None)
+FigCCDFmax = fit.plot_ccdf(color='b', label=r"Empirical")
+fit.power_law.plot_ccdf(color='b', linestyle='--', ax=FigCCDFmax, label=r"Fit")
+#x, y = powerlaw.ccdf(data, xmax=max(data))
+#fig1.plot(x,y)
+####
+#FigCCDFmax.set_ylabel(r"$p(X\geq x)$")
+FigCCDFmax.set_ylabel(u"p(K≥k)")
+FigCCDFmax.set_xlabel(r"Degree (k)")
+handles, labels = FigCCDFmax.get_legend_handles_labels()
+leg = FigCCDFmax.legend(handles, labels, loc=3)
+leg.draw_frame(False)
+plt.tight_layout()
+
+plt.savefig(f"../figures/{output_code}_degree_dist_with_powerlaw_fit.png", dpi =300)
+
 
 ## Degree distribution
 ## First plot the degree distribution
