@@ -83,6 +83,12 @@ for count_type in count_types:
         "merged_expertise":["researcher","practitioner","policymaker","other"]
     }
 
+    dict_attribute_levels_label = {
+        "urm":["non-URM","URM"],
+        "pronoun":["he","she","they"],
+        "merged_expertise":["researcher","practitioner","policymaker","other"]
+    }
+
     for attribute in attributes:
         dict_degree_to_attribute = {degree:[dicts_entity_id_to_metadata[attribute][entity_id] for entity_id in entity_ids] for degree,entity_ids in dict_value_count_to_entity_ids.items()}
         max_value_to_plot = 6
@@ -96,6 +102,7 @@ for count_type in count_types:
         show_count_in_tick = True
         logx= False
         logy= False
+        title = ""
         title = f"Distribution of {count_type} of \nindividuals by their attribute"
         savefig_dir = ""
 
@@ -145,7 +152,7 @@ for count_type in count_types:
             ax.set_yscale('log')
         if title:
             ax.set_title(title)
-        ax.legend(bars, dict_attribute_levels[current_attribute])
+        ax.legend(bars, dict_attribute_levels_label[current_attribute])
         plt.tight_layout()
         count_type_name_for_fname= "_".join(count_type.split())
         savefig_dir = f"../figures/{output_code}_{count_type_name_for_fname}_by_{current_attribute}.png"

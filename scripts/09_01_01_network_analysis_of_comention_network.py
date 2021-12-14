@@ -181,6 +181,7 @@ plot_histogram_of_values(values,value_label=value_label,savefig_dir=savefig_dir,
 
 ## Plotting the bi-populated degree distribution
 dict_attribute_to_levels = {"urm":["No","Yes"],"pronoun":["He","She"]}
+dict_attribute_to_levels_for_label = {"urm":["non-URM","URM"],"pronoun":["he","she"]}
 dict_attributes_to_color = {"urm":{"No":"seagreen","Yes":"royalblue"},"pronoun":{"He":"royalblue","She":"seagreen"}}
 for attribute in ["urm","pronoun"]:
 	width=0.25
