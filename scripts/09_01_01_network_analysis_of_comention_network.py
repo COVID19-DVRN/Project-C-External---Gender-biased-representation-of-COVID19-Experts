@@ -182,9 +182,9 @@ plot_histogram_of_values(values,value_label=value_label,savefig_dir=savefig_dir,
 ## Plotting the bi-populated degree distribution
 dict_attribute_to_levels = {"urm":["No","Yes"],"pronoun":["He","She"]}
 dict_attribute_to_levels_for_label = {"urm":["non-URM","URM"],"pronoun":["he","she"]}
-dict_attributes_to_color = {"urm":{"No":"seagreen","Yes":"royalblue"},"pronoun":{"He":"royalblue","She":"seagreen"}}
+dict_attributes_to_color = {"urm":{"Yes":"seagreen","No":"royalblue"},"pronoun":{"He":"royalblue","She":"seagreen"}}
 for attribute in ["urm","pronoun"]:
-	width=0.25
+	width=0.38
 	barsize = width-0.05
 	fig,ax = plt.subplots(figsize=(8,3))
 	rects_list=[] # this rects list is used for legend
@@ -213,12 +213,12 @@ for attribute in ["urm","pronoun"]:
 	ax.set_xticklabels(sorted(degree_to_index),rotation=90, fontsize=10)
 	#ax.set_ylim(0,5)
 	ax.set_yscale('log')
-	ax.legend(map(lambda x:x[0],rects_list),dict_attribute_to_levels[attribute])
+	ax.legend(map(lambda x:x[0],rects_list),dict_attribute_to_levels_for_label[attribute])
 	plt.tight_layout()
 	savefig_dir = f"../figures/{output_code}_degree_distribution_by_attribute_level_{attribute}.png"
 	ax.set_axisbelow(True)
 	plt.grid(axis="y",which="both",alpha=0.5)
-	plt.savefig(savefig_dir, dpi = 150)
+	plt.savefig(savefig_dir, dpi = 300)
 	plt.show()
 
 ## Calculating the power inequality
