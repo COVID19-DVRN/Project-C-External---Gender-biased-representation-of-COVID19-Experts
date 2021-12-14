@@ -51,6 +51,14 @@ entity_color_based_on_sex_at_birth = d3.scaleOrdinal()
                                 .range(["#1A85FF", "#D41159", "black"]);
                                 // Blue, Redish purplish, black
 
+entity_color_based_on_pronoun = d3.scaleOrdinal()
+                                .domain(['He','She','They'])
+                                //.range(["blue", "purple", "orange", "gray"]);
+                                //.range(["#f94144", "orange", "#005D8F", "#CCCCCC"]);
+                                //in this version we want to highlight the 
+                                .range(["#1A85FF", "#D41159", "black"]);
+                                // Blue, Redish purplish, black
+
 entity_color_based_on_race_ethnicity = d3.scaleOrdinal()
                                 .domain(["Unknown", "Other/Mixed", "Aboriginal/Native American", "Middle Eastern", "Black/African", "Latinx", "South Asian", "East Asian", "White/European"])
                                 //.range(["blue", "purple", "orange", "gray"]);
@@ -133,6 +141,7 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
             "race":d.value["race"],
             "news_count":d.value["news_count"],
             "urm":d.value["urm"],
+            "pronoun":d.value["pronoun"],
             "gender_urm":d.value["gender_urm"],
             "expertise_label_by_relative_expertise":d.value["expertise_label_by_relative_expertise"]
             //'org_type_based_on_awards':d.value.org_type_based_on_awards,
@@ -183,7 +192,8 @@ d3.json('./05_01_01_comention_giant_connected_component.json', data => {
         //.style("fill", function(d){return entity_color_based_on_sex_at_birth(d.sex)})
         //.style("fill", function(d){return entity_color_based_on_race_ethnicity(d.race)})
         //.style("fill", function(d){return entity_color_based_on_urm(d.urm)})
-        .style("fill", function(d){return entity_color_based_on_gender_urm(d.gender_urm)})
+        //.style("fill", function(d){return entity_color_based_on_gender_urm(d.gender_urm)})
+        .style("fill", function(d){return entity_color_based_on_pronoun(d.pronoun)})
         //.style("fill", function(d){return entity_color_based_on_expertise(d.expertise_label_by_relative_expertise)})
         .style("opacity", 0.6)
         .attr('transform', `translate(${size/2},${size/2})`)
