@@ -1,5 +1,28 @@
 # Project-C-External---Gender-biased-representation-of-COVID19-Experts
 
+## Key data files:
+
+[News data extracted from media cloud](https://drive.google.com/file/d/13eB3LRXU-6yhsvbozqIcGqiSmoBdTqqr/view?usp=sharing)
+
+[Individual data Raw](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/inputs/race_gender_expertise_hack_on_your_own_time%20-%20Task%20Sheet%201.csv)
+
+[Individual data cleaned](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/outputs/data/08_01_01_entity_race_gender_expertise_news_count.csv)
+
+
+[Network Edgelist](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/outputs/network/05_01_01_comention_network_with_metadata.edgelist): The id corresponds to the unique id found in the individual data cleaned file.
+
+## Key scripts:
+[Named entity recognition](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/scripts/00_01_01_create_names_from_sentences.py)
+
+[Disambiguation of individuals and create unique id of individuals](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/scripts/04_02_01_create_raw_name_to_disambiguated_name.py)
+
+[Add metadata for all the individuals](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/scripts/08_01_01_combine_race_gender_expertise_newscount_count.py)
+
+[Network Analysis, degree distribution, power inequality in the network, assortativity analysis](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/scripts/09_01_01_network_analysis_of_comention_network.py)
+
+[Degree distribution stacked by attribute levels](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/scripts/13_01_01_stacked_barplots_newscountdist_and_degree_dist.py)
+
+
 Copy the raw data from media cloud named `Coronavirus_20200101_20200409_clean_expert` to `inputs/untracked`
 
 ```
