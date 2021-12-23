@@ -23,6 +23,7 @@
 [Degree distribution stacked by attribute levels](https://github.com/COVID19-DVRN/Project-C-External---Gender-biased-representation-of-COVID19-Experts/blob/master/scripts/13_01_01_stacked_barplots_newscountdist_and_degree_dist.py)
 
 
+### Useful instructions
 Copy the raw data from media cloud named `Coronavirus_20200101_20200409_clean_expert` to `inputs/untracked`
 
 ```
