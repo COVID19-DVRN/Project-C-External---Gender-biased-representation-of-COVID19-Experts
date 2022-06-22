@@ -9,7 +9,7 @@ kiwisolver==1.3.1
 matplotlib==3.3.3
 mercator==1.0.0
 networkx==2.5
-numpy==1.19.4
+numpy==1.22.0
 pandas==1.1.4
 parso==0.7.1
 pexpect==4.8.0
