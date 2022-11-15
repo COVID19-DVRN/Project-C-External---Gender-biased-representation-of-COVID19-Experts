@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # %%
 output_code = "03_01_01"
 # %%
-df = pd.read_csv("../inputs/untracked/Coronavirus_20200101_20200409_clean_expert.csv")
+df = pd.read_csv("../inputs/untracked/Coronavirus_20200101_20200409_clean_expert_bigger.csv")
 outlets = df["media_name"].values
 count_outlets = Counter(outlets)
 

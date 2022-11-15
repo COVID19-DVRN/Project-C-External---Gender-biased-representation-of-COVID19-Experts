@@ -1,0 +1,824 @@
+Creating a new list of disambiguated names those were left behind
+,lawrence gostin,lawrence o gostin,296726481
+,messonnier,nancy messonnier,85896933
+,robert redfield,robert r redfield,2419576861
+,peter hotez,peter jay hotez,378482614
+,queensland heath,a chris heath,1066385753
+,daszak,peter daszak,548652151
+,barbot,oxiris barbot,1958798455
+,david heymann,david l heymann,1537745882
+,john wiesman,jonathan wiesman,1149480546
+,jeffrey klausner,jeffrey d klausner,2244909318
+,erin sorrell,erin m sorrell,1886848789
+,peterson,jordan peterson,1670871926
+,van kerkhove,maria van kerkhove,2323358483
+,manly,john manly,1154546646
+,bresee,joe bresee,3682212341
+,ben cowling,benjamin cowling,1039971427
+,iwata,kentaro iwata,4206594643
+,weisenberg,scott weisenberg,1603595275
+,ping an good doctor,ken doctor,553753662
+,pompeo,mike pompeo,2078894567
+,torres,john torres,4213738852
+,erica shenoy,erica s shenoy,2240438969
+,carome,michael carome,2892715486
+,joshua sharfstein,joshua m sharfstein,4161265183
+,amir afkhami,amir a afkhami,3207913593
+,caitlin rivers,caitlin m rivers,3581998725
+,bedford,trevor bedford,3854987576
+,tark ji il,cho sung il,2089766964
+,rivkees,scott rivkees,3233044757
+,scott pelley fact checks mike bloomberg,michael r bloomberg,255860002
+,aylward,bruce aylward,43133256
+,redros adhanom ghebreyesus,tedros adhanom ghebreyesus,3199289592
+,gaetz,matt gaetz,3261819971
+,frost,wilfred frost,957682136
+,mcmaster,henry mcmaster,3536204693
+,bolsonaro,jair bolsonaro,3778194836
+,steven mnuchin,steven t mnuchin,3183820197
+,dewine,mike dewine,2453038797
+,meissner,h cody meissner,3465527795
+,debra goff,debra a goff,3696351168
+,vaughan,nilam vaughan,465414434
+,jain,yogesh jain,713941289
+,joe cunningham cunningham,joe cunningham,2396876651
+,moynihan,don moynihan,2911608077
+,megan ranney,megan l ranney,2706948247
+,marrazzo,jeanne marrazzo,2111309441
+,fusco,grace fusco,1005215147
+,monto,arnold monto,2729660080
+,schumer,chuck schumer,1735615151
+,kuppalli,krutika kuppalli,1325339348
+,carolyn cannuscio,carolyn c cannuscio,1278339114
+,sean asiqluq topkok,sean asiquq topkok,25141744
+,fairbanks,abbey hardy fairbanks,2037608169
+,david boulware,david r boulware,2439032924
+,romney,mitt romney,427316134
+,iwasaki,akiko iwasaki,1543490278
+,sherman,jeff sherman,222119349
+,aldrich,matthew aldrich,2618355773
+,andersen,kristian andersen,458217454
+,garg,sandeep garg,208648870
+,asgari,sirous asgari,188168060
+,zarif,mohammad javad zarif,1712686819
+,bezos,jeff bezos,3911774952
+,zuckerberg,mark zuckerberg,2582331810
+,steny hoyer,steny h hoyer,1906292712
+,northam,ralph northam,3637800339
+,lockhart,joe lockhart,707040624
+,bush,george w bush,627704754
+,gary l leroy,gary leroy,1236777857
+,pelosi,nancy pelosi,4114400468
+,winton,andrew winton,4000218260
+,bowser,muriel bowser,2770490889
+,hostin,sunny hostin,21949171
+,walt orenstein,walter orenstein,100108818
+,ingraham,laura ingraham,1564707261
+,hariri,robert hariri,2127252497
+,zelenko,vladimir zelenko,2120172413
+,deere,judd deere,3630136062
+,segal,scott segal,1601083782
+,dan alpert,daniel alpert,2632023570
+,calle,paul calle,2338128423
+,balmes,john r balmes,1505552497
+,jon read,jonathan read,1719055020
+,quigley,robert quigley,2174057197
+,--vicky mckeever,vicky mckeever,967552003
+,corrigan,patrick corrigan,2899249301
+,summer mcgee,summer johnson mcgee,3549557604
+,soon shiong,patrick soon shiong,1602645314
+,carey,mariah carey,120725104
+,kalil,andre kalil,138802465
+,sklar,phil sklar,672672268
+,tsai ing wen,leana wen,257086138
+,macron,emmanuel macron,2185555677
+
+Following are the names that are discarded at this round, some of them are real person but they were not in the hackathon rond that is why they are discarded
+--
+--vicky mckeever
+338
+agus
+aldrich
+alfred wu
+amesh adalja
+amir afkhami
+andersen
+anthony fauci --
+anthony fauci anthony fauci
+anthony s fauci
+antony fauci
+asgari
+aylward
+balmes
+barbot
+barney
+bedford
+ben chapman
+ben cowling
+bezos
+bolsonaro
+bowser
+bresee
+brix
+burr
+bush
+caitlin orysko
+caitlin rivers
+calle
+camilla
+candy gunther brown johnny
+carey
+carolyn cannuscio
+carome
+celularity
+corrigan
+courtney subramanian trump
+cowling
+dan alpert
+daszak
+david boulware
+david geffen school of medicine
+david heymann
+david hume kennerlycourtesy gerald
+deborah birx
+debra goff
+deere
+dewine
+don schaffner
+dong yan jin
+easter
+erica shenoy
+erin sorrell
+ernest n morial convention center
+fairbanks
+falwell
+fauci
+faucis
+forbes
+frost
+fusco
+gaetz
+garg
+gary l leroy
+geert de clercq paris
+geoffrey gottlieb
+gordon --
+gostin
+hariri
+harley
+hostin
+hotez
+ingraham
+irani
+iwasaki
+iwata
+jain
+jeanine
+jeffrey klausner
+jennifer vines multnomah county health officer
+jesse goodman
+joaquin morante cbs news
+joe cunningham cunningham
+john wiesman
+jon read
+josephine
+josh sharfstein
+joshua sharfstein
+kalil
+kellyanne conway bashes biden
+keurig
+kindrachuck
+kong
+kuppalli
+lawrence gostin
+li wenliang don
+li wenliang li
+lockhart
+lucy jones center for science and seismology
+macron
+manly
+maria kerkhove
+marketwatch
+marrazzo
+martin luther king
+martin luther king jr
+mcmaster
+megan ranney
+meissner
+messonnier
+moderna
+monto
+moynihan
+mullen
+neil ferguson
+nero
+nichole
+northam
+ontario
+oxiris
+peacehealth
+pelosi
+pena
+pepper
+peter hotez
+peterson
+ping an good doctor
+pompeo
+prezcobix
+qingyan
+queensland heath
+quest
+quigley
+ray of grady hospital
+redfield
+redros adhanom ghebreyesus
+remdesivir
+rivkees
+robert redfield
+romney
+ronald reagan ucla medical center
+roselle chen new york
+schumer
+scott pelley fact checks mike bloomberg
+sean asiqluq topkok
+segal
+sherman
+sklar
+soon shiong
+steny hoyer
+steven a cohen military
+steven mnuchin
+summer mcgee
+sune lehmann jorgensen
+tark ji il
+teamhealth
+tesla
+thomas 6 25
+tompkins stange
+tony fauci
+torres
+tsai ing wen
+twitter
+van kerkhove
+vaughan
+vcnx
+vox
+vrbo
+walt orenstein
+weibo
+weisenberg
+whatsapp
+winton
+wired
+wong ka hing
+yae jean kim
+yang seung ham
+yoon in jin
+yuan po tu
+yuen kwok yung
+zaheer shah cbs news
+zarif
+zelenko
+zika
+zuckerberg
+
+Total number of entities are 4183 and we have total 9558 many news
+
+Among them the following 537 entities have not for some reason appeared in any news.
+abdul mabud chowdhury
+adam finn
+adam marshall
+adam wolanski
+ahmed kazmi
+al franken
+alain gauthier
+alan berger
+alberto montaner
+alec watson
+alex george
+alex hsu
+alexander edwards
+alexia harrist
+alfa saadu
+alfredo garzino demo
+alison barnett
+aliyah cardoza
+allan randrup thomsen
+alpha fowler
+amged el hawrani
+ami jones
+amitava banerjee
+amy robach
+anat admati
+andre sayegh
+andrea andrea crisanti
+andrew blythe
+andrew gibson
+andrew hastie
+andrew hughes
+andrew miller
+andrew pollard
+andrew preston
+andrew robertson
+andrew rochford
+andrew slattery
+andrew weber
+andy knox
+angela gardner
+angela rippon
+angelo giupponi
+angelo virgona
+angie bone
+anna hemming
+anne lashford
+anne walters
+anthony almojera
+anthony costello
+anton sebastianpillai
+areema nasreen
+ari ercole
+arieh warshel
+arnold vargas gabrin
+ashraf al qedra
+asma adnane
+ayache
+benny mathew
+bernard devalois
+beth potter
+bethan webber
+beverley adams groom
+bhasha mukherjee
+bill bowtell
+bob cooper
+bob saynor
+brendan crabb
+brendan rynne
+brendan wren
+brian kelly
+brian long
+brian mehling
+brian williams
+bruce bradbury
+bruce chapman
+bryan hughes
+bryce evans
+caitlin orpysko
+camilla pashley
+camille locht
+candy gunther brown
+carl sydenhag
+cary cooper
+cassandra calabrese
+catherine beanland
+catherine li
+catherine troisi
+catriona greenwood
+chaand nagpaul
+chad bianco
+charles barkley
+charles michel
+charles moore
+charles swanton
+charlton heston
+chen guozhong
+chen jingyu
+chen katz
+chen xuyan
+chris williams
+christine jenkins
+claire hooker
+clare farrell
+clare gerada
+clive hamilton
+colin hutchinson
+damnha miller
+dan suan
+dan tehan
+daniel jolley
+daniel lopez regalado
+daniel reardon
+daniel scarparolo
+daniela trezzi
+danielle mcmullen
+darien sutton
+david allen
+david campbell
+david eastwood
+david hargroves
+david hepburn
+david kipper
+david llewellyn smith
+david nabarro
+david r boulware
+david rosser
+david staples
+dawn emerick
+dean sidelinger
+debbie wasserman schultz
+deborah peel
+denis mcfadden
+denis protsenko
+derek gatherer
+diana adama
+didier houssin
+dmitry belyakov
+dominic raab
+dominique thompson
+don jr
+dong guoju
+dongcheng wu
+dorian alexander
+edward morris
+elaine chao
+ellie cannon
+elliott tenpenny
+eric trump
+euan tovey
+faezah a bux
+faye kirkland
+filippo anelli
+finola oneill
+fiona godlee
+florence ader
+fran unsworth
+francis ware
+frank atherton
+frank lampard
+frank ulrich montgomery
+frank wang
+freddy sitas
+fryzlewicz
+fu meng khaw
+gabriel cade
+ganesh suntharalingam
+gary price
+gauden galea
+gavin boyle
+geert de clercq
+gemma chan
+geoffrey annison
+george findlay
+george weinhouse
+gerald keusch
+ginni mansberg
+giri shankar
+gladys berejiklian
+glenn rice mcdonald
+gloria addo ayensa
+gloria aguilera
+gordon wishart
+grace fusco
+greg hunt
+grete porteous
+habib zaidi
+hadi susanto
+hajira dambha miller
+hannah fry
+harmandeep singh
+harry fay
+harry nespolon
+heather blake
+helen whately
+helena maier
+hilary jones
+hisham el khider
+hobart kirsty short
+hollie coates
+iain livingstone
+ian comfort
+ian gilbert
+ian hall
+ian hosegood
+irina sannikova
+jacinda ardern
+jack keane
+jake dunning
+james findlay
+james gill
+james mcavoy
+james o loan
+james pruden
+janaki amin
+jane povey
+jane tyson
+janitha gowribalan
+jason leitch
+javad amini saman
+jeanine pirro
+jeannie hopland
+jennifer ashton
+jennifer dowd
+jennifer haythe
+jenny abthorpe
+jeremy mcanulty
+jerry m zuckerman
+jesi kim
+jiang xueqing
+jim down
+jim webb
+jinzi wu
+jk rowling
+joanna morrell
+joanne medhurst
+joel miller
+john braden
+john brooks
+john clifford
+john crozier
+john cuddihy
+john curtin
+john gerrard
+john harry smith
+john logan
+john mackenzie
+john mathews
+john wakefield
+jon bennett
+jonathan evans
+jonathon sumption
+jose garcia lobera
+jose javier rodriguez
+jose maria cebrian
+josef penninger
+joseph alsousou
+joseph einstein
+josh lerner
+joshua moon
+juan bustamante
+judy murray
+julie greicius
+julie strous
+june andrew
+jurgen klopp
+justin o grady
+justin trudeau
+kamini doobay
+karine le roch
+karol sikora
+kate ahmad
+kate lovett
+kate tulenko
+katherine arden
+katherine henderson
+kean seng lim
+kee cheung oam
+keith chappell
+keith willett
+kerrie huxham
+kerryn coleman
+kevin brady
+kevin hopland
+kevin mccarthy
+kevin ouyang
+kimberly guilfoyle
+kious kelly
+klaus osterrieder
+koert stittelaar
+krista reitberg
+kylie wagstaff
+kyriakos mitsotakis
+lai heng foong
+lara keay ocado
+lara trump
+larry marshall
+lawrence young
+leonard schleifer
+li tan
+lina hidalgo
+linda bauld
+lisa anderson
+lisa delamaine
+liu chuang
+liu liang
+liz allen
+lopez gatell
+lord winston
+lorenzo grazioli
+lorenzo guerini
+louise chow
+lucy greenfield
+luo xianke
+magnus gisslen
+mahmoud hashemi shahroudi
+margaret zacharin
+mario alparone
+mark ali
+mark handley
+mark rumble
+mark veitch
+mark zuckerberg
+martin marshall
+mary bousted
+marya patrice sherron
+mathew mcdougall
+matt hancock
+matt schlapp
+mayank sardana
+maynard james keenan
+megan kelsey
+megan sandel
+megan tompkins-stange
+mehdi veisi
+mei zhongming
+melania trump
+melanie saville
+melissa jong
+meng yuan
+menno van zelm
+michael bonning
+michael mcbride
+michael ng
+michael roth
+michael thrusfield
+michelle a albert
+michelle ackerley
+michelle au
+michelle steik
+mike gough
+mike leavitt
+mike linney
+mike turner
+mimi carre
+mitsuo kaku
+moby rehman
+molly conger
+mona barzin
+ms ong
+muhammad mohsin
+mukesh haikerwal
+muriel bowser
+neil de wet
+neil kinnock
+nestor forster
+nichola roberston
+nicholas hoult
+nick coatsworth
+nick longrich
+nick oberheiden
+nick scriven
+nicola spurrier
+nicola sturgeon
+nicole mccullough
+nigel stapledon
+niki edwards
+nortley meshe
+nova spivack
+oliver brecht
+pam cutler
+patricia lohr
+patrick armstrong
+patrick walker
+paul cosford
+paul evans
+paul franks
+paul kelly
+paul komesaroff
+paul mckay
+paul williams
+pete turkington
+peter miller
+peter papadakos
+peter sinclair
+peter whiteford
+petra zimmerman
+phil kloer
+philip lowe
+phillip williamson
+pia lamberty
+priti patel
+rachel maddow
+rachel thorn heathcock
+rae cooper
+raj govindaiah
+ram yeleti
+ramzi khamis
+ratula chakraborty
+recep tayyip erdogan
+rhea liang
+rich mccormick
+richard greil
+richard tedder
+richard vautrey
+richard viney
+rishi sunak
+rob harwood
+rob mccoy
+rob richardson
+robert breunig
+robert gary
+robert hacking
+robert jenrick
+robert o brien
+robert peston
+robin armstrong
+robin carre
+robin howe
+robin may
+rod pearce
+rohan miller
+rohini haar
+roland more
+ron daniels
+roselle chen
+russell weg
+sacha stelzer braid
+sadiq khan
+salaj masand
+sandesh gulhane
+sarah huckabee sanders
+sarah swindells
+sarah zaidi
+sarfaraz munshi
+scott mckeown
+scott pelley
+scott weavil
+sebastian yancev
+sergei skripal
+sergio cattaneo
+shamez ladhani
+shane oliver
+sheng jifang
+sheri jacobson
+shondipon laha
+shubhra singh
+simon judkins
+simon stevens
+simon walsh
+simone wildes
+siu ping lam
+sonal gupta
+sonya babu narayan
+sophie richardson
+stefan baral
+stelios haji ioannou
+stella kyriakides
+stephen c morris
+stephen ferguson
+stephen moore
+sterghios moschos
+steve kassapidis
+steve mclaughlin
+steve parnis
+steve schow
+steve walsh
+steven hotze
+steven marshall
+steven miles
+stew leonard jr
+stuart lewena
+suchi pandey
+sukhum kanchanapimai
+sukhwinder sohal
+sultan salimee
+summer johnson mcgee
+sune lehmann jrgensen
+sunit singla
+susan crossland
+susan edwards
+susan hopkins
+susan ray
+suzi nou
+tamer antakly
+terence rigby
+thibaud soumagne
+thomas broker
+thomas harvey
+thomas levy
+tim colbourn
+timmy cheng
+timothy newsome
+tom britton
+tom dodd
+tom pyman
+tom ridge
+tony blakely
+tony narula
+tony xu
+tsai ing-wen
+valerie arkoosh
+vanessa clifford
+vicky mckeever
+vincent okafor
+vladimir vladimirov
+volkmar denner
+vyom sharma
+walter orenstein
+wang guangfa
+wang xiaoshuang
+warren hogan
+wendy barclay
+william da silva
+william mckoy
+wong ka-hing
+xu zhiyong
+yae-jean kim
+yang seung-ham
+yoon in-jin
+yuan herong
+yuan po-tu
+yuen kwok-yung
+yvonne doyle
+yvonne griffiths
+zeinab badawi
+zhang xinmin
+zhou min

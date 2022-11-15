@@ -17,7 +17,7 @@ import unicodedata
 pd.options.display.width = 0
 
 # %%
-output_code = "07_01_01"
+output_code = "07_01_02"
 seed = 42
 
 # %%
@@ -26,8 +26,19 @@ df_entity_annotated.groupby(['sex_at_birth','race_ethnicity']).size().reset_inde
 df_entity_annotated.groupby(['pronoun_denoting_gender']).size().reset_index(name='counts')
 
 # %%
+## We will select a predefined set of stories here
+## First the Daily Mail only stories
+df_story_id_to_outlet = pd.read_csv(f"../outputs/data/03_01_01_story_id_to_outlet_name.csv",na_filter=False,dtype=str)
+selection_type = "daily_mail_only" #"non_daily_mail" # "daily_mail_only"
+if selection_type == "non_daily_mail":
+	selected_story_ids = df_story_id_to_outlet[df_story_id_to_outlet["outlet"]!="Daily Mail"]["stories_id"].values
+elif selection_type == "daily_mail_only":
+	selected_story_ids = df_story_id_to_outlet[df_story_id_to_outlet["outlet"]=="Daily Mail"]["stories_id"].values
+
 with open("../outputs/data/00_01_01_tagged_names_from_expert_mention_articles.json", "r") as f:
     story_id_to_entities = json.load(f)
+## Filterting the story ids
+story_id_to_entities = {k:v for k,v in story_id_to_entities.items() if k in selected_story_ids}
 
 # %%
 ## Lets read the entity and their different synonyms
@@ -140,10 +151,10 @@ for entity_name, story_set in unique_entities_to_story_id.items():
 
 ## Saving the dataframe
 df_entity_news_count = df_entity_news_count.sort_values(by=["number_of_unique_news_appeared_in"], ascending=False)
-df_entity_news_count.to_csv(f"../outputs/data/{output_code}_entity_news_count.csv", index=False)
+df_entity_news_count.to_csv(f"../outputs/data/{output_code}_entity_news_count_{selection_type}.csv", index=False)
 
 ## In this report we keep the names that are not included in the whole analysis
 ## as they were not included in the hackathon or they are not real people
 ## We are also reporting how many people and how many news we have
-with open(f"../outputs/reports/{output_code}_report.txt", "w") as f:
+with open(f"../outputs/reports/{output_code}_report_{selection_type}.txt", "w") as f:
 	f.writelines("\n".join(report_lines))
