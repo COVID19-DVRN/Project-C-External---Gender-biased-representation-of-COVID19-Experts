@@ -33,3 +33,11 @@ for i, v in enumerate(values):
 plt.tight_layout()
 plt.savefig("../figures/%s_distribution_of_news_outlets.png" %(output_code))
 plt.show()
+
+# %%
+## Creating the story id to outlet
+df_story_id_to_outlet = df[["stories_id","media_name"]].copy()
+## Becuase all of the drudger report news are coming from daily mail
+## we will change it to daily mail
+df_story_id_to_outlet["outlet"] = df_story_id_to_outlet["media_name"].apply(lambda x: x if x!="drudgereport" else "Daily Mail")
+df_story_id_to_outlet.to_csv(f"../outputs/data/{output_code}_story_id_to_outlet_name.csv",index=False)
