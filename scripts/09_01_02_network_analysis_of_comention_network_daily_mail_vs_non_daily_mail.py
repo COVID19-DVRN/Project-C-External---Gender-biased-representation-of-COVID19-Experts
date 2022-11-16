@@ -23,7 +23,7 @@ pd.options.display.width = 0
 output_code = "09_01_02"
 
 # %%
-selection_type = "non_daily_mail" #"daily_mail_only" #"non_daily_mail" 
+selection_type = "daily_mail_only" #"non_daily_mail" 
 
 # %%
 ## Adding the metadata of each entity
