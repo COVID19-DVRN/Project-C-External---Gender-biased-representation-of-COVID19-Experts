@@ -1,0 +1,879 @@
+entity_id,entity_name,sex,pronoun,race,urm,gender_urm,pronoun_urm,public_health_researcher,practitioner,non_public_health_researcher,policymaker,industry_expert,celebrity,journalist,expertise_label_by_relative_expertise,expertise_label_by_relative_expertise_merged_others,expertise_label_by_relative_reach,expertise_label_by_relative_reach_merged_others,news_count
+2408514349,aaron milstone,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3379078078,abdul mabud chowdhury,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3563296744,adam finn,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1555268631,adam marshall,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,8
+997347617,adam wolanski,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+1939715898,adil el tayar,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,7
+3756797925,adriano decarli,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1583771642,ahmed kazmi,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1774466715,ai fen,Female,She,East Asian,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+728381099,aimee sisson,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+2159166123,al franken,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2244368943,alain gauthier,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2550601537,alan berger,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,7
+4111465800,alberto montaner,Male,He,Latinx,Yes,urm_male,urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+4203863423,alessandro colombo,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+4060563064,alex azar,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,6
+1667512276,alex george,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,Yes,practitioner,practitioner,practitioner,practitioner,1
+2836106301,alex hsu,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3834164154,alexander edwards,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3031503089,alexander lukashenko,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1441198055,alexia harrist,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1796851109,alfa saadu,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,3
+3261184381,alfredo garzino demo,Male,He,Latinx,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,8
+1413935034,ali mokdad,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,No,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+1397195506,ali nouri,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+944140160,alina alonso,Female,She,Latinx,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2436269421,alison pittard,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2442374706,allan randrup thomsen,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3141024557,allison arwady,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1580458197,alpha fowler,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3273342479,amged el hawrani,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+632496526,ami jones,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+2796127330,amitava banerjee,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+2402968513,amy acton,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,Yes,No,No,practitioner,practitioner,policymaker,policymaker,4
+2205144998,amy robach,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+1368305852,anastasia vasilieva,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,3
+2255613791,anat admati,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+2169059653,anders tegnell,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+653569210,andre sayegh,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3756845089,andrea andrea crisanti,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1754199066,andrea crisanti,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1915329065,andres manuel lopez obrador,Male,He,Latinx,Yes,urm_male,urm_he,No,No,No,Yes,No,No,Yes,policymaker,policymaker,policymaker,policymaker,1
+2436317933,andrew blythe,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3000360845,andrew freedman,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,2
+320366945,andrew hastie,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3648736134,andrew hughes,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,Yes,non_public_health_researcher,researcher,industry_expert,other,1
+3138278937,andrew m cuomo,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,25
+2161093306,andrew mehle,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4043881703,andrew miller,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,Yes,No,No,practitioner,practitioner,policymaker,policymaker,1
+979563825,andrew pollard,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+213714540,andrew preston,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1406423602,andrew robertson,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2220972666,andrew rochford,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,Yes,public_health_researcher,researcher,public_health_researcher,researcher,1
+2598290317,andrew slattery,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1496254861,andrew weber,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+847434162,andy knox,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+2631163598,andy slavitt,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,Yes,policymaker,policymaker,policymaker,policymaker,1
+3336170847,angela gardner,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,Yes,public_health_researcher,researcher,policymaker,policymaker,1
+3554399752,angela rasmussen,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+2723170865,angela rippon,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+11122582,angelo giupponi,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+3662547129,angelo virgona,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,7
+195922728,angie bone,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2165789877,anish mahajan,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2184212709,anjali talwalkar,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+1250541722,anna hemming,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2782668975,anne lashford,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+379452513,anne schuchat,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2758165631,anne walters,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1650735977,anthony almojera,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+840205921,anthony costello,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+582997773,anthony fauci,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,175
+3194248999,anton sebastianpillai,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,4
+3711312921,arabia mollette,Female,She,Latinx,Yes,urm_female,urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+924836023,areema nasreen,Female,She,South Asian,Yes,urm_female,urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1262543669,ari ercole,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2042229995,arieh warshel,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,2
+3226830211,armand dorian,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+188736126,arnold hopland,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2729660080,arnold monto,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1145624560,arnold vargas gabrin,Male,He,Latinx,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+126650825,art mathisen,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+1809591082,arturo casadevall,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1455171136,ashley bloomfield,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+282202450,ashraf al qedra,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1737749214,ashwin vasan,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+4106795050,asma adnane,Female,She,Middle Eastern,Yes,urm_female,urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+2065868453,ava louise,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+2523327858,ayache,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2272858589,ayatollah ali khamenei,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1908189884,azra ghani,Female,She,Middle Eastern,Yes,urm_female,urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3615663778,bao ping zhu,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1783817836,barack obama,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+623299733,barbara ferrer,Female,She,Latinx,Yes,urm_female,urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+220663060,barbara yaffe,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,5
+4161342534,bela matyas,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,3
+3679914360,ben carson,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1039971427,benjamin cowling,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3038336689,benjamin schwartz,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,3
+2988961266,benny mathew,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+457057255,bernard devalois,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+983669375,bernard wood,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,Yes,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+2871038704,beth potter,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+1114115068,bethan webber,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+3167373770,beverley adams groom,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2725288959,bharat pankhankia,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2651308147,bhasha mukherjee,Female,She,South Asian,Yes,urm_female,urm_she,No,Yes,No,No,No,Yes,No,practitioner,practitioner,practitioner,practitioner,2
+28333573,bill bowtell,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2120132946,bill de blasio,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,4
+922437454,bill gates,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,Yes,No,policymaker,policymaker,policymaker,policymaker,5
+1469836265,bill hemmer,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,3
+286162157,bob cooper,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2256464832,bob saynor,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+1573690675,boris johnson,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,20
+2751343780,brandon brown,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+263225210,brendan crabb,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3036055166,brendan murphy,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,14
+944164688,brendan rynne,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+1221471271,brendan wren,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+4063668002,brett p giroir,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,5
+1683566401,brett sutton,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,21
+3597775772,brian donohoe,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2546171128,brian kelly,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,Yes,No,industry_expert,other,industry_expert,other,1
+848761926,brian long,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2360425428,brian mehling,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,Yes,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+1979111164,brian monahan,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+4057778745,brian williams,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+734825090,brice de le vingne,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3118583443,bruce anderson,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+43133256,bruce aylward,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,268
+761023166,bruce bradbury,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+52652268,bruce chapman,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+3854149222,bruce ribner,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3784252835,bryan hughes,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2762602712,bryce evans,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,2
+2579048630,cameron kaiser,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,5
+273917422,camilla pashley,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2452473894,camille locht,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+1718360667,carl sydenhag,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+2274412135,carlos del rio,Male,He,Latinx,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1146251404,carlos franco paredes,Male,He,Latinx,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+324868173,cary cooper,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,Yes,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,2
+2539937475,cassandra calabrese,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,Yes,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,6
+2580059115,catherine beanland,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3984096320,catherine calderwood,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,15
+4205401367,catherine troisi,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3991615386,catriona greenwood,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+3308709279,chaand nagpaul,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+3911021271,chad bianco,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1120699085,charles barkley,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,Yes,No,Yes,Yes,policymaker,policymaker,policymaker,policymaker,1
+1745965351,charles michel,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+330986840,charles moore,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,Yes,policymaker,policymaker,policymaker,policymaker,1
+3077178347,charles swanton,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+2164508946,charlton heston,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,Yes,No,policymaker,policymaker,policymaker,policymaker,1
+2984113778,chen chien jen,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+163303232,chen xuyan,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3444104940,choi jae wook,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1065395351,chris cuomo,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+1717055432,chris spitters,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+1521102597,chris whitty,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+1707319734,chris williams,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+3326079308,christian drosten,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+132973211,christine jenkins,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1102515489,christl donnelly,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3956024065,christopher murray,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+4088735888,christopher r braden,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1986674095,claire hooker,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+206042611,claire hopkins,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3808638230,clare farrell,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+473957981,clare gerada,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+297767607,claudia cohn,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2006966165,clive hamilton,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,researcher,policymaker,policymaker,2
+1796965758,colleen smith,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,3
+3038928060,courtney cogburn,Female,She,Black/African,Yes,urm_female,urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4054875918,craig r smith,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2059784470,cyntoria johnson,Female,She,Black/African,Yes,urm_female,urm_she,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+207120334,dali yang,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,4
+3083840310,damnha miller,Female,She,Other/Mixed,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+778668881,dan crenshaw,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+563927195,dan patrick,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,Yes,policymaker,policymaker,policymaker,policymaker,1
+1590075706,dan suan,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1837121139,dan tehan,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3860076595,daniel brooks,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+3957601082,daniel jolley,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3416558827,daniel kuritzkes,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+654365860,daniel lucey,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2959075205,daniel lopez regalado,Male,He,Latinx,Yes,urm_male,urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+2354345270,daniel reardon,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+2428628774,daniel scarparolo,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+2552947696,daniela trezzi,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+486745491,danielle mcmullen,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2994810998,darien sutton,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+525090073,david allen,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1422383440,david berendes,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1908494961,david campbell,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+2969108724,david clark,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2819766980,david drew pinsky,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,Yes,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2624469857,david eastwood,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1934098883,david eisenman,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3927083172,david gifford,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2066697375,david grabowski,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1855754487,david hargroves,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2842908375,david hepburn,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3259264279,david ho,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+1835215793,david kimberlin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1138087855,david kipper,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3906529264,david llewellyn smith,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+3466236083,david magnus,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4062745104,david nabarro,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+1936356097,david o reilly,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1178243821,david persing,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+2439032924,david r boulware,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4276833165,david r williams,Male,He,Black/African,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+3036942219,david rosser,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3514993978,david staples,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+3097088042,david walker,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3517356672,dawn emerick,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+791422802,dean sidelinger,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+924554625,debbie wasserman schultz,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3965079860,deborah l birx,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+3228947608,deborah peel,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3911144103,deborah prothrow stith,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4078417196,debra vasalech lyons,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3178013278,denis mcfadden,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2562787091,denis protsenko,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4060988063,derek gatherer,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+2215099207,devi sridhar,Female,She,South Asian,Yes,urm_female,urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+1143172578,diana adama,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,2
+552134346,didier houssin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+751283604,dmitry belyakov,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+4236096560,dominic raab,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+516726590,dominique thompson,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2755738313,don jr,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+2380948713,don williamson,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2099344537,donald trump,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,Yes,No,policymaker,policymaker,policymaker,policymaker,95
+3593796877,dong guoju,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4132316723,dongcheng wu,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1292777021,dorian alexander,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3067170340,doug collins,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+81288235,duncan young,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+787004383,elaine chao,Female,She,East Asian,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+2569988929,eleanor riley,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+3066708006,ellie cannon,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3937996865,elliott tenpenny,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1613697478,elon musk,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,2
+3442067995,emmanuel andre,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2185555677,emmanuel macron,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3490144489,eric cioe pena,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+415609113,eric feigl ding,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1276267689,eric toner,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+3262823712,eric trump,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+4083899255,eric wei,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2674813129,eric wilke,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,6
+519012533,erin gustafson,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1050350075,euan tovey,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+571325757,fabio wajngarten,Male,He,Latinx,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3300366555,faezah a bux,Female,She,Middle Eastern,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2837705335,farhan bhatti,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2694662239,faye kirkland,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,Yes,practitioner,practitioner,practitioner,practitioner,1
+2820291739,finola oneill,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1950388677,fiona godlee,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4038205155,florence ader,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1640138450,florian krammer,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3790206261,fran unsworth,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+78546836,francis ware,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+1077717087,francois balloux,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+4273498303,frank atherton,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,10
+2252194020,frank gabrin,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2964195811,frank lampard,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+3869131749,frank ulrich montgomery,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3960274962,frank wang,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+4188969925,freddy sitas,Male,He,South Asian,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1630240090,fryzlewicz,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+79705045,fu meng khaw,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+1782914079,gabriel cade,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,Yes,No,practitioner,practitioner,practitioner,practitioner,2
+2862654643,ganesh suntharalingam,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2070225147,gary bettman,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,Yes,No,industry_expert,other,industry_expert,other,1
+3770679899,gauden galea,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+1550120554,gavin boyle,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2609827790,gavin newsom,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,2
+4000624207,gemma chan,Female,She,East Asian,No,non_urm_female,non_urm_she,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+3740823022,gen paul friedrichs,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3055840859,geng shuang,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2956670815,geoffrey annison,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+2353040790,george diaz,Male,He,Latinx,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3599432453,george findlay,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+627704754,george w bush,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2240419394,georges c benjamin,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3126445954,gerald keusch,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2834032681,gerard krause,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+4071954417,ginni mansberg,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,Yes,public_health_researcher,researcher,policymaker,policymaker,1
+386945495,giovanni rezza,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+4093605281,gladys berejiklian,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,3
+4018993174,glenn rice mcdonald,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+106953770,gloria addo ayensa,Female,She,Black/African,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+880588774,gloria aguilera,Female,She,Latinx,Yes,urm_female,urm_she,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+1211913873,gordon wishart,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1005215147,grace fusco,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+2410949655,grant colfax,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3265905291,grant tarling,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3721000567,greer millard,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3223537625,greg abbott,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+555138713,greg hunt,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3558879761,greg walden,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+411138994,gregory poland,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+2185109177,gregory rigano,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+3095778428,grete porteous,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3495331213,guido giustetto,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,6
+1436072349,habib zaidi,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,5
+363368302,hadi susanto,Male,He,South Asian,Yes,urm_male,urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+2490006003,hajira dambha miller,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+729164797,hannah fry,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,Yes,Yes,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3235310542,hans kluge,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,9
+1230628713,harmandeep singh,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2732470291,harry fay,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+2966070017,harry nespolon,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3630735949,harvey fineberg,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2658410690,hassan rouhani,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,2
+1629958401,heather blake,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+207511085,helen whately,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+2705532516,helena maier,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,271
+1178519705,hilary jones,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,7
+3475745628,hitoshi oshitani,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+878594403,hobart kirsty short,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1356476480,hollie coates,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+763499665,homer venters,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2777457449,howard zucker,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,11
+186810939,huang jinhai,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4097412170,hugh montgomery,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1732780641,iain livingstone,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3467431871,ian comfort,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3440960444,ian hall,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3321574188,ian hosegood,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+764907377,ian jones,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+3439789,ian wilson,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1345637464,ireland tate,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+951391901,irina sannikova,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+581114033,isaac weisfuse,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2354274422,ivanka trump,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,7
+2172908852,jacinda ardern,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3243767712,jack keane,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3778194836,jair bolsonaro,Male,He,Latinx,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,4
+1625383805,jake dunning,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+229631680,james findlay,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+2241267453,james gill,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+1530876311,james hildreth,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4142286458,james mcavoy,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,2
+645324964,james pruden,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1555210941,james t goodrich,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+733316117,james turner,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,5
+1472200657,james watt,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+3016959787,janaki amin,Female,She,Middle Eastern,Yes,urm_female,urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3764112100,jane povey,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+630619524,jane tyson,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1247773365,janitha gowribalan,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1260735333,jared burks,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1824413672,jared kushner,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,4
+3145096588,jarred evans,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+4089375892,jason leitch,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3401379334,jay ritter,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+2708524691,jean francois delfraissy,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2851032033,jean paul mira,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1471013695,jeanine pirro,Female,She,Middle Eastern,Yes,urm_female,urm_she,No,No,No,Yes,No,No,Yes,policymaker,policymaker,policymaker,policymaker,1
+3152117931,jeannette young,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,17
+3124548036,jeannie hopland,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+2857277559,jeffrey duchin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,9
+2313183637,jeffrey levi,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1750817642,jeffrey martin,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2079944273,jeffrey shaman,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+4258180956,jennifer ashton,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,Yes,practitioner,practitioner,practitioner,practitioner,1
+802114252,jennifer avegno,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3954917179,jennifer cassidy,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+1345286597,jennifer cole,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+2566544563,jennifer dowd,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2772971284,jennifer haythe,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3364320868,jennifer lo,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3922865400,jennifer prah ruger,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3977149016,jennifer smith,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+989844556,jennifer vines,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1710412059,jenny abthorpe,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1924537602,jenny harries,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,31
+3875217238,jenny mikakos,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+1798527540,jeremy adler,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1397567295,jeremy hunt,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+1747682680,jeremy mcanulty,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+3084643079,jeremy samuel faust,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+239897052,jerome m adams,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,29
+4199251079,jerry m zuckerman,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+311804904,jesi kim,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+719785861,jim webb,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,Yes,Yes,policymaker,policymaker,policymaker,policymaker,1
+2051592131,jin dong yan,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2489717339,jinzi wu,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3515507804,jk rowling,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+4286052987,joanna morrell,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1279721709,joanne medhurst,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,2
+1424447736,joe biden,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+2366377710,joel miller,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2569308995,joel n myers,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+864600727,john ashton,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+672622622,john bell,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2296792471,john braden,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3405811079,john brooks,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,7
+1131813767,john clifford,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+1825437664,john crozier,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+734195353,john cuddihy,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2741452154,john curtin,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+1838176317,john dwyer,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+3565266914,john edmunds,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+442256124,john g trump,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+3334176397,john garamendi,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2712243534,john gerrard,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2094433159,john harry smith,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,2
+1401425254,john huber,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2148837392,john inazu,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+4287545473,john logan,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+465959099,john mackenzie,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3602442492,john mathews,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2691353346,john newton,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3727826517,john oxford,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1731892927,john redd,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,7
+4213738852,john torres,Male,He,Latinx,Yes,urm_male,urm_he,No,Yes,No,Yes,No,No,Yes,practitioner,practitioner,policymaker,policymaker,2
+2267379466,john wakefield,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3873103960,jolion mcgreevy,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2125879526,jon bennett,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,3
+2045301647,jon cohen,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,Yes,public_health_researcher,researcher,public_health_researcher,researcher,1
+2683344912,jon karl,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+614371915,jonathan ball,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,6
+3440530845,jonathon sumption,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+1996544893,joneigh khaldun,Female,She,Black/African,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2216734509,jose garcia lobera,Male,He,Latinx,Yes,urm_male,urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,4
+4213021447,jose javier rodriguez,Male,He,Latinx,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2062462351,josef penninger,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2475341886,joseph alsousou,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2536488729,joseph eisenberg,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4149216099,joseph fair,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,Yes,public_health_researcher,researcher,public_health_researcher,researcher,6
+2923102837,joseph habboushe,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1465348438,joseph kanter,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3059002688,josh lerner,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+227829167,joshua moon,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+825946368,jose luis alomia zegarra,Male,He,Latinx,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+1524742160,judy murray,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,Yes,No,policymaker,policymaker,policymaker,policymaker,1
+2844524118,julian zelizer,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,Yes,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+2927801783,julie gerberding,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2370737036,julie greicius,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+3316535777,julio mayol,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2260318416,june andrew,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+3635016407,jurgen klopp,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,Yes,No,industry_expert,other,industry_expert,other,1
+3280989121,justin lessler,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+2873819725,justin o grady,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3396039178,justin trudeau,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3259311370,kamini doobay,Female,She,South Asian,Yes,urm_female,urm_she,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+4046114371,karine le roch,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+304497535,karol sikora,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1376197880,kate ahmad,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,7
+2498426641,kate broderick,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1728665141,kate lovett,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2172381819,kate tulenko,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1555081186,katherine arden,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,Yes,No,No,No,Yes,public_health_researcher,researcher,public_health_researcher,researcher,4
+2887531316,katherine henderson,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+4059330387,kathy lofy,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2082048647,katie sanderson,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+1546902108,kayleigh mcenany,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2822615092,kean seng lim,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,4
+228353788,keith chappell,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,Yes,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+2148014952,keith neal,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,Yes,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1313982872,keith willett,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+353885293,kellyanne conway,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+1916784637,ken johnson,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+1188473033,ken lyn kew,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2033176207,kerrie huxham,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3088391549,kerry chant,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,47
+2898939726,kerryn coleman,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+3135712061,kevin brady,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+4152417416,kevin hopland,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3359449927,kevin mccarthy,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1962361668,kevin ouyang,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+1587199351,kim jong un,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2796491628,kimberly guilfoyle,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+435383989,kious kelly,Male,He,Latinx,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3815100183,klaus osterrieder,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2022773707,knut erik hovda,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+4260439234,koert stittelaar,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1059525160,kristopher karnauskas,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1756930812,kylie wagstaff,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3622479046,kyriakos mitsotakis,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+620154079,kari stefansson,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2144401073,lai heng foong,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+578950823,lara trump,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+1827450637,larry kudlow,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+2381858974,larry marshall,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+1564707261,laura ingraham,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+1212619778,lawrence young,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+257086138,leana wen,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,Yes,public_health_researcher,researcher,policymaker,policymaker,2
+373021556,leif eric easley,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3420475427,leonard schleifer,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+129393667,lewis marshall,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2144484367,li lanjuan,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+1479914952,liise anne pirofski,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2522687266,lilian peake,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+1535350604,lina hidalgo,Female,She,Latinx,Yes,urm_female,urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3011660620,linda bauld,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+928334431,linda quick,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3423143321,lindsey o graham,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+1273566734,lisa anderson,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,5
+3291899056,lisa delamaine,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+651811320,lisa jackson,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+2659734369,liu liang,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+855892309,liz allen,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3354063604,liz cheney,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+181643711,lopez gatell,Male,She,Latinx,Yes,urm_male,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+209748463,lord winston,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,Yes,No,public_health_researcher,researcher,policymaker,policymaker,1
+1464883616,lorenzo grazioli,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+2813830964,lorenzo guerini,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1485845624,louise chow,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2288507113,lu hongzhou,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+36806241,luca lorini,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2139289320,lucy jones,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+1522196244,luo xianke,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3044506485,lynn goldman,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1089408609,magnus gisslen,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+454110755,mahmoud hashemi shahroudi,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1382203393,marc k siegel,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,Yes,public_health_researcher,researcher,public_health_researcher,researcher,1
+1727813771,marc lipsitch,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+230746344,margaret harris,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,Yes,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+2497578321,margaret zacharin,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1450916291,maria rita gismondo,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2323358483,maria van kerkhove,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+164869899,mario alparone,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2461715166,marion koopmans,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+3151398177,mark ali,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,14
+54542418,mark dworkin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+789041953,mark e escott,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+101606789,mark ghaly,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2203743415,mark handley,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1669548310,mark jones,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,3
+1471274854,mark rumble,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+2472843360,mark veitch,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+4019603409,mark woolhouse,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+2582331810,mark zuckerberg,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+3352617660,martha maccallum,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,Yes,No,Yes,industry_expert,other,industry_expert,other,1
+3626225670,martha mcsally,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,7
+3871506047,martin cetron,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,9
+364651867,martin makary,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+3554762025,martin marshall,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+3412282480,mary bousted,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,7
+2777622567,mary louise mclaws,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+1420090002,marynia kolak,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1167424125,massimo galli,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,8
+1155473579,mathew mcdougall,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+1371224506,matt hancock,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,12
+114263594,matt mccarthy,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+2058389495,matt schlapp,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3573092580,mayank sardana,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2571719637,maynard james keenan,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,Yes,No,industry_expert,other,industry_expert,other,1
+578387634,megan kelsey,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3499440205,megan sandel,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+724500127,mehdi veisi,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+131468522,mei zhongming,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+3662161800,melania trump,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,Yes,No,policymaker,policymaker,policymaker,policymaker,1
+3880386074,melanie saville,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+4215475815,melissa jong,Female,She,East Asian,No,non_urm_female,non_urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+3628712493,michael bonning,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2914867987,michael head,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,11
+804378184,michael knight,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2910383048,michael levitt,Male,He,Other/Mixed,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+2366846383,michael mcbride,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3778878845,michael ng,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+4244075202,michael roth,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+3602808180,michael skinner,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,265
+596722543,michael t osterholm,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+77710866,michael thrusfield,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+409349844,michele dauber,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1303924021,michelle a albert,Female,She,Black/African,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1719760463,michelle ackerley,Female,She,Black/African,Yes,urm_female,urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+1965183250,michelle au,Female,She,East Asian,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+2453038797,mike dewine,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2417020490,mike gough,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2386163257,mike huckabee,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,Yes,policymaker,policymaker,policymaker,policymaker,1
+4097507969,mike leavitt,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3368499670,mike lee,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3080440748,mike linney,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+293923066,mike pence,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,22
+432873787,mike ryan,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,14
+4121780498,mike turner,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,2
+963831476,mimi carre,Female,She,Black/African,Yes,urm_female,urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+1859644288,ming lin,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+4127106406,mireya rodas,Female,She,Latinx,Yes,urm_female,urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3798891877,mitch mcconnell,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3534141040,mitchell katz,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,Yes,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+386118469,mitsuo kaku,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+427316134,mitt romney,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,6
+2139677528,moby rehman,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1161076405,molly conger,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+563201866,morris cohen,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,Yes,No,No,non_public_health_researcher,researcher,policymaker,policymaker,1
+4161920158,ms ong,Female,She,East Asian,No,non_urm_female,non_urm_she,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+3245935089,mukesh haikerwal,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1414453140,muntu davis,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+2770490889,muriel bowser,Female,She,Black/African,Yes,urm_female,urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+85896933,nancy messonnier,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,26
+2621572662,nate smith,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+739101116,nathalie macdermott,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+55926745,nathaniel smith,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+29971359,neil de wet,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2046854270,neil kinnock,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2940716415,neil m ferguson,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+4121978694,nestor forster,Male,He,Latinx,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+3735475419,ngozi ezike,Female,She,Black/African,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1672417598,nichola roberston,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3250226749,nicholas hoult,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+847918914,nick coatsworth,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+4015794466,nick longrich,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+360834911,nick oberheiden,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+4021677111,nick phin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3619218305,nick scriven,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+3262294732,nicola spurrier,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+3647242800,nicola sturgeon,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,9
+2041521304,nicole mccullough,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,2
+51901157,nigel stapledon,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+2836888595,niki edwards,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+432740546,norio ohmagari,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+1225795194,norman swan,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,Yes,public_health_researcher,researcher,public_health_researcher,researcher,3
+4164277726,nortley meshe,Female,She,Black/African,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3119842690,nova spivack,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+4279009998,oanh nguyen,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1052430603,oliver brecht,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2931188104,om shrivastav,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+1981677595,ottar bjornstad,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2127157185,owen tsang tak yin,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1958798455,oxiris barbot,Female,She,Latinx,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+2046245625,pam cutler,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+1384688130,patrice harris,Female,She,Black/African,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+569065921,patricia lohr,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2799066555,patrick armstrong,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+915513661,patrick vallance,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+338412126,patrick walker,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2898958582,paul cosford,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3332758371,paul evans,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+154233006,paul franks,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3375710055,paul gosar,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2799153759,paul hunter,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,34
+1677973196,paul kellam,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+673387150,paul kelly,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,5
+2236465274,paul komesaroff,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2404699010,paul mckay,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3872757237,paul stoffels,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2257400472,paul williams,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,2
+2121010328,pete turkington,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+3319920092,peter alexander,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+4057058443,peter collignon,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+2669381224,peter dutton,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,4
+3253880457,peter graham,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,2
+1591549103,peter horby,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,273
+2472537679,peter li,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,2
+537922036,peter miller,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+2181679024,peter navarro,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,3
+2830130953,peter openshaw,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+2609742200,peter papadakos,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+565303293,peter piot,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3366464004,peter sinclair,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1204726022,peter whiteford,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+2472876318,petra zimmerman,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1510678636,phil kloer,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1968519487,philip lowe,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,Yes,No,No,No,non_public_health_researcher,researcher,policymaker,policymaker,5
+1607449555,philip murphy,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1018172848,philip o ozuah,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+347081545,phillip williamson,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+4109440463,pia lamberty,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+40186978,pope john xxiii,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+4095462578,prince charles,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,2
+1539102268,priti patel,Female,She,South Asian,Yes,urm_female,urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1011591872,rachel clarke,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+970136443,rachel levine,Male,She,White/European,No,non_urm_male,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1756955705,rachel maddow,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+3878077197,rae cooper,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,2
+3254641121,raina macintyre,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+1626986776,raj govindaiah,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,1
+765748184,ram yeleti,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3068567381,ramzi khamis,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+916607046,rand paul,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,6
+2683186948,ratula chakraborty,Female,She,South Asian,Yes,urm_female,urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,8
+2042248081,rebekah gee,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+1440104548,recep tayyip erdogan,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3199289592,tedros adhanom ghebreyesus,Male,He,Black/African,Yes,urm_male,urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,52
+2347006238,rhea liang,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3911526891,rich mccormick,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1347135292,richard greil,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+886735560,richard hatchett,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,7
+2989750782,richard horton,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+3319680552,richard tedder,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,5
+335499251,richard vautrey,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3410736660,richard viney,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3925131028,rinesh parmar,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,5
+966965888,rishi sunak,Male,He,South Asian,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2821096253,rita wilson,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+2684437516,rob davidson,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1253558158,rob grenfell,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2663500559,rob harwood,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,2
+1673189314,rob mccoy,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+509470790,rob richardson,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+506596521,robert bollinger,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3282852798,robert breunig,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+964643599,robert chesney,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+606547801,robert gary,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2875851767,robert hacking,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+867320228,robert j kim farley,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+4000937576,robert jenrick,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,5
+2863976193,robert o brien,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,Yes,No,No,policymaker,policymaker,policymaker,policymaker,1
+3247948696,robert peston,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,2
+2057469028,robert w amler,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+3665018387,roberto bernabei,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1129604991,robertson davenport,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1236174504,robin armstrong,Male,He,Black/African,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2891040291,robin carre,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,1
+2902371770,robin may,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,13
+1844800742,robin shattock,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3596785005,robin thompson,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,9
+3044387564,robyn gershon,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3054647976,rod pearce,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2316165138,rohan miller,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1567110173,rohini haar,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1993564098,roland more,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+879185049,ron daniels,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,8
+351389091,ron desantis,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3697269960,rosena allin khan,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,7
+3876393785,ross macdonald,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1379668873,rowland kao,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3765419426,rupert beale,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3144246886,russell weg,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+4012926989,sacha stelzer braid,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3515490296,sadiq khan,Male,He,South Asian,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+271477724,salaj masand,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2622261057,sam fink,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,4
+649515517,sandesh gulhane,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+43674942,sanjay gupta,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
+2700862704,sanjaya senanayake,Male,He,South Asian,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3595171670,sarah cody,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,3
+1102485932,sarah huckabee sanders,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1784634597,sarah zaidi,Female,She,Middle Eastern,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+683062809,sarfaraz munshi,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1147644266,scott gottlieb,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,7
+2762267891,scott mckeown,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+4263984626,scott mcnabb,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1610357270,scott morrison,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,21
+3233044757,scott rivkees,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+825002092,scott weavil,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2444413450,sean hannity,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+811085412,sean p conley,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,3
+1470686782,sebastian yancev,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1279202351,seema verma,Female,She,South Asian,Yes,urm_female,urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+3948645215,sergei skripal,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1581019421,sergio cattaneo,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+3236573279,shamez ladhani,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3662508640,shane oliver,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,5
+1348545480,shawn nasseri,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1158113857,sheng jifang,Female,She,East Asian,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2589941946,sheri jacobson,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2656523370,shigeru omi,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2879228373,shondipon laha,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1994465878,shubhra singh,Female,She,South Asian,Yes,urm_female,urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+158632892,silvio brusaferro,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+3262705251,simon clarke,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,16
+3962785068,simon judkins,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3860175030,simon stevens,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+15220380,simon walsh,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+4251694478,simone wildes,Female,She,Black/African,Yes,urm_female,urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1054270420,siu ping lam,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+2946325744,sonal gupta,Female,She,South Asian,Yes,urm_female,urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+30624507,sonia y angell,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+2486635124,sonya babu narayan,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+3681764424,sophie richardson,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3533217674,stefan baral,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2197141323,stelios haji ioannou,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+415475282,stella kyriakides,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+1594985207,stephanie grisham,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2727413209,stephen anderson,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2464002695,stephen c morris,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2962639040,stephen curry,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+3656494407,stephen ferguson,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,5
+2731677872,stephen griffin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,12
+1079774693,stephen m hahn,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,12
+3269400533,stephen moore,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+3853937565,stephen s morse,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3633339311,stephen yale loehr,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+2750815464,sterghios moschos,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,15
+2542327194,steve kassapidis,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,7
+1140700307,steve mclaughlin,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+94810658,steve monroe,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+164728738,steve parnis,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2379461131,steve schow,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2380084628,steve walsh,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,No,not_available,other,not_available,other,4
+2384410090,steven hotze,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1665939970,steven marshall,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+1407488423,steven miles,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+3183820197,steven t mnuchin,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,3
+3735344813,steven van gucht,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1847131484,stew leonard jr,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2809254671,stuart ditchek,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1632946403,stuart lewena,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+385112406,stuart varney,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+149598226,suchi pandey,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3288060635,sukhum kanchanapimai,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+332305919,sukhwinder sohal,Male,He,South Asian,Yes,urm_male,urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2102367837,sultan salimee,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,1
+3549557604,summer johnson mcgee,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3253908628,sunetra gupta,Female,She,South Asian,Yes,urm_female,urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1509211460,sunit singla,Male,He,South Asian,Yes,urm_male,urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2809313584,susan crossland,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,5
+509874567,susan edwards,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+482816902,susan hopkins,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,4
+2000144996,suzi nou,Female,She,East Asian,No,non_urm_female,non_urm_she,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3557012502,sylvie briand,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,3
+1593454231,tamer antakly,Male,He,Middle Eastern,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+621970907,ted cruz,Male,He,Other/Mixed,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,3
+435054161,teena chopra,Female,She,South Asian,Yes,urm_female,urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+4290663442,terence rigby,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+2493613932,thibaud soumagne,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2896445921,thomas broker,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1542923192,thomas harvey,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+2098438597,thomas krajewski,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1380422408,thomas levy,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+626457221,thomas r frieden,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+291187523,tim colbourn,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+2149953904,tim lang,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3662375383,timmy cheng,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1241765930,timothy brewer,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2372054074,timothy newsome,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+1290843392,todd ellerin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1197759479,tom bossert,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,4
+2597426939,tom britton,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+154593920,tom dodd,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,2
+2432708566,tom hanks,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,No,celebrity,other,celebrity,other,1
+2329269466,tom pyman,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+1343040011,tom ridge,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2745157837,tom wingfield,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1585803235,tony bartone,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,2
+2048681338,tony blakely,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+1079379225,tony holohan,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,6
+3796117293,tony narula,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+177617474,tony xu,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+1515099150,travis stork,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,Yes,No,practitioner,practitioner,practitioner,practitioner,1
+3854987576,trevor bedford,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,4
+1173463317,tucker carlson,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,No,Yes,Yes,journalist,other,celebrity,other,1
+1913296004,valerie arkoosh,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+2562287989,vicki jackson,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+3732691525,vicki stover hertzberg,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,7
+1374311314,vinayak kumar,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,Yes,No,No,practitioner,practitioner,practitioner,practitioner,2
+2046994284,vincent okafor,Male,He,Black/African,Yes,urm_male,urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+472615626,vincent racaniello,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,Yes,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1365004373,vladimir putin,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+2293958995,vladimir vladimirov,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+2177468544,volkmar denner,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,No,Yes,No,No,industry_expert,other,industry_expert,other,1
+325504609,vyom sharma,Male,He,South Asian,Yes,urm_male,urm_he,No,Yes,No,No,No,No,Yes,practitioner,practitioner,practitioner,practitioner,1
+4236902286,w ian lipkin,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1978905122,walter russell mead,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,Yes,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+731810889,wang guangfa,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+520114027,wang xiaoshuang,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+1829624883,warren hogan,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,Yes,No,No,non_public_health_researcher,researcher,industry_expert,other,1
+3891254880,warwick mckibbin,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+243042899,wendy barclay,Female,She,White/European,No,non_urm_female,non_urm_she,Yes,No,No,Yes,No,No,No,public_health_researcher,researcher,policymaker,policymaker,2
+3304146263,william barr,Male,He,White/European,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,2
+3904147447,william jaquis,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,1
+3511084311,william mckoy,Male,He,Black/African,Yes,urm_male,urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,1
+707318531,william schaffner,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+1170652244,william walters,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,1
+1310301267,xi jinping,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,3
+3028662752,xiao qiang,Female,She,East Asian,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+1452301951,xu zhiyong,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,1
+527273915,yazdan yazdanpanah,Male,He,Middle Eastern,Yes,urm_male,urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2138524527,yi guan,Male,He,White/European,No,non_urm_male,non_urm_he,Yes,No,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,2
+553658953,yuan herong,Female,She,East Asian,No,non_urm_female,non_urm_she,No,Yes,No,No,No,Yes,No,practitioner,practitioner,practitioner,practitioner,1
+2830443490,yvonne doyle,Female,She,White/European,No,non_urm_female,non_urm_she,No,Yes,No,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,2
+3669324773,yvonne griffiths,Female,She,White/European,No,non_urm_female,non_urm_she,No,No,Yes,No,No,No,No,non_public_health_researcher,researcher,non_public_health_researcher,researcher,2
+2435129169,zeinab badawi,Female,She,Black/African,Yes,urm_female,urm_she,No,No,No,No,No,No,Yes,journalist,other,journalist,other,1
+2677208529,zeng lingkong,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,Yes,No,No,No,No,No,public_health_researcher,researcher,public_health_researcher,researcher,3
+385511820,zhang xinmin,Male,He,East Asian,No,non_urm_male,non_urm_he,Yes,No,No,No,Yes,No,No,public_health_researcher,researcher,public_health_researcher,researcher,1
+2004812749,zhao lijian,Male,He,East Asian,No,non_urm_male,non_urm_he,No,No,No,Yes,No,No,No,policymaker,policymaker,policymaker,policymaker,5
+650596898,zhong nanshan,Male,He,East Asian,No,non_urm_male,non_urm_he,No,Yes,Yes,Yes,No,No,No,practitioner,practitioner,policymaker,policymaker,13
+2507195144,zhou min,Male,He,White/European,No,non_urm_male,non_urm_he,No,Yes,No,No,No,No,No,practitioner,practitioner,practitioner,practitioner,2
