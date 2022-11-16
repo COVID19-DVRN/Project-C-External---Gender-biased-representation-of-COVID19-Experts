@@ -16,7 +16,7 @@ output_code = "05_01_02"
 ## We will select a predefined set of stories here
 ## First the Daily Mail only stories
 df_story_id_to_outlet = pd.read_csv(f"../outputs/data/03_01_01_story_id_to_outlet_name.csv",na_filter=False,dtype=str)
-selection_type = "non_daily_mail" # "daily_mail_only"
+selection_type = "daily_mail_only"#"non_daily_mail" # "daily_mail_only"
 if selection_type == "non_daily_mail":
     selected_story_ids = df_story_id_to_outlet[df_story_id_to_outlet["outlet"]!="Daily Mail"]["stories_id"].values
 elif selection_type == "daily_mail_only":

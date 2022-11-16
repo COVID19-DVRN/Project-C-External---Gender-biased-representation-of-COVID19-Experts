@@ -1,0 +1,128 @@
+
+===========================================================================================
+Mercador: accurate embeddings of graphs in the S1 space
+version: 0.9
+started on: 2022/11/16 3:01 UTC
+edgelist filename: ../outputs/mercator/input/05_01_02_comention_giant_connected_component_daily_mail_only.edge
+seed: 42
+
+Loading edgelist......................................................................done.
+
+Checking number of connected components...............................................done.
+
+Analyzing degrees.....................................................................done.
+
+Computing local clustering............................................................done.
+
+Ordering vertices.....................................................................done.
+
+Properties of the graph
+    Nb vertices:                    157
+    Nb edges:                       431
+    Average degree:                 5.49
+    Minimum degree:                 1
+    Maximum degree:                 52
+    Nb of degree class:             22
+    Average clustering:             0.7793
+
+Inferring parameters...
+           beta      avg. clustering 
+         2.3697               0.5762 
+         3.5545               0.6593 
+         5.3317               0.7119 
+         7.9976               0.7202 
+        11.9964               0.7384 
+        17.9946               0.7285 
+WARNING: value too high, using beta =     26.9918.
+                       ...............................................................done.
+
+Inferred ensemble (random positions)
+    Average degree:                 5.4904
+    Minimum degree:                 1
+    Maximum degree:                 52
+    Average clustering:             0.7285
+    Parameters
+      - beta:                       26.9918
+      - mu:                         0.0906
+      - radius_S1 (R):              24.9873
+
+Finding initial positions/ordering...
+    Building the weights matrix... Matrix built.
+
+    Computing eigenvectors using Spectra parameter ncv = 7... Convergence reached.
+
+    Sum of the angular positions (before adjustment): 11.0605
+                                     .................................................done.
+
+Refining the positions...
+    ...of vertices     [1,7]......done in 0.0226 seconds (7/7 changed position)
+    ...of vertices    [8,14]......done in 0.0235 seconds (4/7 changed position)
+    ...of vertices   [15,21]......done in 0.0239 seconds (7/7 changed position)
+    ...of vertices   [22,28]......done in 0.0234 seconds (5/7 changed position)
+    ...of vertices   [29,35]......done in 0.0232 seconds (4/7 changed position)
+    ...of vertices   [36,42]......done in 0.0203 seconds (5/7 changed position)
+    ...of vertices   [43,49]......done in 0.0203 seconds (6/7 changed position)
+    ...of vertices   [50,56]......done in 0.0206 seconds (5/7 changed position)
+    ...of vertices   [57,63]......done in 0.0206 seconds (5/7 changed position)
+    ...of vertices   [64,70]......done in 0.0198 seconds (4/7 changed position)
+    ...of vertices   [71,77]......done in 0.0205 seconds (3/7 changed position)
+    ...of vertices   [78,84]......done in 0.0203 seconds (4/7 changed position)
+    ...of vertices   [85,91]......done in 0.0200 seconds (3/7 changed position)
+    ...of vertices   [92,98]......done in 0.0199 seconds (3/7 changed position)
+    ...of vertices  [99,105]......done in 0.0228 seconds (4/7 changed position)
+    ...of vertices [106,112]......done in 0.0245 seconds (3/7 changed position)
+    ...of vertices [113,119]......done in 0.0225 seconds (5/7 changed position)
+    ...of vertices [120,126]......done in 0.0210 seconds (4/7 changed position)
+    ...of vertices [127,133]......done in 0.0205 seconds (3/7 changed position)
+    ...of vertices [134,140]......done in 0.0210 seconds (4/7 changed position)
+    ...of vertices [141,147]......done in 0.0222 seconds (5/7 changed position)
+    ...of vertices [148,154]......done in 0.0219 seconds (0/7 changed position)
+    ...of vertices [155,157]......done in 0.0097 seconds (2/3 changed position)
+                         .............................................................done.
+
+Updating values of kappa based on inferred positions...
+    WARNING: maximum number of iterations reached before convergence. This limit can be
+             adjusted by setting the parameters KAPPA_MAX_NB_ITER_CONV to desired value.
+                                                       ...............................done.
+
+    => Inferred coordinates saved to ../outputs/mercator/output/05_01_02_comention_giant_connected_component_daily_mail_only.inf_coord
+
+Internal parameters and options
+    ALREADY_INFERRED_PARAMETERS_FILENAME   
+    BETA_ABS_MAX                           25
+    BETA_ABS_MIN                           1.01
+    CHARACTERIZATION_MODE                  false
+    CHARACTERIZATION_NB_GRAPHS             100
+    CLEAN_RAW_OUTPUT_MODE                  false
+    CUSTOM_BETA                            false
+    CUSTOM_CHARACTERIZATION_NB_GRAPHS      false
+    CUSTOM_INFERRED_COORDINATES            false
+    CUSTOM_OUTPUT_ROOTNAME_MODE            true
+    CUSTOM_SEED                            true
+    EDGELIST_FILENAME:                     ../outputs/mercator/input/05_01_02_comention_giant_connected_component_daily_mail_only.edge
+    EXP_CLUST_NB_INTEGRATION_MC_STEPS      600
+    EXP_DIST_NB_INTEGRATION_STEPS          1000
+    KAPPA_MAX_NB_ITER_CONV                 500
+    KAPPA_POST_INFERENCE_MODE              true
+    MAXIMIZATION_MODE                      true
+    MIN_NB_ANGLES_TO_TRY                   100
+    NUMERICAL_CONVERGENCE_THRESHOLD_1      0.01
+    NUMERICAL_CONVERGENCE_THRESHOLD_2      5e-05
+    NUMERICAL_CONVERGENCE_THRESHOLD_3      0.5
+    NUMERICAL_ZERO                         1e-10
+    QUIET_MODE                             false
+    REFINE_MODE                            false
+    ROOTNAME_OUTPUT:                       ../outputs/mercator/output/05_01_02_comention_giant_connected_component_daily_mail_only
+    SEED                                   42
+    VALIDATION_MODE                        false
+    VERBOSE_MODE                           false
+    VERSION                                0.9
+
+Ended on: 2022/11/16 3:01 UTC
+Elapsed CPU time (embedding):                4.7738 seconds
+    initialization:                          0.0018 seconds
+    parameters inference:                    4.1312 seconds
+    initial positions:                       0.0098 seconds
+    refining positions:                      0.4860 seconds
+    adjusting kappas:                        0.1451 seconds
+===========================================================================================
