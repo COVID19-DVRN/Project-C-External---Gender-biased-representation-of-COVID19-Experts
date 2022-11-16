@@ -262,7 +262,7 @@ Gc = G.subgraph(S).copy()
 #Gc_integer_labeled = nx.convert_node_labels_to_integers(Gc, first_label=0, label_attribute="name")
 
 output_dir="../outputs/mercator/input"
-output_basename="comention_giant_connected_component"
+output_basename=f"comention_giant_connected_component_{selection_type}"
 output_full_fname=f"{output_dir}/{output_code}_{output_basename}.edge"
 nx.readwrite.edgelist.write_edgelist(Gc, output_full_fname, data=False)
 
